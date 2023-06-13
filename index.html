@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="mobileoptimized" content="0" />
+    <title>Qandle</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link rel="stylesheet" href="css/angular-material.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- build:css styles/library.css -->
+    <!-- These files are third party library files -->
+    <link rel="stylesheet" href="css/material-icons.css">
+    <link rel="stylesheet" href="css/angular-bootstrap-calendar.min.css">
+    <link rel="stylesheet" href="css/v-accordion.min.css">
+    <link rel="stylesheet" href="css/material-datetimepicker.min.css">
+    <link rel="stylesheet" href="css/material-steppers.min.css">
+    <link rel="stylesheet" href="css/mdPickers.min.css">
+    <link rel="stylesheet" href="css/jquery.orgchart.css">
+    <link rel="stylesheet" href="css/emoji.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- endbuild -->
+
+    <!-- build:css styles/module.css -->
+    <!-- These files are custom module files -->
+    <link rel="stylesheet" href="css/attendance-frontend.css">
+    <link rel="stylesheet" href="css/pre-join.css">
+    <link rel="stylesheet" href="css/pre-join-frontend.css">
+    <link rel="stylesheet" href="css/organization-details.css">
+    <link rel="stylesheet" href="css/org-details-user-management.css">
+    <link rel="stylesheet" href="css/relevance.css">
+    <link rel="stylesheet" href="css/lms-advance-setting.css">
+    <link rel="stylesheet" href="css/time-attendance.css">
+    <link rel="stylesheet" href="css/candidate-portal.css">
+    <link rel="stylesheet" href="css/onboarding-setup.css">
+    <link rel="stylesheet" href="css/provision.css">
+    <link rel="stylesheet" href="css/report.css">
+    <link rel="stylesheet" href="css/payroll-setup.css">
+    <link rel="stylesheet" href="css/workflow.css">
+    <link rel="stylesheet" href="css/user-management-frontend.css">
+    <link rel="stylesheet" href="css/exit-frontend.css">
+    <link rel="stylesheet" href="css/admin-frontend.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/new-hire-management.css">
+    <link rel="stylesheet" href="css/new-hire-frontend.css">
+    <link rel="stylesheet" href="css/helpdesk.css">
+    <link rel="stylesheet" href="css/popups.css">
+    <link rel="stylesheet" href="css/dashboard-alert.css">
+    <link rel="stylesheet" href="css/lms-frntend.css">
+    <link rel="stylesheet" href="css/compensation-frontend.css">
+    <link rel="stylesheet" href="css/helpdesk-frontend.css">
+    <link rel="stylesheet" href="css/helpdesk_emp_frontend.css">
+    <link rel="stylesheet" href="css/provision-frontend.css">
+    <link rel="stylesheet" href="css/payroll-admin.css">
+    <link rel="stylesheet" href="css/communication.css">
+    <link rel="stylesheet" href="css/provision-emp-frontend.css">
+    <link rel="stylesheet" href="css/candidate.css">
+    <link rel="stylesheet" href="css/ratings.css">
+    <link rel="stylesheet" href="css/payroll-loan.css">
+    <link rel="stylesheet" href="css/insurance.css">
+    <link rel="stylesheet" href="css/social.css">
+    <link rel="stylesheet" href="css/travel-expense.css">
+    <link rel="stylesheet" href="css/performance.css">
+    <link rel="stylesheet" href="css/recruitment.css">
+    <link rel="stylesheet" href="css/recruitment-2.css">
+    <link rel="stylesheet" href="css/travel-expense-admin.css">
+    <link rel="stylesheet" href="css/resource-planning.css">
+    <link rel="stylesheet" href="css/recruitment-jobs.css">
+    <link rel="stylesheet" href="css/pivot.css">
+    <!-- endbuild -->
+
+    <!-- These files are required to include at the bottom -->
+    <link rel="stylesheet" href="css/wizard.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/setup.css">
+    <link rel="stylesheet" href="css/main-frontend.css">
+    <link rel="stylesheet" href="css/manager-frontend.css">
+    <link rel="stylesheet" href="css/frontend.css">
+    <link rel="stylesheet" href="css/common.css?v=1">
+    <link rel="stylesheet" href="css/responsive.css?v=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/currency_setup.css">
+
+    <script type="text/javascript" src="js/config.js"></script>
+</head>
+<toaster-container toaster-options="{'time-out': 300000000000}"></toaster-container>
+
+<body layout="column">
+<div flex layout="column" style="height: 100%;">
+    <div ng-view flex layout="column" style="height: 100%; ">
+
+        <!-- Start Normal Login Section -->
+        <md-content id="loginSection" flex class="md-padding no-bg overlay" style="display: none; ">
+            <div class="qc2 change_logiPage">
+                <!-- Start Outside Top Logo Customize Section -->
+                <div id="custom-logo-outsideTop" style="display: none; ">
+                    <div class="img-11">
+                        <span class=""></span>
+                    </div>
+                    <div class="img-21">
+                        <span class=""></span>
+                    </div>
+                </div>
+                <!-- End Outside Top Logo Customize Section -->
+
+                <style>
+                    /* Start Custom Form CSS */
+                    .form-control:focus{border:0; border-bottom:2px solid rgb(0, 126, 229); box-shadow:none;}
+                    .form-control{height: 30px; line-height:26px; border-width:0 0 1px; padding:2px 2px 1px; border-radius:0; border-style:solid; font-size: 13px; background-color: transparent; box-shadow: none;}
+                    .btn-dsble{background-color: rgba(0,0,0,0.12);color:rgba(0,0,0,0.38); cursor:default; border-color: transparent; }
+                    .btn{font-size:1.3rem!important; padding:0 14px!important; margin:12px 0 0; min-height: 46px; border-radius:3px !important; text-transform: uppercase; position: relative; transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1)}
+                    .btn-primary{border-color:transparent; background-color:rgb(0,126,229) }
+                    .btn-primary:hover{background-color: rgb(54,152,231); box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); text-decoration: none; border-color:transparent;}
+                    .btn.active, .btn:active, .btn-primary:active:focus{box-shadow: 0 4px 8px 0 rgba(0,0,0,.4); background-color: rgb(54,152,231); color: rgba(255,255,255,0.87); border-color:transparent;}
+                    .btn-primary.focus, .btn-primary:focus{background-color: rgb(54,152,231); color: rgba(255,255,255,0.87);}
+
+                    /* Start Custom Radio Button CSS */
+                    .md-radio-st input{display:none}
+                    .md-radio-st label {position: relative;padding: 0 0 0 25px;font-weight: normal;font-size: 13px;}
+                    .md-radio-st label::after,.md-radio-st label::before{content:"";display:inline-block;position:absolute}
+                    .md-radio-st label::after{width:20px;height:20px;border:2px solid #a7a7a7;border-radius:50%;left:0}
+                    .md-radio-st label::before{width:10px;height:10px;border-radius:50%;left:5px;top:5px}
+                    .md-radio-st input[type=radio]:checked+label::before{background:#428be7}
+                    .md-radio-st { margin-bottom: 12px;}
+                    .ml-margin-10 {margin-right: 30px;}
+                    .poweredBy a { color:#ccc}
+                    .lm-inputSt .form-control { border-bottom: 0px; font-size: 17px;}
+                    .lm-inputSt .form-group { margin-bottom: 0px;} 
+                    .lm-inputSt .form-control:focus {border-bottom: 0px solid}
+                    .poweredBy { position: fixed; font-size: 13px; bottom: 0; width: 100%; text-align: center; padding: 8px 0;font-weight: 600; color: #ccc;background: rgba(0,0,0,0.8);}
+                </style>
+
+                <div class="account-bx-cnt">
+                    <div class="account-bx" id="account-bx">
+                        <!-- Start inside Top Logo Customize Section -->
+                        <div id="custom-logo-insideTop" style="display: none; ">
+                            <div class="img-11">
+                                <span class=""></span>
+                            </div>
+                            <div class="img-21">
+                                <span class=""></span>
+                            </div>
+                        </div>
+                        <!-- End inside Top Logo Customize Section -->
+                        <!-- Start Normal Login Section -->
+                        <div class="login-headingSt text-center">
+                            <!-- <h2>Sign in </h2> -->
+                            <h3>Sign in to your Qandle account</h3>
+                            <div style="height:16px">&nbsp;</div>
+                        </div>
+                        <div layout="row" id="wrong-username"
+                             style="display:none; color: #FF0000; text-align: center; margin-bottom: 10px; ">
+                            <div flex class="error">Wrong username/password</div>
+                        </div>
+                        <form class="sign-in-from" name="frmLogin" action="javascript:void(0)"
+                              method="POST" style="margin-top:-3px;">
+                            <div class="md-radio-st" id="container-login-via" style="display: none; ">
+                                <input type="radio" id="login-via-work-email" name="loginViaRadio" value="1">
+                                <label for="login-via-work-email" class="ml-margin-10">Work Email</label>
+                                <input type="radio" id="login-via-emp-code" name="loginViaRadio" value="2">
+                                <label for="login-via-emp-code">Employee Code</label>
+                            </div>
+                            <div layout="row" id="container-work-email" style="margin-bottom: 18px; display: none; ">
+                                <div class="lm-inputSt" flex>
+                                    <small class="gray" style="font-size:12px;">Work Email *</small>
+                                    <div class="form-group" style="margin-top:3px;">
+                                        <input type="email" name="email" id="login-email"
+                                               placeholder="" class="form-control" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div layout="row" id="container-emp-code" style="margin-bottom: 18px; display: none;  ">
+                                <div class="lm-inputSt" flex>
+                                    <small class="gray" style="font-size:12px;">Employee Code *</small>
+                                    <div class="form-group" style="margin-top:3px;">
+                                        <input type="text" name="emp_code" id="login-emp-code"
+                                               placeholder="" class="form-control" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div layout="row" style="margin-bottom: 18px;">
+                                <div class="lm-inputSt" flex>
+                                    <small class="gray" style="font-size:12px;">Password *</small>
+                                    <div class="form-group" style="margin-top:3px;">
+                                        <input type="password" name="password" id="login-password"
+                                               placeholder="" class="form-control" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div layout="row" class="signin-diffrent">
+                                <a href="javascript:void(0);" id="linkForgotPassword">Forgot Password?</a>
+                                <span flex></span>
+                            </div>
+                            <div layout="column" layout-align="center stretch">
+                                <button type="submit" class="btn btn-primary form-control" id="signInSubmit">Sign In
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"
+                                       style="font-size: 22px; margin-left: 5px; position: absolute; top: 12px;"></i>
+                                </button>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="text-center">
+                                <p class="b">© 2023 Qandle (Digital Ecom Techno Pvt. Ltd.) <br>
+                                <a class="blue" target="_blank" href="https://www.qandle.com/privacy-policy.html">Privacy Policy</a>    
+                            </p>
+                            </div>
+                            
+                        </form>
+                        <div class="column" id="container-google-login" style="display: none; ">
+                            <button type="submit" class="btn btn-block btn-primary light-red-bg" id="loginWithGoogle" style="border:0px">
+                                <i class="fa fa-google" aria-hidden="true"></i> &nbsp; Login with Google
+                            </button>
+                        </div>
+                        <div class="column" id="container-directive-login" style="display: none;">
+                            <button type="submit" class="btn btn-block btn-primary light-red-bg" onClick="loginViaActiveDirectory()" style="border:0px">
+                                Login with Active Directory
+                                <i class="fa fa-angle-double-right" aria-hidden="true"
+                                       style="font-size: 22px; margin-left: 5px; position: absolute; top: 12px;"></i>
+                            </button>
+                        </div>
+                        <div class="text-center">
+                            <p class="peopleproCR b" style="margin: 0px 0 -18px;">Join PeoplePro - FREE community for working professionals. <a class="blue" target="_blank" href="https://peoplepro.qandle.com/">Know More</a></p>
+                        </div>
+                        
+                        <!-- End Normal Login Section -->
+
+                        <!-- Start inside Bottom Logo Customize Section -->
+                        <div id="custom-logo-insideBottom" style="display: none; ">
+                            <div class="img-11">
+                                <span class=""></span>
+                            </div>
+                            <div class="img-21">
+                                <span class=""></span>
+                            </div>
+                        </div>
+                        <!-- End inside Bottom Logo Customize Section -->
+                    </div>
+
+                    <div class="account-bx" id="account-bx-otp" style="display: none; ">
+                        <h3>Enter OTP to get started</h3>
+                        <p>Kindly enter the OTP which has been sent on your work email. This authentication code will be valid for 10 minutes.</p>
+                        <div layout="row" id="wrong-otp"
+                             style="display:none; color: #FF0000; text-align: center; margin-bottom: 10px; ">
+                            <div flex class="error">It seems that otp is wrong/expired.</div>
+                        </div>
+                        <form class="otp-from" name="frmLogin" action="javascript: void(0)"
+                              method="POST" style="margin-top: -3px; ">
+                            <div layout="row" style="margin-bottom: 30px; ">
+                                <div flex>
+                                    <small class="gray" style="font-size:12px;">OTP *</small>
+                                    <div class="form-group" style="margin-top:3px;">
+                                        <input type="text" name="otp" id="login-otp"
+                                               onkeyup="otpChangeHandler(event, this.value)"
+                                               placeholder="" class="form-control" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div layout="column" layout-align="center stretch">
+                                <button type="submit" class="btn btn-primary form-control" id="otpSubmit">Submit
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"
+                                       style="font-size: 22px; margin-left: 5px; position: absolute; top: 12px;"></i>
+                                </button>
+                            </div>
+                            <div layout="row" class="signin-diffrent">
+                                <a href="javascript:void(0);" id="linkLogin">Back to Sign In?</a>
+                                <span flex></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Start Outside Bottom Logo Customize Section -->
+                <div id="custom-logo-outsideBottom" style="display: none; ">
+                    <div class="img-11">
+                        <span class=""></span>
+                    </div>
+                    <div class="img-21">
+                        <span class=""></span>
+                    </div>
+                </div>
+                <!-- End Outside Bottom Logo Customize Section -->
+            </div>
+
+        </md-content>
+        <!-- End Login Section -->
+
+        <!-- Start Active Directory Login Section -->
+        <md-content id="loginActiveDirectorySection" flex class="md-padding no-bg overlay"
+            style="display: none; ">
+            <div class="qc2 loginActiveD2">
+                <div class="account-bx-cnt">
+                    <div class="account-bx">
+                        <style>
+                            .form-control:focus{border:0; border-bottom:2px solid rgb(0, 126, 229); box-shadow:none;}
+                            .form-control{height: 30px; line-height:26px; border-width:0 0 1px; padding:2px 2px 1px; border-radius:0; border-style:solid; font-size: 13px; background-color: transparent; box-shadow: none;}
+                            .btn-dsble{background-color: rgba(0,0,0,0.12);color:rgba(0,0,0,0.38); cursor:default; border-color: transparent; }
+                            .btn{font-size:1.3rem!important; padding:0 14px!important; margin:12px 0 0; min-height: 46px; border-radius:3px !important; text-transform: uppercase; position: relative; transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1)}
+                            .btn-primary{border-color:transparent; background-color:rgb(0,126,229) }
+                            .btn-primary:hover{background-color: rgb(54,152,231); box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); text-decoration: none; border-color:transparent;}
+                            .btn.active, .btn:active, .btn-primary:active:focus{box-shadow: 0 4px 8px 0 rgba(0,0,0,.4); background-color: rgb(54,152,231); color: rgba(255,255,255,0.87); border-color:transparent;}
+                            .btn-primary.focus, .btn-primary:focus{background-color: rgb(54,152,231); color: rgba(255,255,255,0.87);}
+                        </style>
+
+                        <h3>Sign in with Active Directory</h3>
+                        <div layout="row" id="wrong-username"
+                             style="display:none; color: #FF0000; text-align: center;">
+                            <div flex class="error">Wrong username/password</div>
+                        </div>
+                        <form class="sign-in-from" name="frmLogin" action="javascript:void(0)" method="POST" style="margin-top:-3px;">
+                            <div layout="column" layout-align="center stretch">
+                                <button type="button" class="btn btn-primary form-control"
+                                        onClick="loginViaActiveDirectory()">
+                                    Sign In <i class="fa fa-angle-double-right" aria-hidden="true" style="font-size: 22px; margin-left:5px; position:absolute; top:12px;"></i></button>
+                            </div>
+                            <div layout="row" class="signin-diffrent"
+                                 style="min-height: 30px; ">&nbsp;</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </md-content>
+        <!-- End Active Directory Login Section -->
+
+        <!-- Start Loader Section -->
+        <div id="loaderSection" layout="row" layout-align="center center" style="display: block">
+            <div layout="column" layout-align="center center" flex="100" class="loader">
+                <div style="text-align: center; margin-top: 50px; ">
+                    <img src="images/loader-min.gif" width="128" height="128">
+                </div>
+                <div id="loaderSectionText" class="b md-subhead" style="text-align: center; display: none; ">
+                    It will take just few seconds to prepare your Qandle experience
+                </div>
+            </div>
+        </div>
+        <!-- End Loader Section -->
+
+        <div id="poweredBy" class="poweredBy" style="display: none; opacity:0;   ">
+            <!-- <a href="https://qandle.com/" target="_blank"> Powered By Qandle</a> -->
+        </div>
+    </div>
+</div>
+<!-- End -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-829063802"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-829063802');
+</script>
+
+<script type="text/javascript">
+    var isActiveDirectoryLoginEnabled = function() {
+        return typeof config[envMnt].activeDirectoryLogin != "undefined"
+            && config[envMnt].activeDirectoryLogin.enabled
+            && !(config[envMnt].activeDirectoryLogin.loginWithUserAndPassword);
+    };
+    var isADEnabled = isActiveDirectoryLoginEnabled();
+    var customizedObject = {
+        background: isLoginCustomized('background'),
+        bgImgClass: isLoginCustomized('bgImgClass') ? isLoginCustomized('bgImgClass') : 'bgimg',
+        logo: isLoginCustomized('logo'),
+        logoClass: isLoginCustomized('logoClass'),
+        outsideTop: isLoginCustomized('outsideTop'),
+        outsideBottom: isLoginCustomized('outsideBottom'),
+        insideTop: isLoginCustomized('insideTop'),
+        insideBottom: isLoginCustomized('insideBottom')
+    },
+    isLoginViaEmployeeCode = {
+        enabled: typeof config[envMnt].isLoginViaEmployeeCode != "undefined"
+        && config[envMnt].isLoginViaEmployeeCode.enabled
+    };
+    var isGoogleLoginEnabled = function() {
+        return typeof config[envMnt].googleLogin != "undefined"
+            && config[envMnt].googleLogin.enabled;
+    };
+    var isGLEnabled = isGoogleLoginEnabled();
+
+    var isStatusDirectoryLoginEnabled = function() {
+        return typeof config[envMnt].activeDirectoryLogin != "undefined" 
+				&& config[envMnt].activeDirectoryLogin.enabled 
+				&& config[envMnt].activeDirectoryLogin.loginWithUserAndPassword
+    };
+
+    var isADirectoryEnabled = isStatusDirectoryLoginEnabled();
+
+    if (localStorage.getItem("accessToken")) {
+        document.getElementById('loginSection').style.display = 'none';
+        document.getElementById('loginActiveDirectorySection').style.display = 'none';
+        document.getElementById('loaderSection').style.display = 'block';
+        if (envMnt !== 'shadowfax') {
+            document.getElementById('loaderSectionText').style.display = 'block';
+            document.getElementById('poweredBy').style.display = 'block';
+        }
+    } else if (!(window.location.href.indexOf('change-password') >= 0
+        || window.location.href.indexOf('login') >= 0
+        || window.location.href.indexOf('jobs') >= 0
+        || window.location.href.indexOf('fnf-letters') >= 0
+        || window.location.href.indexOf('demo-anytime') >= 0
+        || window.location.href.indexOf('action-via-email') >= 0
+        || window.location.href.indexOf('screenshot-link') >= 0
+        || window.location.href.indexOf('assessment') >= 0)) {
+        if (isADEnabled) {
+            document.getElementById('loginActiveDirectorySection').style.display = 'block';
+        } else {
+            document.getElementById('loginSection').style.display = 'block';
+        }
+        document.getElementById('loaderSection').style.display = 'none';
+        if (envMnt !== 'shadowfax') {
+            document.getElementById('poweredBy').style.display = 'block';
+        }
+    }
+
+    if (isADEnabled) {
+        document.getElementById('loginActiveDirectorySection').className='md-padding no-bg '
+            + customizedObject.bgImgClass + ' overlay';
+    } else {
+        document.getElementById('loginSection').className = 'md-padding no-bg ' + customizedObject.bgImgClass + ' overlay';
+    }
+
+    if (customizedObject.logoClass) {
+        if (customizedObject.outsideTop) {
+            document.getElementById('custom-logo-outsideTop').style.display = 'inline-block';
+            document.getElementById('custom-logo-outsideTop').className = customizedObject.logoClass;
+        }
+        if (customizedObject.outsideBottom) {
+            document.getElementById('custom-logo-outsideBottom').style.display = 'inline-block';
+            document.getElementById('custom-logo-outsideBottom').className = customizedObject.logoClass;
+        }
+        if (customizedObject.insideTop) {
+            document.getElementById('custom-logo-insideTop').style.display = 'inline-block';
+            document.getElementById('custom-logo-insideTop').className = customizedObject.logoClass;
+        }
+        if (customizedObject.insideBottom) {
+            document.getElementById('custom-logo-insideBottom').style.display = 'inline-block';
+            document.getElementById('custom-logo-insideBottom').className = customizedObject.logoClass;
+        }
+    }
+
+    if (isLoginViaEmployeeCode.enabled) {
+        document.getElementById('container-login-via').style.display = 'block';
+        document.getElementById('login-via-work-email').removeAttribute("checked");
+        document.getElementById('login-via-emp-code').setAttribute("checked", "checked");
+        document.getElementById('container-emp-code').style.display = 'block';
+        document.getElementById('login-email').removeAttribute("required");
+    } else {
+        document.getElementById('login-via-emp-code').removeAttribute("checked");
+        document.getElementById('login-via-work-email').setAttribute("checked", "checked");
+        document.getElementById('container-work-email').style.display = 'block';
+        document.getElementById('login-emp-code').removeAttribute("required");
+    } 
+    
+    if (isGLEnabled) {
+        document.getElementById('container-google-login').style.display = 'block';
+    }
+    if (isADirectoryEnabled) {
+        document.getElementById('container-directive-login').style.display = 'block';
+    }
+</script>
+
+<!-- build:js scripts/library.js -->
+<!-- Start library file inclusion -->
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/jquery-ui.min.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
+<script src="js/lib/angular.min.js"></script>
+<script src="js/lib/angular-route.min.js"></script>
+<script src="js/lib/angular-animate.min.js"></script>
+<script src="js/lib/angular-aria.min.js"></script>
+<script src="js/lib/angular-messages.min.js"></script>
+<script src="js/lib/angular-material.min.js"></script>
+<script src="js/lib/angular-sanitize.min.js"></script>
+<script src="js/lib/angular-cookies.min.js"></script>
+<script src="js/lib/readmore.min.js"></script>
+<script src="js/lib/angular-cache-buster.js"></script>
+<!-- End library file inclusion -->
+<!-- endbuild -->
+
+<script src="js/lib/third-party/fabric.min.js"></script>
+<script src="js/lib/third-party/tinymce/tinymce.min.js"></script>
+<script src="js/lib/third-party/star-rating.js"></script>
+<!-- <script src="js/lib/third-party/pivot.min.js"></script> -->
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.22.0/pivot.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-basic-latest.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.22.0/plotly_renderers.min.js"></script>
+<script src="js/lib/third-party/export_renderers.js"></script>
+<script src="js/lib/third-party/ngletteravatar.min.js"></script>
+<script src="js/lib/third-party/xlsx.full.min.js"></script>
+<!-- build:js scripts/third-party-part1.js -->
+<!-- Start third party file inclusion -->
+<script src="js/lib/third-party/toaster.js"></script>
+<script src="js/lib/third-party/signature_pad.js"></script>
+<script src="js/lib/third-party/tinymce.js"></script>
+<script src="js/lib/third-party/underscore.js"></script>
+<script src="js/lib/third-party/angular-bind-html-compile.js"></script>
+<script src="js/lib/third-party/moment.min.js"></script>
+<script src="js/lib/third-party/angular-material-datetimepicker.js"></script>
+<script src="js/lib/third-party/interact.min.js"></script>
+<script src="js/lib/third-party/ui-bootstrap-tpls.min.js"></script>
+<script src="js/lib/third-party/angular-bootstrap-calendar-tpls.min.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/third-party-part2.js -->
+<script src="js/lib/third-party/v-accordion.min.js"></script>
+<script src="js/lib/third-party/angular-material-datetimepicker.js"></script>
+<script src="js/lib/third-party/mdPickers.min.js"></script>
+<script src="js/lib/third-party/sortable.min.js"></script>
+<script src="js/lib/third-party/dirPagination.js"></script>
+<script src="js/lib/third-party/html2canvas.min.js"></script>
+<script src="js/lib/third-party/pdfmake.min.js"></script>
+<script src="js/lib/third-party/jspdf.min.js"></script>
+<script src="js/lib/third-party/jquery.orgchart.js" ></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/third-party-part3.js -->
+<script src="js/lib/third-party/pomodoro-timer.js"></script>
+<script src="js/lib/third-party/highcharts.js"></script>
+<script src="js/lib/third-party/exporting.js"></script>
+<script src="js/lib/third-party/material-steppers.js"></script>
+<script src="js/lib/third-party/angular-idle.js"></script>
+<!-- Begin emoji-picker JavaScript -->
+<script src="js/lib/third-party/emoji/config.js"></script>
+<script src="js/lib/third-party/emoji/util.js"></script>
+<script src="js/lib/third-party/emoji/jquery.emojiarea.js"></script>
+<script src="js/lib/third-party/emoji/emoji-picker.js"></script>
+<!-- End emoji-picker JavaScript -->
+<!-- End third party file inclusion -->
+<!-- endbuild -->
+
+<!-- Start online file inclusion -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZw-KaMYtTJaSk4ytLXQpB_vuBoebOMwg" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.2.2/jszip.min.js" type="text/javascript"></script>
+<!-- End online file inclusion -->
+
+<script src="js/app.js"></script>
+<script src="js/constant.js"></script>
+<script src="js/message.js"></script>
+<script src="js/lib/third-party/steppers-demo-ctrl.js"></script>
+<script src="js/lib/third-party/ng-file-upload-shim.min.js"></script>
+<script src="js/lib/third-party/ng-file-upload.min.js"></script>
+<script src="js/lib/third-party/ng-img-crop.min.js"></script>
+
+<!-- build:js scripts/main.js -->
+<!-- Start common file inclusion -->
+<script src="js/module/common/services/serverUtility.js"></script>
+<script src="js/module/common/services/utility.js"></script>
+<script src="js/module/common/services/master.js"></script>
+<script src="js/module/common/services/relevance.js"></script>
+<script src="js/module/common/directives/utility.js"></script>
+<script src="js/module/common/directives/chart.js"></script>
+<script src="js/module/common/controller/base.js"></script>
+<script src="js/module/common/controller/allFilters.js"></script>
+<script src="js/module/common/controller/relevance.js"></script>
+<script src="js/module/common/services/signature.js"></script>
+<script src="js/module/common/controller/signature.js"></script>
+<script src="js/module/common/services/formBuilder.js"></script>
+<script src="js/module/common/controller/formBuilder.js"></script>
+<script src="js/module/common/services/template.js"></script>
+<script src="js/module/common/controller/template.js"></script>
+<script src="js/module/common/services/templateBuilder.js"></script>
+<script src="js/module/common/controller/templateBuilder.js"></script>
+<script src="js/module/common/services/templateConsumer.js"></script>
+<script src="js/module/common/controller/templateConsumer.js"></script>
+<script src="js/module/common/controller/communication.js"></script>
+<script src="js/module/common/services/communication.js"></script>
+<script src="js/module/common/services/configuration.js"></script>
+<script src="js/module/common/controller/configuration.js"></script>
+<script src="js/module/common/services/exception.js"></script>
+<script src="js/module/common/controller/exception.js"></script>
+<script src="js/module/common/filters/utility.js"></script>
+<script src="js/module/common/services/user.js"></script>
+<script src="js/module/common/controller/user.js"></script>
+<script src="js/module/common/controller/templateSign.js"></script>
+<script src="js/module/common/controller/jobs.js"></script>
+<script src="js/module/common/services/jobs.js"></script>
+<script src="js/module/common/controller/templateAccept.js"></script>
+<script src="js/module/common/services/recruitment-jobs.js"></script>
+<script src="js/module/common/controller/recruitment-jobs.js"></script>
+<script src="js/module/common/services/sample-response.js"></script>
+<script src="js/module/common/services/pip.js"></script>
+<script src="js/module/common/controller/salary-breakup.js"></script>
+<script src="js/module/common/services/fnf-letters.js"></script>
+<script src="js/module/common/controller/fnf-letters.js"></script>
+<script src="js/module/common/controller/lndDetails.js"></script>
+<script src="js/module/common/services/lndDetails.js"></script>
+<script src="js/module/common/controller/demo-video-content.js"></script>
+<script src="js/module/common/services/screenshot-link.js"></script>
+<script src="js/module/common/controller/screenshot-link.js"></script>
+<script src="js/module/common/services/action-via-email.js"></script>
+<script src="js/module/common/controller/action-via-email.js"></script>
+<script src="js/module/common/services/assessment-link.js"></script>
+<script src="js/module/common/controller/assessment-link.js"></script>
+<!-- End common file inclusion -->
+
+<!-- Start setup file inclusion -->
+<script src="js/module/setup/setupService.js"></script>
+<script src="js/module/setup/organization/service/company.js"></script>
+<script src="js/module/setup/organization/service/system.js"></script>
+<script src="js/module/setup/organization/service/group.js"></script>
+<script src="js/module/setup/organization/service/role.js"></script>
+<script src="js/module/setup/organization/service/permission.js"></script>
+<script src="js/module/setup/setupController.js"></script>
+<script src="js/module/setup/organization/controller/company.js"></script>
+<script src="js/module/setup/organization/controller/system.js"></script>
+<script src="js/module/setup/organization/controller/group.js"></script>
+<script src="js/module/setup/organization/controller/role.js"></script>
+<script src="js/module/setup/organization/controller/permission.js"></script>
+<script src="js/module/setup/timeAttendance/controller/taController.js"></script>
+<script src="js/module/setup/timeAttendance/controller/policiesController.js"></script>
+<script src="js/module/setup/timeAttendance/controller/regularizationController.js"></script>
+<script src="js/module/setup/timeAttendance/service/taService.js"></script>
+<script src="js/module/setup/timeAttendance/service/policiesService.js"></script>
+<script src="js/module/setup/timeAttendance/service/regularizationService.js"></script>
+<script src="js/module/setup/onboarding/controller/onboarding.js"></script>
+<script src="js/module/setup/onboarding/service/onboardingService.js"></script>
+<script src="js/module/setup/orgdirectory/service/orgdirectory.js"></script>
+<script src="js/module/setup/orgdirectory/controller/orgdirectory.js"></script>
+<script src="js/module/setup/lms/service/lms.js"></script>
+<script src="js/module/setup/lms/controller/lms.js"></script>
+<script src="js/module/setup/lms/service/holiday.js"></script>
+<script src="js/module/setup/lms/controller/holiday.js"></script>
+<script src="js/module/setup/prejoin/service/prejoin.js"></script>
+<script src="js/module/setup/prejoin/controller/prejoin.js"></script>
+<script src="js/module/setup/provision/controller/provision.js"></script>
+<script src="js/module/setup/provision/service/provision.js"></script>
+<script src="js/module/setup/lnd/controller/lnd.js"></script>
+<script src="js/module/setup/lnd/service/lnd.js"></script>
+<script src="js/module/setup/exit/service/exit.js"></script>
+<script src="js/module/setup/exit/controller/exit.js"></script>
+<script src="js/module/setup/workflow/service/workflow.js"></script>
+<script src="js/module/setup/workflow/controller/workflow.js"></script>
+<script src="js/module/setup/organization/service/user-management.js"></script>
+<script src="js/module/setup/organization/controller/user-management.js"></script>
+<script src="js/module/setup/organization/service/forms.js"></script>
+<script src="js/module/setup/organization/controller/forms.js"></script>
+<script src="js/module/setup/organization/service/profile-field.js"></script>
+<script src="js/module/setup/organization/controller/profile-field.js"></script>
+<script src="js/module/setup/organization/controller/element.js"></script>
+<script src="js/module/setup/payroll/controller/payroll.js"></script>
+<script src="js/module/setup/payroll/service/payroll.js"></script>
+<script src="js/module/setup/payroll/service/compensation-head.js"></script>
+<script src="js/module/setup/payroll/controller/compensation-head.js"></script>
+<script src="js/module/setup/helpdesk/service/helpdesk.js"></script>
+<script src="js/module/setup/helpdesk/controller/helpdesk.js"></script>
+<script src="/js/module/setup/payroll/service/compensation-plan.js"></script>
+<script src="/js/module/setup/payroll/controller/compensation-plan.js"></script>
+<script src="/js/module/setup/payroll/filter/filter.js"></script>
+<script src="/js/module/setup/payroll/controller/statutory-elements.js"></script>
+<script src="js/module/setup/payroll/controller/checksPayroll.js"></script>
+<script src="js/module/setup/payroll/service/checksPayroll.js"></script>
+<script src="js/module/setup/payroll/controller/payrollSalarySlip.js"></script>
+<script src="js/module/setup/payroll/service/payrollSalarySlip.js"></script>
+<script src="js/module/setup/travelExpense/controller/policy-setting.js"></script>
+<script src="js/module/setup/travelExpense/controller/travelExpense.js"></script>
+<script src="js/module/setup/travelExpense/service/travelExpense.js"></script>
+<script src="js/module/setup/elcm/controller/elcm.js"></script>
+<script src="js/module/setup/social/service/social.js"></script>
+<script src="js/module/setup/social/controller/social.js"></script>
+<script src="js/module/setup/recruitment/controller/recruitment.js"></script>
+<script src="js/module/setup/recruitment/service/recruitment.js"></script>
+<script src="js/module/setup/recruitment/service/rejection-reason.js"></script>
+<script src="js/module/setup/recruitment/controller/rejection-reason.js"></script>
+<script src="js/module/setup/recruitment/controller/requisition.js"></script>
+<script src="js/module/setup/recruitment/service/requisition.js"></script>
+<script src="js/module/setup/recruitment/controller/jobs.js"></script>
+<script src="js/module/setup/recruitment/service/jobs.js"></script>
+<script src="js/module/setup/recruitment/controller/default.js"></script>
+<script src="js/module/setup/recruitment/service/default.js"></script>
+<script src="js/module/setup/timesheet/service/timesheet.js"></script>
+<script src="js/module/setup/timesheet/controller/timesheet.js"></script>
+<script src="js/module/setup/timesheet/service/field.js"></script>
+<script src="js/module/setup/timesheet/controller/field.js"></script>
+<script src="js/module/setup/organization/service/birthday-anniversary-template.js"></script>
+<script src="js/module/setup/organization/controller/birthday-anniversary-template.js"></script>
+<script src="js/module/setup/payroll/service/legal-entity.js"></script>
+<script src="js/module/setup/payroll/controller/legal-entity.js"></script>
+<script src="js/module/setup/payroll/service/work-location.js"></script>
+<script src="js/module/setup/payroll/controller/work-location.js"></script>
+<script src="js/module/setup/social/service/poll-survey.js"></script>
+<script src="js/module/setup/social/controller/poll-survey.js"></script>
+<script src="js/module/setup/social/controller/poll-survey-setting.js"></script>
+<script src="js/module/setup/third-party-integration/service/parent.js"></script>
+<script src="js/module/setup/third-party-integration/controller/parent.js"></script> 
+<script src="js/module/setup/third-party-integration/on-grid/service/setting.js"></script>
+<script src="js/module/setup/third-party-integration/on-grid/controller/fields-mapping.js"></script>
+<script src="js/module/setup/third-party-integration/on-grid/controller/plans.js"></script>
+<script src="js/module/setup/third-party-integration/on-grid/controller/plan-setting.js"></script>
+
+<!-- End setup file inclusion -->
+
+<!-- Start frontend file inclusion -->
+<script src="js/module/frontend/resource/service/resource.js"></script>
+<script src="js/module/frontend/resource/controller/resource.js"></script>
+<script src="js/module/frontend/candidatePortal/service/condidatePortal.js"></script>
+<script src="js/module/frontend/candidatePortal/controller/condidatePortal.js"></script>
+<script src="js/module/frontend/frontendExit/service/exitFrontend.js"></script>
+<script src="js/module/frontend/frontendExit/controller/exitFrontend.js"></script>
+<script src="js/module/frontend/userManagement/service/userManagement.js"></script>
+<script src="js/module/frontend/userManagement/controller/userManagement.js"></script>
+<script src="js/module/frontend/userManagement/controller/userManagementSystem.js"></script>
+<script src="js/module/frontend/userManagement/service/dataMigration.js"></script>
+<script src="js/module/frontend/userManagement/controller/dataMigration.js"></script>
+<script src="js/module/frontend/userManagement/service/dashboard.js"></script>
+<script src="js/module/frontend/userManagement/controller/dashboard.js"></script>
+<script src="js/module/frontend/userManagement/filter/date.js"></script>
+<script src="js/module/frontend/screenshot/controller/screenshot.js"></script>
+<script src="js/module/frontend/screenshot/service/screenshot.js"></script>
+<script src="js/module/frontend/history/service/history.js"></script>
+<script src="js/module/frontend/history/controller/history.js"></script>
+<script src="js/module/frontend/newHireManagement/service/newHireManagement.js"></script>
+<script src="js/module/frontend/newHireManagement/controller/newHireManagement.js"></script>
+<script src="js/module/frontend/newHireManagement/service/onBoardingTask.js"></script>
+<script src="js/module/frontend/newHireManagement/controller/onBoardingTask.js"></script>
+<script src="js/module/frontend/newHireManagement/service/onBoardingStatus.js"></script>
+<script src="js/module/frontend/newHireManagement/controller/onBoardingStatus.js"></script>
+<script src="js/module/frontend/newHireManagement/service/confirmationFlow.js"></script>
+<script src="js/module/frontend/newHireManagement/controller/confirmationFlow.js"></script>
+<script src="js/module/frontend/newHireManagement/directive/owlCorousal.js"></script>
+<script src="js/module/frontend/dashboard/home/controller/dashboard.js"></script>
+<script src="js/module/frontend/dashboard/home/controller/event.js"></script>
+<script src="js/module/frontend/dashboard/home/service/dashboard.js"></script>
+<script src="js/module/frontend/dashboard/calendar/controller/calendarController.js"></script>
+<script src="js/module/frontend/dashboard/calendar/service/calendarService.js"></script>
+<script src="js/module/frontend/dashboard/home/filter/dateFilter.js"></script>
+<script src="js/module/frontend/dashboard/time-off/service/time-off.js"></script>
+<script src="js/module/frontend/dashboard/time-off/directive/chart.js"></script>
+<script src="js/module/frontend/dashboard/time-off/controller/time-off.js"></script>
+<script src="js/module/frontend/dashboard/time-off/service/request-leave.js"></script>
+<script src="js/module/frontend/dashboard/time-off/controller/request-leave.js"></script>
+<script src="js/module/frontend/dashboard/alert/service/action.js"></script>
+<script src="js/module/frontend/dashboard/alert/controller/action.js"></script>
+<script src="js/module/frontend/dashboard/alert/service/notification.js"></script>
+<script src="js/module/frontend/dashboard/alert/controller/notification.js"></script>
+<script src="js/module/frontend/dashboard/people/service/people.js"></script>
+<script src="js/module/frontend/dashboard/people/controller/people.js"></script>
+<script src="js/module/frontend/dashboard/people/filter/date.js"></script>
+<script src="js/module/frontend/helpdesk/service/helpdesk.js"></script>
+<script src="js/module/frontend/helpdesk/controller/helpdesk.js"></script>
+<script src="js/module/frontend/performance-admin/service/admin-key-result.js"></script>
+<script src="js/module/frontend/performance-admin/controller/admin-key-result.js"></script>
+<script src="js/module/frontend/performance-admin/service/skillMatrix.js"></script>
+<script src="js/module/frontend/performance-admin/controller/skillMatrix.js"></script>
+<script src="js/module/frontend/dashboard/my-team/teamService.js"></script>
+<script src="js/module/frontend/dashboard/my-team/team.js"></script>
+<script src="js/module/frontend/dashboard/my-team/leave/service/summary.js"></script>
+<script src="js/module/frontend/dashboard/my-team/leave/directive/graph.js"></script>
+<script src="js/module/frontend/dashboard/my-team/leave/controller/summary.js"></script>
+<script src="js/module/frontend/dashboard/my-team/leave/service/emp-detail.js"></script>
+<script src="js/module/frontend/dashboard/my-team/leave/controller/emp-detail.js"></script>
+<script src="js/module/frontend/dashboard/my-team/leave/service/dashboard.js"></script>
+<script src="js/module/frontend/dashboard/my-team/leave/controller/dashboard.js"></script>
+<script src="js/module/frontend/dashboard/my-team/provision/service/employee-view.js"></script>
+<script src="js/module/frontend/dashboard/my-team/provision/controller/employee-view.js"></script>
+<script src="js/module/frontend/dashboard/my-team/attendance/controller/managerAttendance.js"></script>
+<script src="js/module/frontend/dashboard/my-team/attendance/service/managerAttendance.js"></script>
+<script src="js/module/frontend/dashboard/my-team/lnd/controller/lnd.js"></script>
+<script src="js/module/frontend/dashboard/my-team/lnd/service/lnd.js"></script>
+<script src="js/module/frontend/dashboard/my-team/lnd/filter/lnd.js"></script>
+<script src="js/module/frontend/dashboard/compensation/directive/chart.js"></script>
+<script src="js/module/frontend/dashboard/compensation/service/compensation.js"></script>
+<script src="js/module/frontend/dashboard/compensation/controller/compensation.js"></script>
+<script src="js/module/frontend/dashboard/compensation/controller/home.js"></script>
+<script src="js/module/frontend/dashboard/compensation/service/home.js"></script>
+<script src="js/module/frontend/dashboard/compensation/service/salary.js"></script>
+<script src="js/module/frontend/dashboard/compensation/controller/pay.js"></script>
+<script src="js/module/frontend/dashboard/compensation/service/tax.js"></script>
+<script src="js/module/frontend/dashboard/compensation/controller/tax.js"></script>
+<script src="js/module/frontend/dashboard/compensation/service/previous-employer.js"></script>
+<script src="js/module/frontend/dashboard/compensation/controller/previous-employer.js"></script>
+<script src="js/module/frontend/dashboard/compensation/service/form.js"></script>
+<script src="js/module/frontend/dashboard/compensation/controller/form.js"></script>
+<script src="js/module/frontend/dashboard/third-party/service/thirdparty.js"></script>
+<script src="js/module/frontend/dashboard/third-party/controller/thirdparty.js"></script>
+<script src="js/module/frontend/dashboard/productmap/service/productmap.js"></script>
+<script src="js/module/frontend/dashboard/productmap/controller/productmap.js"></script>
+<script src="js/module/frontend/payroll/service/payment.js"></script>
+<script src="js/module/frontend/payroll/controller/payment.js"></script>
+<script src="js/module/frontend/payroll/service/register-report.js"></script>
+<script src="js/module/frontend/payroll/controller/register-report.js"></script>
+<script src="js/module/frontend/payroll/service/filings.js"></script>
+<script src="js/module/frontend/payroll/controller/filings.js"></script>
+<script src="js/module/frontend/payroll/service/statutory-compliances.js"></script>
+<script src="js/module/frontend/payroll/controller/statutory-compliances.js"></script>
+<script src="js/module/frontend/payroll/service/parent.js"></script>
+<script src="js/module/frontend/payroll/controller/parent.js"></script>
+<script src="js/module/frontend/payroll/directive/chart.js"></script>
+<script src="js/module/frontend/payroll/service/overview.js"></script>
+<script src="js/module/frontend/payroll/controller/overview.js"></script>
+<script src="js/module/frontend/payroll/service/glance.js"></script>
+<script src="js/module/frontend/payroll/directive/graph.js"></script>
+<script src="js/module/frontend/payroll/directive/computation.js"></script>
+<script src="js/module/frontend/payroll/controller/glance.js"></script>
+<script src="js/module/frontend/payroll/service/slice-dice.js"></script>
+<script src="js/module/frontend/payroll/controller/slice-dice.js"></script>
+<script src="js/module/frontend/payroll/service/employee-related-task.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/attendance.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/salary-slip.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/claims.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/bank-details.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/investment-declaration.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/investment-declaration-form.js"></script>
+<script src="js/module/frontend/payroll/service/fnf.js"></script>
+<script src="js/module/frontend/payroll/service/fnf-certificates.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/fnf.js"></script>
+<script src="js/module/frontend/payroll/controller/fnf-certificates.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/previous-employer.js"></script>
+<script src="js/module/frontend/payroll/service/run-payroll.js"></script>
+<script src="js/module/frontend/payroll/controller/run-payroll/run-payroll.js"></script>
+<script src="js/module/frontend/payroll/controller/run-payroll/checks.js"></script>
+<script src="js/module/frontend/payroll/service/salary.js"></script>
+<script src="js/module/frontend/payroll/controller/salary.js"></script>
+<script src="js/module/frontend/dashboard/my-team/compensation/service/compensation.js"></script>
+<script src="js/module/frontend/dashboard/my-team/compensation/directive/graph.js"></script>
+<script src="js/module/frontend/dashboard/my-team/compensation/controller/compensation.js"></script>
+<script src="js/module/frontend/dashboard/provisions/service/my-provisions.js"></script>
+<script src="js/module/frontend/dashboard/provisions/controller/my-provisions.js"></script>
+<script src="js/module/frontend/dashboard/lnd/service/lnd.js"></script>
+<script src="js/module/frontend/dashboard/lnd/controller/lnd.js"></script>
+<script src="js/module/frontend/adminAttendance/controller/adminAttendance.js"></script>
+<script src="js/module/frontend/adminAttendance/service/adminAttendance.js"></script>
+<script src="js/module/frontend/adminAttendance/controller/dashboard.js"></script>
+<script src="js/module/frontend/adminAttendance/service/dashboard.js"></script>
+<script src="js/module/frontend/provisionManager/service/ProvisionManager.js"></script>
+<script src="js/module/frontend/provisionManager/controller/ProvisionManager.js"></script>
+<script src="js/module/frontend/provisionManager/directive/graph.js"></script>
+<script src="js/module/frontend/provisionManager/service/provisionView.js"></script>
+<script src="js/module/frontend/provisionManager/controller/provisionView.js"></script>
+<script src="js/module/frontend/provisionManager/service/employee-view.js"></script>
+<script src="js/module/frontend/provisionManager/controller/employee-view.js"></script>
+
+<script src="js/module/frontend/lndManager/controller/employee-view.js"></script>
+<script src="js/module/frontend/lndManager/controller/LndManager.js"></script>
+<script src="js/module/frontend/lndManager/controller/lndView.js"></script>
+<script src="js/module/frontend/lndManager/service/employee-view.js"></script>
+<script src="js/module/frontend/lndManager/service/LndManager.js"></script>
+<script src="js/module/frontend/lndManager/service/lndView.js"></script>
+
+<script src="js/module/frontend/performance/service/feedback.js"></script>
+<script src="js/module/frontend/performance/controller/feedback.js"></script>
+<script src="js/module/frontend/provisionAdmin/service/provision-admin.js"></script>
+<script src="js/module/frontend/provisionAdmin/controller/provision-admin.js"></script>
+<script src="js/module/frontend/provisionAdmin/controller/employee-view.js"></script>
+<script src="js/module/frontend/provisionAdmin/controller/provision-view.js"></script>
+<script src=" js/module/frontend/lndAdmin/controller/lndAdmin.js"></script>
+<script src=" js/module/frontend/lndAdmin/service/lndAdmin.js"></script>
+<script src="js/module/frontend/helpdesk/filter/date.js"></script>
+<script src="js/module/frontend/exitManager/service/exitManager.js"></script>
+<script src="js/module/frontend/exitManager/controller/exitManager.js"></script>
+<script src="js/module/frontend/travel-expense/service/travel-expense.js"></script>
+<script src="js/module/frontend/travel-expense/directive/graph.js"></script>
+<script src="js/module/frontend/travel-expense/service/dashboard.js"></script>
+<script src="js/module/frontend/travel-expense/controller/travel-expense.js"></script>
+<script src="js/module/frontend/travel-expense/controller/expense/expense-admin.js"></script>
+<script src="js/module/frontend/travel-expense/controller/expense/dashboard.js"></script>
+<script src="js/module/frontend/travel-expense/controller/travel/dashboard.js"></script>
+<script src="js/module/frontend/travel-expense/controller/travel/requests.js"></script>
+<script src="js/module/frontend/travel-planner/service/travel-planner.js"></script>
+<script src="js/module/frontend/travel-planner/controller/travel-planner.js"></script>
+<script src="js/module/frontend/dashboard/home/directive/time-attendance.js"></script>
+<script src="js/module/frontend/dashboard/home/controller/regularization-req.js"></script>
+<script src="js/module/frontend/dashboard/home/service/regularization-req.js"></script>
+<script src="js/module/frontend/dashboard/account-settings/service/account-settings.js"></script>
+<script src="js/module/frontend/dashboard/account-settings/controller/account-settings.js"></script>
+<script src="js/module/frontend/dashboard/account-settings/directive/archive.js"></script>
+<script src="js/module/frontend/dashboard/account-settings/service/archive.js"></script>
+<script src="js/module/frontend/dashboard/account-settings/controller/archive.js"></script>
+<script src="js/module/frontend/dashboard/profile/service/profile.js"></script>
+<script src="js/module/frontend/dashboard/profile/controller/profile.js"></script>
+<script src="js/module/frontend/dashboard/profile/controller/public-profile.js"></script>
+<script src="js/module/frontend/dashboard/my-team/overview/service/overview.js"></script>
+<script src="js/module/frontend/dashboard/my-team/overview/controller/overview.js"></script>
+<script src="js/module/frontend/prebuiltReports/service/prebuiltReports.js"></script>
+<script src="js/module/frontend/prebuiltReports/controller/prebuiltReports.js"></script>
+<script src="js/module/frontend/prebuiltReports/controller/provisionReport.js"></script>
+<script src="js/module/frontend/prebuiltReports/filters/objectFilter.js"></script>
+<script src="js/module/frontend/payroll/service/insurance.js"></script>
+<script src="js/module/frontend/payroll/controller/insurance.js"></script>
+<script src="js/module/frontend/broadcast/service/broadcast.js"></script>
+<script src="js/module/frontend/broadcast/controller/broadcast.js"></script>
+<script src="js/module/frontend/dashboard/compensation/controller/loan.js"></script>
+<script src="js/module/frontend/dashboard/compensation/service/loan.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/loan-advance.js"></script>
+<script src="js/module/frontend/payroll/service/loan-advance.js"></script>
+<script src="js/module/frontend/elcm/service/elcm.js"></script>
+<script src="js/module/frontend/elcm/controller/elcm.js"></script>
+<script src="js/module/frontend/dashboard/social/controller/social-parent.js"></script>
+<script src="js/module/frontend/dashboard/social/service/wall.js"></script>
+<script src="js/module/frontend/dashboard/social/controller/wall.js"></script>
+<script src="js/module/frontend/dashboard/social/service/community.js"></script>
+<script src="js/module/frontend/dashboard/social/controller/community.js"></script>
+<script src="js/module/frontend/dashboard/social/service/crowdsolve.js"></script>
+<script src="js/module/frontend/dashboard/social/controller/crowdsolve.js"></script>
+<script src="js/module/frontend/dashboard/performance/controller/performance.js"></script>
+<script src="js/module/frontend/dashboard/performance/service/objective.js"></script>
+<script src="js/module/frontend/dashboard/performance/service/key-result.js"></script>
+<script src="js/module/frontend/dashboard/performance/controller/objective.js"></script>
+<script src="js/module/frontend/dashboard/performance/controller/key-result.js"></script>
+<script src="js/module/frontend/dashboard/performance/service/feedback.js"></script>
+<script src="js/module/frontend/dashboard/performance/controller/feedback.js"></script>
+<script src="js/module/frontend/dashboard/recruitment/controller/recruitment.js"></script>
+<script src="js/module/frontend/dashboard/exitManagement/controller/exitManagement.js"></script>
+<script src="js/module/frontend/dashboard/recruitment/service/job-publish.js"></script>
+<script src="js/module/frontend/dashboard/recruitment/controller/job-publish.js"></script>
+<script src="js/module/frontend/dashboard/exitManagement/service/exitManagement.js"></script>
+<script src="js/module/frontend/dashboard/recruitment/service/jobs.js"></script>
+<script src="js/module/frontend/dashboard/recruitment/controller/jobs.js"></script>
+<script src="js/module/frontend/dashboard/travel-expense/service/travel-parent.js"></script>
+<script src="js/module/frontend/dashboard/travel-expense/controller/travel-parent.js"></script>
+<script src="js/module/frontend/dashboard/travel-expense/service/travel.js"></script>
+<script src="js/module/frontend/dashboard/travel-expense/controller/travel.js"></script>
+<script src="js/module/frontend/dashboard/travel-expense/service/expense.js"></script>
+<script src="js/module/frontend/dashboard/travel-expense/controller/expense.js"></script>
+<script src="js/module/frontend/travel-expense/directive/travel-expense-admin-directive.js"></script>
+<script src="js/module/frontend/dashboard/mandatory-fields/service/mandatory-fileds.js"></script>
+<script src="js/module/frontend/dashboard/mandatory-fields/controller/mandatory-fileds.js"></script>
+<script src="js/module/frontend/shiftPlanner/service/shift-planner.js"></script>
+<script src="js/module/frontend/shiftPlanner/controller/shift-planner.js"></script>
+<script src="js/module/frontend/shiftPlanner/service/shift-upload.js"></script>
+<script src="js/module/frontend/shiftPlanner/controller/shift-upload.js"></script>
+<script src="js/module/frontend/dashboard/performance/controller/template.js"></script>
+<script src="js/module/frontend/dashboard/performance/service/meeting.js"></script>
+<script src="js/module/frontend/dashboard/performance/controller/meeting.js"></script>
+<script src="js/module/frontend/dashboard/performance/service/updates.js"></script>
+<script src="js/module/frontend/dashboard/performance/controller/updates.js"></script>
+<script src="js/module/frontend/dashboard/performance/service/review.js"></script>
+<script src="js/module/frontend/dashboard/performance/controller/review.js"></script>
+<script src="js/module/frontend/performance/service/review-cycle.js"></script>
+<script src="js/module/frontend/performance/controller/review-cycle.js"></script>
+<script src="js/module/frontend/performance/controller/reviews.js"></script>
+<script src="js/module/frontend/performance/controller/reports.js"></script>
+<script src="js/module/frontend/dashboard/performance/controller/review-feedback.js"></script>
+<script src="js/module/frontend/dashboard/performance/controller/review-evaluation.js"></script>
+<script src="js/module/frontend/performance/service/manage-review-cycle.js"></script>
+<script src="js/module/frontend/performance/service/performance-report.js"></script>
+<script src="js/module/frontend/performance/controller/manageReviewCycle/manage-review-cycle.js"></script>
+<script src="js/module/frontend/performance/controller/manageReviewCycle/review-status.js"></script>
+<script src="js/module/frontend/performance/controller/manageReviewCycle/self-evaluation.js"></script>
+<script src="js/module/frontend/performance/directive/chart.js"></script>
+<script src="js/module/frontend/dashboard/my-team/performance/service/review.js"></script>
+<script src="js/module/frontend/dashboard/my-team/performance/controller/review.js"></script>
+<script src="js/module/frontend/dashboard/my-team/performance/directive/chart.js"></script>
+<script src="js/module/frontend/dashboard/my-team/performance/controller/overall-details.js"></script>
+<script src="js/module/frontend/dashboard/travel-expense/component/expense-employee.js"></script>
+<script src="js/module/frontend/dashboard/recruitment/controller/new-job.js"></script>
+<script src="js/module/frontend/dashboard/recruitment/controller/candidateJobs.js"></script>
+<script src="js/module/frontend/dashboard/recruitment/service/candidateJobs.js"></script>
+<script src="js/module/frontend/dashboard/recruitment/controller/interview.js"></script>
+<script src="js/module/frontend/recruitment/controller/recruitment.js"></script>
+<script src="js/module/frontend/recruitment/controller/candidate_details.js"></script>
+<script src="js/module/frontend/recruitment/service/recruitment.js"></script>
+<script src="js/module/frontend/recruitment/directive/recruitment.js"></script>
+<script src="js/module/frontend/dashboard/recruitment/controller/recruitment-client.js"></script>
+<script src="js/module/frontend/dashboard/recruitment/service/recruitment-client.js"></script>
+
+<script src="js/module/frontend/recruitment/controller/recruitment-client.js"></script>
+<script src="js/module/frontend/recruitment/service/recruitment-client.js"></script>
+
+<script src="js/module/frontend/payroll/service/slip.js"></script>
+<script src="js/module/frontend/payroll/controller/slip.js"></script>
+<script src="js/module/frontend/payroll/service/form-16.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/form-16.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/niyo-coupon.js"></script>
+<script src="js/module/frontend/dashboard/my-team/performance/controller/goal-competency.js"></script>
+<script src="js/module/frontend/dashboard/my-team/performance/service/goal-competency.js"></script>
+<script src="js/module/frontend/performance-admin/service/one_on_one-details.js"></script>
+<script src="js/module/frontend/performance-admin/controller/one_on_one-details.js"></script>
+<script src="js/module/frontend/dashboard/timesheet/service/timesheet.js"></script>
+<script src="js/module/frontend/dashboard/timesheet/controller/timesheet.js"></script>
+<script src="js/module/frontend/dashboard/timesheet/service/approver.js"></script>
+<script src="js/module/frontend/dashboard/timesheet/controller/approver.js"></script>
+<script src="js/module/frontend/timesheet/service/timesheet.js"></script>
+<script src="/js/module/frontend/dashboard/timesheet/controller/timesheetss.js"></script>
+<script src="js/module/frontend/dashboard/timesheet/service/timesheetss.js"></script>
+<script src="js/module/frontend/timesheet/controller/timesheet.js"></script>
+<script src="js/module/frontend/timesheet/service/dashboard.js"></script>
+<script src="js/module/frontend/timesheet/controller/dashboard.js"></script>
+<script src="js/module/frontend/timesheet/service/allocation.js"></script>
+<script src="js/module/frontend/timesheet/controller/allocation.js"></script>
+<script src="js/module/frontend/timesheet/service/employee-allocation.js"></script>
+<script src="js/module/frontend/timesheet/service/employee-allocation.js"></script>
+<script src="js/module/frontend/timesheet/controller/allocated.js"></script>
+<script src="js/module/frontend/performance/service/individual-review-timeline.js"></script>
+<script src="js/module/frontend/performance/controller/manageReviewCycle/individual-review-timeline.js"></script>
+<script src="js/module/frontend/dashboard/performance/directive/graph.js"></script>
+<script src="js/module/frontend/dashboard/performance/service/analytics.js"></script>
+<script src="js/module/frontend/dashboard/performance/controller/review-analytics.js"></script>
+<script src="js/module/frontend/performance/controller/manageReviewCycle/question-analytics.js"></script>
+<script src="js/module/frontend/performance/service/rejected-reviews.js"></script>
+<script src="js/module/frontend/performance/controller/manageReviewCycle/rejected-reviews.js"></script>
+<script src="js/module/frontend/performance/service/consolidated-reviews.js"></script>
+<script src="js/module/frontend/performance/service/potential-grid.js"></script>
+<script src="js/module/frontend/performance/controller/manageReviewCycle/consolidated-reviews.js"></script>
+<script src="js/module/frontend/performance/controller/manageReviewCycle/potential-grid.js"></script>
+<script src="js/module/frontend/payroll/service/download-upload.js"></script>
+<script src="js/module/frontend/payroll/controller/download-upload.js"></script>
+<script src="js/module/frontend/prebuiltReports/directive/pivot-table.js"></script>
+<script src="js/module/frontend/payroll/service/form-12bb.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/form-12bb.js"></script>
+<script src="js/module/frontend/payroll/service/legal-entity.js"></script>
+<script src="js/module/frontend/payroll/controller/legal-entity.js"></script>
+<script src="js/module/frontend/payroll/service/statutory-reports.js"></script>
+<script src="js/module/frontend/payroll/controller/statutory-reports.js"></script>
+<script src="/js/module/frontend/payroll/controller/employee-related-task/flexi-pay.js"></script>
+<script src="js/module/frontend/payroll/service/payroll-reports.js"></script>
+<script src="js/module/frontend/payroll/controller/payroll-reports.js"></script>
+<script src="js/module/frontend/payroll/service/perquisite.js"></script>
+<script src="js/module/frontend/payroll/controller/perquisite.js"></script>
+<script src="js/module/frontend/dashboard/compensation/service/templates.js"></script>
+<script src="js/module/frontend/dashboard/compensation/controller/templates.js"></script>
+<script src="js/module/frontend/recruitment/service/dashboard.js"></script>
+<script src="js/module/frontend/recruitment/controller/dashboard.js"></script>
+<script src="js/module/frontend/recruitment/service/dashboard.js"></script>
+<script src="js/module/frontend/adminAttendance/service/bulk-regularization.js"></script>
+<script src="js/module/frontend/adminAttendance/controller/bulk-regularization.js"></script>
+<script src="js/module/frontend/okr/service/okr.js"></script>
+<script src="js/module/frontend/okr/controller/okr.js"></script>
+<script src="js/module/frontend/okr/service/okr.js"></script>
+<script src="js/module/frontend/okr/controller/okrRelevance.js"></script>
+<script src="js/module/frontend/dashboard/my-team/pip/controller/pip.js"></script>
+<script src="js/module/frontend/dashboard/my-team/pip/service/pip.js"></script>
+<script src="js/module/frontend/pip/service/pip.js"></script>
+<script src="js/module/frontend/pip/controller/pip.js"></script>
+<script src="js/module/frontend/dashboard/pip/controller/pip.js"></script>
+<script src="js/module/frontend/dashboard/pip/service/pip.js"></script>
+<script src="js/module/frontend/dashboard/screenshot/controller/screenshot.js"></script>
+<script src="js/module/frontend/dashboard/screenshot/service/screenshot.js"></script>
+<script src="js/module/frontend/pip/service/bulk.js"></script>
+<script src="js/module/frontend/pip/controller/bulk.js"></script>
+<script src="js/module/frontend/shiftPlanner/service/bulk.js"></script>
+<script src="js/module/frontend/shiftPlanner/controller/bulk.js"></script>
+
+<script src="js/module/frontend/shiftPlanner/service/shift-upload.js"></script>
+<script src="js/module/frontend/shiftPlanner/controller/shift-upload.js"></script>
+
+<script src="js/module/frontend/dashboard/my-team/leave/service/leave-details.js"></script>
+<script src="js/module/frontend/dashboard/my-team/leave/controller/leave-details.js"></script>
+<script src="js/module/frontend/dashboard/my-team/screenshot/controller/screenshot.js"></script>
+<script src="js/module/frontend/dashboard/my-team/screenshot/service/screenshot.js"></script>
+<script src="js/module/frontend/dashboard/my-team/screenshot/directive/chart.js"></script>
+<script src="js/module/common/controller/screenshot-individual-view.js"></script>
+<script src="js/module/common/services/screenshot-individual-view.js"></script>
+<script src="js/module/common/directives/screenshots-chart.js"></script>
+<script src="js/module/common/controller/screenshot-comparison-view.js"></script>
+<script src="js/module/common/services/screenshot-comparison-view.js"></script>
+<script src="js/module/common/controller/qandle-clients.js"></script>
+<script src="js/module/common/services/qandle-clients.js"></script>
+<script src="js/module/common/controller/common-relevance.js"></script>
+<script src="js/module/frontend/payroll/service/lwp-arrear.js"></script>
+<script src="js/module/frontend/payroll/controller/lwp-arrear.js"></script>
+<script src="js/module/frontend/payroll/controller/rfa.js"></script>
+<script src="js/module/frontend/payroll/service/admin-discretion.js"></script>
+<script src="js/module/frontend/payroll/controller/admin-discretion.js"></script>
+<script src="js/module/frontend/dashboard/task/service/task.js"></script>
+<script src="js/module/frontend/dashboard/task/controller/task.js"></script>
+<script src="js/module/frontend/dashboard/my-team/task/controller/task.js"></script>
+<script src="js/module/frontend/dashboard/my-team/task/service/task.js"></script>
+<script src="js/module/frontend/AdminpollsAndSurveys/controller/pollsAndSurveys.js"></script>
+<script src="js/module/frontend/AdminpollsAndSurveys/service/pollsAndSurveys.js"></script>
+<script src="js/module/frontend/dashboard/my-team/leave/service/restricted-holidays.js"></script>
+<script src="js/module/frontend/dashboard/my-team/leave/controller/restricted-holidays.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/annual-salary-breakup.js"></script>
+<script src="js/module/frontend/payroll/controller/employee-related-task/investment-proof.js"></script>
+<script src="js/module/frontend/on-grid/service/verification.js"></script>
+<script src="js/module/frontend/on-grid/controller/verification.js"></script>
+<script src="js/module/frontend/on-grid/controller/verification.js"></script>
+<script src="js/module/frontend/attendance/service/attendance.js"></script>
+<script src="js/module/frontend/attendance/controller/attendance.js"></script>
+<!-- End frontend file inclusion -->
+<!-- endbuild -->
+</body>
+</html>

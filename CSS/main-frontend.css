@@ -1,0 +1,599 @@
+ /*Write Employee frontend css here
++++++++++++Employee FrontEnd+++++++++++++++++++++++++*/
+
+.hlpdsk-bgstar {
+    height: 120px;
+    min-height: 120px;
+    background:rgb(0, 126, 229) url(../images/bg-str.png) no-repeat top left;
+}
+.q-frntnd-cont .profile-hd .tm-lst md-list-item .md-avatar {
+    height: 70px;
+    width: 70px;
+    border: 2px solid rgb(255,255,255);
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.14);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.14);
+    margin: 0 16px 0 0;
+}
+.q-frntnd-cont .profile-hd .tm-lst md-list-item i {
+    font-size: 12px;
+}
+.q-frntnd-cont .profile-hd .tm-lst .md-list-item-text {
+    margin-left: 20px;
+}
+.q-frntnd-cont .profile-hd .tm-lst .md-list-item-text ul li {
+    display: inline-flex;
+    position: relative;
+    margin-left: -32px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.q-frntnd-cont .profile-hd .tm-lst .md-list-item-text ul li:first-child {
+    margin-left: 0px;
+}
+.q-frntnd-cont .profile-hd .tm-lst .md-list-item-text ul li .tm-sz-nm {
+    border: 2px solid rgb(255,255,255);
+    color: rgb(255,255,255);
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    line-height: 20px;
+    right: 0;
+    left: 0;
+    top: -10px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    font-size: 11px;
+}
+.q-frntnd-cont .customPopover.employee-d {
+    display: none;
+    margin-top: 10px;
+    padding: 0;
+    margin-left: 0;
+    min-width: 300px;
+    -webkit-box-shadow: 0px 2px 23px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 23px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 23px 0px rgba(0,0,0,0.3);
+    top: 62px;
+    left: -2px;
+}
+.q-frntnd-cont .customPopover.employee-d::after {
+    border-color: transparent transparent #f3f9fe transparent;
+}
+.employee-d md-list.team-mm {
+    background-color: rgba(0,126,229,0.05);
+    border-bottom: 1px solid rgba(0,126,229,0.12);
+}
+.employee-d md-list.team-mm h4 {
+    color: rgb(0,0,0);
+    font-size: 17px;width: 160px;
+}
+.employee-d md-list.team-mm p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: normal;
+}
+.employee-d md-list.team-mm .md-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.employee-d i.fa-caret-right {
+    font-size: 12px;
+    margin-left: 2px;   
+}
+.q-frntnd-cont .customPopover.employee-d .q-lst {
+    padding-bottom: 0;max-height: 120px;overflow: auto;
+}
+.q-frntnd-cont .customPopover.employee-d .q-lst .q-lst-itm .flex{
+    padding-left: 16px;
+}
+.q-frntnd-cont .profile-hd .tm-lst .md-list-item-text .md-avatar {
+    height: 56px;
+    width: 56px;
+    margin: 0;
+}
+.q-frntnd-cont .profile-hd .pro-act {
+    overflow: hidden;
+}
+.q-frntnd-cont .profile-hd .pro-act li {
+    float: left;
+}
+.q-frntnd-cont .profile-hd .pro-act li .md-button {
+    font-size: 14px;
+    margin: 0;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: rgb(161, 164, 168);
+}
+.q-frntnd-cont .profile-hd .pro-act li .md-button:hover {
+    background-color: transparent;
+}
+.q-frntnd-cont .profile-hd .pro-act li .md-button .md-ripple-container {
+    border-radius: 0;
+}
+.q-frntnd-cont .profile-hd .pro-act li.active .md-button {
+    color: rgb(61, 70, 77);    
+    -webkit-box-shadow: inset 0px -2px 0px -1px rgba(0,126,229,1);
+    -moz-box-shadow: inset 0px -2px 0px -1px rgba(0,126,229,1);
+    box-shadow: inset 0px -2px 0px -1px rgba(0,126,229,1);
+}
+.q-frntnd-cont .avatarInfo {
+    position: relative;
+}
+.q-frntnd-cont .avatarInfo .customPopover.employee-d {
+    margin-left: 42px;
+    margin-top: -15px;
+}
+.q-frntnd-cont .qndle-strips .customPopover.employee-d::after {
+    border-color: transparent #f3f9fe transparent transparent
+}
+.q-frntnd-cont .brkdurtn .customPopover.brk {
+    min-width: 480px;
+    display: none;
+}
+.q-frntnd-cont .brkdurtn .customPopover.brk div {
+    text-align: left;
+    color: rgba(0,0,0,0.70);
+}
+.q-frntnd-cont .brkdurtn .customPopover.brk div:first-child {
+    color: initial;
+}
+.q-frntnd-cont .avatarInfo:hover .customPopover.employee-d {
+    display: block;
+}
+.q-frntnd-cont .brkdurtn:hover .customPopover {
+    display: inline-block;
+}
+.q-frntnd-cont md-tabs md-content>.qndle-strips .strips-heading {
+    border-top: none;
+}
+
+/*-----My Team Acticvity List-----*/
+.qf-my-tm .qf-m-acti md-list-item {
+    padding: 16px;
+    background-color: rgba(0, 126, 229, 0.05);
+}
+.qf-my-tm .qf-m-acti md-list-item.rd-acti {
+    background-color: transparent;
+}
+.qf-my-tm .qf-m-acti md-divider {
+    margin: 0 !important;
+}
+.tcal.q-table .q-table-row small {
+    font-size: 10px;
+}
+.tcal.q-table .q-table-row .e-evnt {
+    border-radius: 2px;
+    padding: 1px 4px;
+    margin-top: 2px;
+    position: relative; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.tcal.q-table .q-table-row .e-evnt:hover {
+    overflow: initial;
+    text-overflow: initial;
+    white-space: initial;
+}
+.tcal.q-table .q-table-row .e-evnt.green-bg:hover::after {
+    background-color: rgb(112, 164, 61);
+}
+.tcal.q-table .q-table-row .e-evnt.blue-bg:hover::after {
+    background-color: rgb(0, 126, 229);
+}
+.tcal.q-table .q-table-row .e-evnt.orange-bg:hover::after {
+    background-color: rgb(250, 160, 93);
+}
+.tcal.q-table .q-table-row .e-evnt.light-green-bg:hover::after {
+    background-color: rgb(231, 115, 118);
+}
+.tcal.q-table .q-table-row .e-evnt.yellow-bg:hover::after {
+    background-color: rgb(242, 178, 102);
+}
+.tcal.q-table .q-table-row .e-evnt.vilot-bg:hover::after {
+    background-color: rgb(151, 128, 201);
+}
+.tcal.q-table .q-table-row .e-evnt.red-bg:hover::after {
+    background-color: rgb(219, 67, 54);
+}
+
+/*-------Calendar Holiday List---------*/
+.f-end-calendar .qef-h-list .strips-heading, 
+.f-end-calendar .qef-h-list .strips-item {
+    border-left: 1px solid rgba(0,0,0,0.09) !important;
+    border-right: 1px solid rgba(0,0,0,0.09) !important;
+}
+.f-end-calendar .qef-h-list .strips-item:hover {
+    border-left: 1px solid rgba(0,0,0,0.09) !important;
+    border-right: 1px solid rgba(0,0,0,0.09) !important;
+}
+/*-------//End Calendar Holiday List---------*/
+
+.q-f-timeoff v-accordion v-pane v-pane-header {
+    background-color: rgba(0,0,0,0.02);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 0;
+}
+.q-f-timeoff v-accordion v-pane v-pane-header h5 {
+    font-weight: 600;
+}
+.q-f-timeoff .vAccordion--default v-pane-header::after,
+.q-f-timeoff .vAccordion--default v-pane-header::before {
+    right: 10px;
+}
+.q-f-timeoff .vAccordion--default v-pane-content {
+    padding: 0 10px;
+}
+.q-f-timeoff .vAccordion--default v-pane-content>div {
+    padding-top: 15px; 
+}
+
+/*Profile Section*/
+.qf-end-profile .db-sidenav {
+    max-width: 220px;
+}
+.qf-end-profile .f-ow-profile md-list.prf-head {
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+.qf-end-profile .f-ow-profile md-list.prf-head md-list-item .md-button {
+    position: absolute;
+    top: -15px;
+    right: -5px;
+}
+.qf-end-profile .f-ow-profile md-list md-list-item .md-avatar {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.qf-end-profile .f-ow-profile md-list md-list-item .md-avatar .cmpny_logo_edit_btn {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.6);
+    visibility: hidden;
+}
+.qf-end-profile .f-ow-profile md-list md-list-item .md-avatar:hover .cmpny_logo_edit_btn {
+    visibility: visible;
+}
+.qf-end-profile .f-ow-profile md-list md-list-item .md-list-item-text h3 {
+    font-size: 22px;line-height: 30px;
+}
+.qf-end-profile .f-ow-profile md-list md-list-item .md-list-item-text p {
+    font-size: 15px;
+    line-height: inherit;
+}
+.qf-end-profile .f-ow-profile .prfl-tabs>md-tabs-wrapper {
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+.qf-end-profile .qf-pro-list md-list-item .md-button {
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+    display: block;
+    text-align: left;
+    border-left: 3px solid transparent;
+}
+.qf-end-profile .qf-pro-list md-list-item .md-button .md-ripple-container { 
+    border-radius: 0;
+}
+.qf-end-profile .qf-pro-list md-list-item.active .md-button {
+    border-left: 3px solid rgb(0, 126, 229);  
+    color: rgb(0, 126, 229);  
+}
+.qf-end-profile .f-ow-profile md-sidenav md-list {
+    border-right: 1px solid rgba(0,0,0,0.12);
+    height: 100%;
+}
+.qf-end-profile.qf-end-cndidte-profile md-list.prf-head {
+    border-bottom: none;
+}
+/*.qf-end-profile .f-ow-profile .inner-content {
+    padding: 0  !important;
+}*/
+/*//End Profile Section*/
+
+/*-----HelpDesk Rating------------*/
+.q-frntnd-cont.hlpdsk-rating .d-up  {
+    margin-top: -100px;
+}
+.q-frntnd-cont.hlpdsk-rating .panel-box {
+    background: rgb(255,255,255) url(../images/hrating-stars.png) no-repeat top left;
+    padding: 70px 0;
+}
+.q-frntnd-cont.hlpdsk-rating .panel-box .rtng-bx {
+    max-width: 470px;
+    margin: 0 auto;
+}
+.q-frntnd-cont.hlpdsk-rating .panel-box .rtng-bx h1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.q-frntnd-cont.hlpdsk-rating .panel-box .rtng-bx p.lead-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.q-frntnd-cont.hlpdsk-rating .panel-box .rtng-bx .rate-tkt {
+    margin: 40px 0;   
+}
+/*-----//End HelpDesk Rating------------*/
+
+/*+++++++++++//End Employee FrontEnd+++++++++++++++++++++++++
+/*account-setting css*/
+.acc_sttng_down_arch md-list{margin-bottom: 50px;}
+.acc_sttng_down_arch md-list-item ._md-list-item-inner .md-avatar{width: 130px; height: 130px;margin-right: 25px;margin-top: 0;}
+.acc_sttng_down_arch md-list-item ._md-list-item-inner .md-avatar, md-list-item .md-avatar img{max-width: 100%;max-height: 100%;border-radius: 5px;}
+.acc_sttng_down_arch .md-list-item-text h3{font-size: 24px !important;margin-top:0;}
+.acc_sttng_down_arch .md-list-item-text p{font-size: 18px !important;}
+.acc_sttng_down_arch .cus_bdr_box > div{border:1px solid rgba(0,0,0,0.12);border-bottom: 0;}
+.acc_sttng_down_arch .cus_bdr_box > div > div{padding:7px;}
+.acc_sttng_down_arch .cus_bdr_box > div:last-child{border-bottom: 1px solid rgba(0,0,0,0.12);}
+
+/*css added for my team hierarchy*/
+.teamexpand{margin-left: 10px !important;}
+.q-frntnd-cont .profile-hd .tm-lst md-list-item .myteam-hierarchy{cursor: pointer;}
+.org_dir_wrap{border-top: 1px solid rgba(0,0,0,0.12); position: relative;}
+.org_dir_wrap::before, .org_dir_wrap::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 20px;
+    width: 1px;
+    background-color: rgba(0,0,0,0.12);
+}
+.org_dir_wrap::before {
+    left: 0;
+}
+.org_dir_wrap::after {
+    right: 0;
+}
+
+/*css added for md-content-chips*/
+.md-contact-chips .md-chips md-chip .md-contact-name {
+    max-width: 170px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*added for md-menu-content z-index issue with modal*/
+#menu_container_4{z-index: 99;}
+
+/*added for md-scroll-mask issue*/
+.md-scroll-mask{position: initial;}
+
+.tbar-fav md-menu-item{transition: all 0.4s ease;}
+.tbar-fav md-menu-item:hover{background-color: rgba(0,0,0,0.12);}
+
+/*for route search chips*/
+.route-chips .qmchips .qmchip{background-color: rgba(0,126,229,0.16);cursor: default;border-radius: 16px;display: flex;height: 32px;line-height: 32px; margin: 8px 8px 0 0;padding: 0 12px;float: left;box-sizing: border-box;max-width: 100%;position: relative;}
+
+/*for personsal profile sidenav*/
+.per_profile_nav{z-index: 999;}
+
+.teamChartView .mainMmbr .team_mmbr_bx .q_logo img{top:29%; left:22%;}
+.md-optgroup label{border-bottom:1px solid rgba(0,0,0,0.09); padding:12px;}
+.q-frntnd-cont .profile-hd .tm-lst .md-list-item-text ul li:hover{z-index: 9999;}
+/*for text ellipses*/
+.text-ellipsis{text-overflow: ellipsis;overflow: hidden;}
+.text-nowrap{white-space: nowrap;}
+.temp-bulder .template.addmr .t-content .preview .add{top:50%; left:18%; transform: inherit;}
+.temp-bulder .template .t-content{height:250px; width:200px;}
+
+/*for lms leave-button*/
+.lms-frnd-wrapp .qndle-strips.q-n-stripes .strips-item > div:first-child .md-button.md-raised{pointer-events: none;}
+.q-f-provissions .qndle-strips.qf-strips .strips-item div:first-child {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 5px;
+}
+
+/*for helpdesk priority view*/
+.qndle-strips.q-n-stripes .strips-item.priority_vw{position: relative;}
+.qndle-strips.q-n-stripes .strips-item.priority_vw > div:first-child span.priority_wrap:last-child{
+    width: 60px;
+    position: absolute;
+    bottom: -1px;
+    height: 2px;
+}
+.qndle-strips.q-n-stripes .strips-item.priority_vw > div:first-child span.priority_wrap:last-child:before{
+    content: '\25CF';
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: relative;
+    bottom: 10px;
+    left: -4px;
+    font-size: 18px;
+}
+.priorty_lst{
+    width: 60px;
+    position: absolute;
+    bottom: -1px;
+    height: 2px;
+}
+.priorty_lst:before {
+    content: '\25CF';
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: relative;
+    bottom: 13px;
+    left: -4px;
+    font-size: 18px;
+}
+.att_sumry_wrap{
+    max-height: 350px;overflow: auto;
+}
+.tm_smry_legend > span{padding-right: 10px;}
+
+/*broadcast css */
+.target_base_brcst{position: relative;
+    bottom: -8px;
+    color: #fff;
+    padding: 1px 12px;
+    border-radius: 15px;
+    font-size: 10px;
+    text-align: center;
+    left: -10px;
+}
+
+/*css for strips data search transition*/
+.content-wrapper.ng-enter {
+    -webkit-transition:0.4s linear all;
+    -moz-transition:0.4s linear all;
+    -o-transition:0.4s linear all;
+    transition:0.4s linear all;
+    opacity:0;
+}
+.content-wrapper.ng-enter.ng-enter-active {
+    opacity:1;
+}
+.strips-item.ng-enter {
+    -webkit-transition:0.4s linear all;
+    -moz-transition:0.4s linear all;
+    -o-transition:0.4s linear all;
+    transition:0.4s linear all;
+    opacity:0;
+}
+.strips-item.ng-enter.ng-enter-active {
+    opacity:1;
+}
+.strips-item.ng-leave {
+    -webkit-transition:0.4s linear all;
+    -moz-transition:0.4s linear all;
+    -o-transition:0.4s linear all;
+    transition:0.4s linear all;
+    opacity:1;
+}
+.strips-item.ng-leave.ng-leave-active {
+    opacity:0;
+}
+.left_nav_role_per > div:first-child{padding-left: 20px;}
+ng-include.ng-enter {
+    -webkit-transition:0.4s linear all;
+    -moz-transition:0.4s linear all;
+    -o-transition:0.4s linear all;
+    transition:0.4s linear all;
+    opacity:0;
+}
+ng-include.ng-enter.ng-enter-active {
+    opacity:1;
+}
+ng-include.ng-leave {
+    -webkit-transition:0.4s linear all;
+    -moz-transition:0.4s linear all;
+    -o-transition:0.4s linear all;
+    transition:0.4s linear all;
+    opacity:0;
+}
+ng-include.ng-leave.ng-leave-active {
+    opacity:1;
+}
+
+ng-include.cust_pop_noeffect.ng-enter.ng-enter-active {
+    opacity:1;
+}
+ng-include.cust_pop_noeffect.ng-leave {
+    -webkit-transition:none;
+    -moz-transition:none;
+    -o-transition:none;
+    transition:none;
+    opacity:1;
+}
+ng-include.cust_pop_noeffect.ng-leave.ng-leave-active {
+    opacity:1;
+}
+#request-leave .modal-dialog.model-lg{width: 1240px;}
+#reg-req .modal-dialog{width:700px;}
+.atten_status {-webkit-flex-wrap: initial;-ms-flex-wrap: initial;flex-wrap: initial;}
+
+/* This has been overwrite for lanka */
+.norlanka .fa-rupee:before, .norlanka .fa-inr:before {
+    content: "LKR" !important;
+}
+/*css for toast bg-color*/
+/*md-toast.md-default-theme .md-toast-content, md-toast .md-toast-content{
+    background-color: rgb(112, 164, 61);
+    color:#fff;
+}*/
+
+.pointer_none{pointer-events: none;}
+#block-screen-loader {
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5); 
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+#block-screen-loader > div{
+    position: fixed;left: 50%;top:50%;
+}
+.timeoff_graph{width: 120px;display: inline-flex;justify-content: center;margin-top: 12px;}
+.mainMmbr .team_mmbr_bx .team_prev{position:absolute;left: -75px;top:85px;}
+.mainMmbr .team_mmbr_bx .team_next {position:absolute;right:-75px;top:85px;}
+
+.loading {
+	background: url('../images/loader.gif') no-repeat 50% 25%;
+	-webkit-transition: background-color 0;
+	transition: background-color 0;
+	opacity: 1;
+	-webkit-transition: opacity 0;
+	transition: opacity 0;
+	overflow:hidden;
+}
+
+/*********css for large modal***********/
+/*.cust_modal-lg .modal-dialog{width: 1240px;}*/
+.cust_modal-lg.fade .modal-dialog{
+    -webkit-transition-property: transform; 
+    -webkit-transition-duration:0 ; 
+    transition-property: transform; 
+    transition-duration:0 ;
+    width: 1240px; 
+}
+.cust_modal-lg.modal.fade {
+   transition: none; 
+}
+@media (max-width: 960px){
+    /*.cust_modal-lg .modal-dialog{width: auto;}*/
+    .cust_modal-lg.fade .modal-dialog{width: auto;}
+    .form-builder{margin:20px 0px !important;}
+}
+/*********css for large modal***********/ 
+
+/********* safari browser issues ***********/
+.q-frntnd-cont .profile-hd .tm-lst .md-list-item-text ul li{
+    float: left;
+}
+.okr-chips .md-contact-chips .md-chips md-chip .md-contact-name {
+    max-width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px;
+}
+.okr-chips .md-contact-suggestion .md-contact-name {
+    width: 230px;
+    min-width: 200px;
+    font-size: 12px;
+}

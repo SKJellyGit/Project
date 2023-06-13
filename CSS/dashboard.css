@@ -1,0 +1,100 @@
+.db-all-events{border:1px solid rgba(0,0,0,0.06);border-left:none;border-top:none;max-height:initial;}
+.db-all-events .ehead{background-color:rgba(0,0,0,0.05);color:#7b8994;font-size:13px;padding:0 24px;height:48px;line-height:48px;border-top:1px solid rgba(0,0,0,0.06);border-bottom:1px solid rgba(0,0,0,0.06);}
+.db-all-events .ehead md-menu>span{position:relative;}
+.db-all-events .ehead md-menu>span:after{content:"";height:1px;width:100%;background-color:rgba(0,0,0,0.12);position:absolute;top:75%;}
+.db-all-events .db-evnts-detail{}
+.db-all-events .db-evnts-detail .shiftsD{margin:20px 0;}
+.db-all-events .db-evnts-detail .shiftsD md-list-item{margin:10px 0 10px 25px;}
+.db-all-events .db-evnts-detail .shiftsD md-list-item span{margin:0 0 0 5px;}
+.db-all-events .db-evnts-detail .shiftsD md-list-item:last-child{margin-bottom:0;}
+.db-all-events .db-evnts-detail .md-subheader{background-color:rgb(255,255,255);color:#7b8994 !important;}
+.db-all-events .db-evnts-detail md-list{padding:0;}
+.db-all-events .db-evnts-detail md-list md-list-item{min-height:26px;}
+.db-all-events .db-evnts-detail md-list md-list-item md-icon{margin:0 8px 0 0;height:8px;width:8px;font-size:8px;}
+.q-dashboard .nb-bx .panel-box:last-child{margin-bottom:24px;}
+.q-dashboard .owl-carousel .owl-buttons div{background-color:rgb(255,255,255);-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+.q-dashboard .owl-carousel .owl-buttons div.owl-next{right:-2px;top:50%;}
+.q-dashboard .owl-carousel .owl-buttons div.owl-prev{left:-2px;top:50%;}
+.timer-time{line-height:1em;font-size:3.3em;color:rgb(100, 197, 149);font-weight:600;}
+.timer-time .clckIn{color:rgb(0, 126, 229);}
+.timer-time .brk-time{color:#f3a112;}
+.timer-container{height:1em;overflow:hidden;position:relative;}
+.timer-box{height:1em;margin:auto;position:relative;}
+.timer-box > span{position:relative;font-weight:400;}
+.clock-meter-bx .ln-crv-selct{top:5px;}
+.clock-meter-bx .time-summary{margin-top:5px;}
+.clock-meter-bx .time-summary .timer-time{font-size:1.3em;}
+.clock-meter-bx .w-hrs .owl-item{text-align:center;}
+.clock-meter-bx .w-hrs .owl-item .a-hrs{font-size:1.8em;}
+.tA-graph-bx{border-left:1px solid rgb(0 126 230 / 10%) !important;}
+.q-dashboard .q-f-timeoff .qndle-strips.qf-strips .md-button.sm-btn{ font-weight: 400; border-radius: 14px;padding: 0 15px; border-color: rgba(0,126,229, 0.2);-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+.q-dashboard .q-f-timeoff .qndle-strips.qf-strips .md-button.sm-btn:hover{background-color:#fff;border-color:rgba(0,126,229, 0.2);}
+.q-dashboard .tim-off-d{border-right:1px solid rgba(0,0,0,0.06);}
+.q-dashboard .tim-off-d p{margin-bottom:0px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.q-dashboard .tim-off-d .md-subhead.lv-blnc{padding:8px 8px 0;margin-bottom:5px;}
+.q-dashboard .tim-off-d #upcoming-h{padding-bottom:16px;}
+.q-dashboard .tim-off-d #lv-blnc small{font-size:13px;}
+.q-dashboard .tim-off-d .upcm-h{padding:0 8px;margin:5px 0;}
+.q-dashboard .tim-off-d .upcm-h span{margin-right:5px;}
+.q-dashboard .tim-off-d .lnum{font-size:24px;color:rgb(0,126,229);}
+.q-dashboard .tim-off-d .owl-carousel .owl-item{padding:0 6px;text-align:center;}
+.exit-p-wdgt .layout-padding{padding:8px 8px 0 8px;}
+.exit-p-wdgt .layout-padding:last-of-type{padding-bottom:8px;padding-top:0px;}
+.exit-p-wdgt span.ntx{margin-left:8px;}
+.exit-p-wdgt .qmchip{margin:0 0 0 8px !important;background-color:transparent !important;}
+.exit-p-wdgt md-divider{margin:0 0 8px !important;}
+.exit-p-wdgt .md-button{padding:0 8px;}
+.overviw_rgt_grph{margin:8px 0 10px;}
+.overviw_rgt_grph > div:first-child{position:relative;min-height:220px;height:220px;}
+.overviw_rgt_grph > div:last-child{position:absolute;width:98%;left:1%;z-index:0;}
+.overviw_rgt_grph > div:last-child > .md-button:first-child{position:absolute;bottom:-11px;left:0px;}
+.overviw_rgt_grph > div:last-child > .md-button:last-child{position:absolute;bottom:-11px;right:0px;}
+/* .highcharts-legend-item tspan{font-weight:600;} */
+.overviw_rgt_grph .md-button i.fa{line-height:30px;font-size:20px;}
+.overviw_rgt_grph .md-button i.fa{position:absolute;top:50%;height:30px;line-height:30px;width:30px;text-align:center;border-radius:50%;transition:all 0.2s ease;transform:translateY(-50%);background-color:rgb(255, 255, 255);left:5px;}
+.overviw_rgt_grph .md-button:hover i.fa{-webkit-box-shadow:1px 2px 8px 0 rgba(0,0,0,0.33);-moz-box-shadow:1px 2px 8px 0 rgba(0,0,0,0.33);box-shadow:1px 2px 8px 0 rgba(0,0,0,0.33);}
+.ceo_msg{background-color:#FFE9C0 !important;}
+
+/*css for calendar active date*/
+.cal-open{
+    background-color: rgba(247,247,147,0.3);
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.23);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.23);
+}
+.cal-slide-content{background-color: rgba(247,247,147,0.3);}
+.cal-cell.drop-active, .cal-day-hour-part.drop-active, .cal-week-box .cal-cell1.drop-active, .cell-focus, [class*=cal-cell] .drop-active, [class*=cal-cell]:hover
+{background-color: transparent !important;}
+.cal-month-day:hover{background-color: rgba(247,247,147,0.3) !important;}
+.cal-open:hover{background-color: rgba(247,247,147,0.3) !important;}
+/*.cal-slide-box.collapse.in {
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.23);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.23);
+}*/
+.db-sidenav md-list md-list-item .md-button .txt-size-fix{
+	width: 175px;
+}
+/*css added for calendar legends*/
+.cal-month-day .cal-events-num{display: block;
+	border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;margin-top: 8px;font-size: 9px;color:#fff;background-color: #786d5e;}
+.events-list{max-height: 32px;overflow: hidden;}
+
+/* ********************21 revamp************** */
+
+.deshboard_avg_list {
+    padding: 4px 0px 5px;
+    border-radius: 31px;
+    min-height: 62px;
+}
+#w-hrs {
+    padding: 0 12px;
+}
+#w-hrs .owl-theme .owl-controls .owl-nav [class*=owl-] {
+    margin: 0px;
+}

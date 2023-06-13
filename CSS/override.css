@@ -1,0 +1,275 @@
+.md-subhead {font-size: 14px; }
+md-list-item ._md-list-item-inner ._md-secondary-container, md-list-item ._md-secondary-container {
+	height: inherit;}
+a.md-default-theme:not(.md-button), a:not(.md-button) {	color: #3d464d;}
+a.md-default-theme:not(.md-button):hover, a:not(.md-button):hover {	color: rgb(0, 126, 229);}
+md-content.md-default-theme, md-content {color: inherit;}
+md-menu-item {min-height: 35px !important;	height: 35px;}
+md-menu-item .md-button {line-height: 32px;}
+md-menu-item>.md-button {font-size: inherit;}
+md-menu-item>.md-button:hover, md-menu-item>.md-button:hover {}
+md-option {height: 40px;}
+
+/*---Calender Issue on Popup---*/
+.md-datepicker-calendar-pane {
+	z-index:9999 !important;
+}
+.md-datepicker-input-container {
+	padding-bottom: 0;
+}
+.md-datepicker-calendar-pane .md-datepicker-input-mask {
+	width: auto !important;
+}
+md-icon.md-datepicker-calendar-icon {
+	color: rgba(0,0,0,0.30);
+}
+
+/*---For Popup Zindex Issue---*/
+._md-select-menu-container {
+ z-index: 9999;
+}
+.ln-crv-selct md-input-container>md-select {
+	position: relative;
+	top:-4px;
+}
+/*-----//End Select Box----*/
+
+/*-----Radio Button Color Css----*/
+md-radio-button.md-default-theme ._md-off, md-radio-button ._md-off,
+md-checkbox.md-default-theme:not([disabled]).md-primary ._md-icon, 
+md-checkbox:not([disabled]).md-primary ._md-icon {
+    border-color: rgba(0,0,0,0.23);
+}
+
+/*---Input Error Spacer issues---*/
+md-input-container .md-errors-spacer {
+	min-height: initial;
+}
+md-input-container small {
+	line-height: 20px;
+	color: rgba(0,0,0,0.30);
+	display: block;
+}
+
+/*---Dropdown Shadow---*/
+md-select-menu, ._md-open-menu-container.md-whiteframe-z2 {
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 15px 2px;z-index: 9999;
+}
+
+/*---Input Label-----*/
+md-input-container ._md-placeholder, md-input-container 
+label:not(.md-no-float):not(._md-container-ignore) {
+	font-weight: normal;
+}
+
+/*---For Autocompelete---*/
+.md-virtual-repeat-container.md-autocomplete-suggestions-container {
+    z-index: 999999 !important;
+}
+
+/*--------Inside md-menu-item button Issue in moz-----*/
+md-menu-item > .md-button {
+	-moz-display: initial;
+	display: initial;
+}
+.modal-open ._md-open-menu-container {
+	z-index: 9999;
+}
+md-menu-content.check-bxs .md-button {
+	display: flex;
+	align-items: center;
+}
+md-menu-content md-menu-item md-checkbox {
+	display: initial;
+}
+md-menu-content md-menu-item:last-child md-checkbox {
+    margin-bottom: 0;
+}
+md-divider {
+	margin-bottom: 24px !important;
+	margin-top: 24px !important;
+}
+md-backdrop._md-sidenav-backdrop {
+	z-index: 1;
+}
+.md-datepicker-input-container {
+	margin: 0;
+}
+.md-button.md-icon-button {
+	margin: 0;
+}
+.flex-19 {
+	max-width: 19%;
+	flex: 1 1 19%;
+}
+.flex-18 {
+	max-width: 18%;
+	flex: 1 1 18%;
+}
+.flex-17 {
+	max-width: 17%;
+	flex: 1 1 17%;
+}
+.flex-16 {
+	max-width: 16%;
+	flex: 1 1 16%;
+}
+.flex-14 {
+	max-width: 14%;
+	flex: 1 1 14%;
+}
+.flex-13 {
+	max-width: 13%;
+	flex: 1 1 13%;
+}
+.flex-12 {
+	max-width: 12%;
+	flex: 1 1 12%;
+}
+.flex-11 {
+	max-width: 11%;
+	flex: 1 1 11%;
+}
+
+/*------- Md Toolbar ---------------*/
+md-toolbar {
+	min-height: 56px;z-index: 10;
+}
+md-toolbar .md-toolbar-tools {
+	height: 56px;
+	max-height: 56px;
+}
+md-toolbar .md-toolbar-tools .md-button {
+	margin: 0 8px !important;
+}
+md-toolbar .md-toolbar-tools .t-srch-bar {
+	background-color: rgb(255,255,255);
+	border-radius: 22px;
+	padding-left: 12px;
+	font-size: 14px;
+	position: relative;min-height: 40px;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 26%);
+}
+md-toolbar .md-toolbar-tools .t-srch-bar md-input-container.md-icon-left {
+	padding-left: 46px;
+}
+md-toolbar .md-toolbar-tools .t-srch-bar md-input-container.md-icon-left md-icon {
+	left: 15px;
+}
+md-toolbar.white-bg .md-toolbar-tools md-input-container {
+	font-size: 16px;
+}
+md-toolbar.white-bg .md-toolbar-tools md-menu .md-button:hover {
+	background-color: transparent;
+}
+/*------- //End Md Toolbar ---------------*/
+
+/*Tab*/
+md-tabs-canvas, md-pagination-wrapper {
+	height: 60px;
+}
+.md-tab {
+	line-height: 30px;
+	padding: 15px 24px;
+	font-weight: 600;
+}
+md-ink-bar {
+	height: 1px;
+}
+.sm-btn .fa{
+    margin-right: 0 !important;
+}
+user-avatar img {
+	max-width: 220px;
+    width: auto;
+    max-height: 120px;
+    height: auto;
+}
+.md-title{font-size: 20px !important;}
+.ovrflw{overflow: hidden!important;}
+
+.lm_tab_sty2 md-tabs-canvas, .lm_tab_sty2 md-pagination-wrapper {
+    height: 46px;
+    background: #fff;
+    border-radius: 42px;
+} 
+.lm_tab_sty2 md-tabs-wrapper {
+	padding: 12px;
+}
+.lm_tab_sty2 md-tab-item.md-tab{
+	padding: 9px 12px;
+	font-weight: 500;
+}
+.lm_tab_sty2 md-ink-bar {
+   height: 2px !important;
+}
+.lm_tab_sty2 md-tabs-wrapper {
+    background-color: rgb(51 51 51 / 0%) !important;
+} 
+
+.lm_tab_sty2 md-tabs-canvas.md-paginated {
+    margin: 0 20px;
+}
+
+.lm_tab_sty2 md-tabs-wrapper {
+	border-width: 0 0 0px !important;
+}
+.lm_cln_line {
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    border-radius: 10px;
+}
+.lm_cln_line.red{
+	background: rgb(219, 67, 54);
+}
+.lm_cln_line.orange{
+	background:rgb(250, 160, 93)
+}
+.lm_cln_line.purpul {
+	background: #333;
+}
+.lm_cln_line.blue {
+	background: rgb(0, 126, 229);
+}
+.lm_cln_line.green {
+	background: rgb(112, 164, 61);
+}
+.lm_cln_line.light-gray{
+	background: rgba(0, 0, 0, 0.16);
+}
+.lm_cln_st{
+	background: #fbfcfe;
+	border: 1px solid rgb(0 126 229 / 30%);
+	border-left: 0px;
+	padding: 13px 0 0 20px;
+	border-radius: 0 30px 30px 0;
+}
+.lm_cln .cal-row-head {
+    background-color: #4ca4ed;
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 26px;
+    width: calc(100% + 32px);
+    margin-left: -16px;
+    padding: 0 16px;
+} 
+.lm_cln .cal-row-head [class*=cal-cell] {
+    color: #fff;
+    font-weight: 500;
+}
+.lm_cln .cal-month-box [class*=cal-cell], .cal-year-box [class*=span] {
+    border-right: 1px solid rgb(0 126 229 / 30%);
+    border-bottom: 1px solid rgb(0 126 229 / 30%);
+}
+.lm_cln .cal-month-box, .cal-week-box, .cal-year-box {
+    border-color: rgb(0 126 229 / 30%);
+
+}
+
+
+
+
+

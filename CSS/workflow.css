@@ -1,0 +1,29 @@
+.add-nw-rqst-frm .row-head > div{
+    font-size: 13px;
+    padding: 0 10px;
+    color: #3d464d;
+}
+.add-nw-rqst-frm .row-head:first-child > div{
+    padding: 10px;
+}
+.add-nw-rqst-frm .row-head > div:first-child{
+    margin-right:10px;
+}
+.add-nw-rqst-frm .row-head md-input-container>md-select {
+    top: 0;
+}
+.workflow_chips_wrap .multi-drp-dwn-chips{font-size: 11px;display: inline-block;}
+.workflow_chips_wrap .qmchips .qmchip{font-size: 11px !important;margin: 0 -4px !important;}
+.workflow_chips_wrap .multi-drp-dwn-chips .mr-c{padding: 0 7px;}
+.workflow_chips_wrap .multi-drp-dwn-chips .qmchips{min-width: 200px;}
+.workflow_chips_wrap .qmchips .qmchip md-icon{font-size: 14px;display: flex;align-items: center;}
+.chp-input-cntainer{
+    margin:0 0 -2px 0;
+}
+.wrkflw-chips .md-chips ._md-chip-input-container input{
+    font-size: 12px;
+    height: 50px;
+}
+.bck{
+    position: relative;
+}

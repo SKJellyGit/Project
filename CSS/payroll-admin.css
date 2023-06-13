@@ -1,0 +1,133 @@
+/*PAYMENT SUMMARY tab css start*/
+.qf_payroll_frnd .ln-yrs-selct md-select-value{
+    border-bottom: 0;font-weight: bold;border-color: transparent !important;
+}
+.qf_payroll_frnd .tp_yrs_mth > div:first-child{padding:10px;}
+.qf_payroll_frnd .tp_yrs_mth > div:last-child{
+	border-left:1px solid rgba(0,0,0,0.12);
+}
+.qf_payroll_frnd .pay_sum_tab{    background-color: rgb(236,239,241) !important;}
+.qf_payroll_frnd .pay_stats{position: relative;position: relative;
+    margin-top: 24px;margin-bottom: 6px;}
+.qf_payroll_frnd .pay_stats li{float:left;}
+.qf_payroll_frnd .pay_stats li ul li{padding-right: 5px;}
+.qf_payroll_frnd .pay_stats .sts_tp_hd{position: absolute;top:-20px;margin-left: -15px;}
+.qf_payroll_frnd .pay_sum_tab  .qndle-strips.q-n-stripes .strips-item{min-height: 100px;}
+.qf_payroll_frnd .pay_sum_tab .qndle-strips.q-n-stripes .strips-item:hover{background-color: transparent;}
+.qf_payroll_frnd .yrs_wrap md-ink-bar{height: 0 !important;}
+.qf_payroll_frnd .yrs_wrap md-tabs-wrapper{border:0;}
+.qf_payroll_frnd  .yrs_wrap md-tab-item span{padding:5px 10px;}
+.qf_payroll_frnd  .yrs_wrap .md-active span{background: blue;
+    color: #fff;
+    padding: 5px 10px;border-radius: 5px;transition:all 0.10s ease;
+}
+.qf_payroll_frnd .invest_proof_tab .multi-menu-bar-item md-menu-bar button{padding:0 13px;}
+.qf_payroll_frnd .run_payroll_tab .run_pay_subhead li{float: left;}
+.qf_payroll_frnd .run_payroll_tab .run_pay_subhead li:after{
+	    content: '\2503';    padding: 0 5px;}
+.qf_payroll_frnd .run_payroll_tab .run_pay_subhead li:last-child:after{
+	content:'';
+}
+.qf_payroll_frnd.qf_manager_frntend .qf_mng_provision .qf_emp_nm > div > div{width: 240px;}
+
+.qf_payroll_frnd.qf_manager_frntend .qf_mng_provision .qf_dev_assign > div > div{width: 160px;}
+.qf_payroll_frnd.qf_manager_frntend .qf_mng_provision .qs_prov_wrap{font-size: 12px;}
+/*PAYMENT SUMMARY END//*/
+
+.payrll-tbl > div{
+	border-bottom:1px solid #d9d9d9;
+}
+.payrll-tbl > div div{
+	border-right:1px solid rgba(0,0,0,0.12);
+}
+.payrll-tbl{
+	border:1px solid #d9d9d9;
+	border-radius:2px;
+}
+.payrll-tbl > div:last-child{
+border-bottom:0;
+border-right:0;
+}
+.payrll-tbl > div div:nth-child(2){
+	border-right:1px solid rgba(0,0,0,0.12);
+	border-left:1px solid rgba(0,0,0,0.12);
+}
+.payrll-tbl > div div:first-child, .payrll-tbl > div div:last-child{
+	border:0;
+}
+.assoc_slt_flds{margin-bottom: 20px;}
+.assoc_slt_fldwrap> div:first-child{padding:10px 15px;}
+.assoc_slt_fldwrap> div:first-child span{padding-right: 5px;}
+.accordian_expandwrap{padding:10px 0 0 40px;}
+.accordian_expandwrap .accordian_expandwrap{padding-left: 30px;}
+
+/*Second Sub-tab of Payments tab*/
+.qf_payroll_frnd .pay-details .qndle-strips .strips-heading{
+	font-size: 13px;
+}
+/*Second Sub-tab of Payments tab*/
+.qf_payroll_frnd .filings .filing-img img{
+	margin-right:5px;
+}
+.qf_payroll_frnd .filings .bonus .qndle-strips .strips-heading{
+	font-size: 12px;
+}
+.pf-uan .pf-uan-edit md-icon{
+	display: none;
+}
+.pf-uan .pf-uan-edit:hover md-icon{
+	display: inline-block;
+}
+.qf_payroll_frnd .tsk-summry md-card{
+    min-height: 130px;
+}
+.regis-reprts v-accordion v-pane v-pane-header{
+	background-color: rgba(0,0,0,0.02);
+    padding-left: 20px;
+    padding-right: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(0,0,0,0.05);
+    margin-bottom:10px;
+}
+.regis-reprts v-accordion v-pane v-pane-header h5{
+	font-weight: bold;
+}
+.regis-reprts .vAccordion--default v-pane-header::after, .regis-reprts .vAccordion--default v-pane-header::before{
+	right:20px;
+}
+.regis-reprts .vAccordion--default v-pane:last-child v-pane-content{
+	margin-bottom:24px;
+}
+.pay-claims .qndle-strips .strips-heading{
+	font-size: 11px
+}
+.pay-claims .qndle-strips .strips-item, .pay-claims .qndle-strips .strips-item div:first-child{
+	font-size: 12px;
+} 
+.per-emp-details p span{
+	color:#3d464d !important;
+	margin:0 0 0 10px;
+}
+.per-emp-details p{
+	color:#7b8994;
+	margin:0 0 20px 0;
+}
+.per-emp-details p small{
+	font-size: 14px;
+}
+.invst_declar.ln-yrs-selct{border-right: 1px solid rgba(0,0,0,0.12);min-height: 54px;line-height: 42px;padding: 0 13px;}
+.invst_declar.ln-yrs-selct md-select-value{font-weight: normal;color: rgba(0,0,0,0.54);}
+.payroll_cycle_chrt .highcharts-container{width: 100% !important;}
+.qa-gray-bg{background-color: rgba(128, 128, 128, 0.21); }
+.qa-gray-bg:hover{background-color: rgba(128, 128, 128, 0.21) !important;}
+.loan_advance_wrap li{list-style-type: disc !important; }
+.loan_advance_wrap li li{list-style-type: circle !important; }
+.yrs_wrap md-tabs.md-default-theme.md-accent > md-tabs-wrapper, .yrs_wrap md-tabs.md-accent > md-tabs-wrapper{background-color: transparent;}
+.qf_payroll_frnd .tp_yrs_mth .md-tab{padding:11px;}
+.qf_payroll_frnd .tp_yrs_mth md-tabs-canvas, .qf_payroll_frnd .tp_yrs_mth md-pagination-wrapper{width: 100% !important;}
+.investment_amount_tab .strips-heading > div:first-child > div, .investment_amount_tab .strips-item > div{
+	min-width: 150px;max-width: 150px;
+}
+.investment_amount_tab.qndle-strips{overflow: auto;display: grid;}
+
+.perquisite_yrs_wrap .md-tab{padding:12px!important}

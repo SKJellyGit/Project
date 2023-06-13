@@ -1,0 +1,358 @@
+
+.qf_manager_frntend > div:first-child {
+    position: relative;
+}
+.md-transform .highcharts-container { transform: scale(1.3);}
+.qf_manager_frntend .qf_mng_provision .qs_prov_wrap {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+.qf_manager_frntend .qf_mng_provision .qf_emp_nm > div > div:first-child {
+    background-color: #f9f9f9;
+    border-right: 0;
+}
+.qf_manager_frntend .qf_mng_provision .multi-menu-bar-item {
+    border-bottom: 0;
+}
+.qf_manager_frntend .qf_mng_provision .qf_dev_assign .qf_emp_dev_stats > div {
+    word-break: break-word;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);display: flex;
+}
+
+/*css for provision tab*/
+.qf_manager_frntend .qf_mng_provision .qf_emp_nm {
+    float: left;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.23);
+}
+.qf_manager_frntend .qf_mng_provision .qf_dev_assign {
+    overflow: auto;
+    width: 100%;
+   /*display: inline-grid;*/ display: -webkit-inline-box;
+   display: inline-grid;
+}
+.qf_manager_frntend .qf_mng_provision .qf_dev_assign > div:first-child {
+    background-color: #f9f9f9;
+    display:  -webkit-inline-box;
+   
+}
+.qf_manager_frntend .qf_mng_provision .qf_dev_assign > div {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    display: inline-flex;
+    width: 100%;
+}
+.qf_manager_frntend .qf_mng_provision.pro-view .qf_emp_nm > div > div {
+    width: 450px!important;
+}
+.qf_manager_frntend .qf_mng_provision.pro-view .qf_emp_nm > div > div > div {
+    width: 150px;
+}
+.qf_manager_frntend .qf_mng_provision.pro-view .qf_dev_assign .qf_emp_dev_stats > div {
+    border-right: 0;
+}
+.qf_manager_frntend .qf_mng_provision .qf_dev_assign > div > div:first-child {
+    min-width: 175px;
+}
+.qf_manager_frntend .qf_mng_provision.pro-view .qf_dev_assign > div > div span {
+    margin-left: 0;
+}
+.qf_manager_frntend .qf_mng_provision.pro-view .qf_emp_nm > div > div {
+    height: 60px;
+    min-height: 60px;
+}
+.qf_manager_frntend .qf_mng_provision.pro-view .qf_dev_assign > div > div {
+    height: 59px;
+    min-height: 59px;
+}
+.qf_manager_frntend .qf_mng_provision.proalc .qf_dev_assign > div > div {
+    height: 60px;
+    min-height: 60px;
+}
+.qf_manager_frntend .qf_mng_provision.proalc .qf_dev_assign > div > div span {
+    margin-left: 0;
+}
+.qf_manager_frntend .qf_rel_timeoff md-tabs-wrapper {
+    background-color: #fff;
+}
+.qndle-strips .strips-heading.pro-manager span {
+    margin-left: 0;
+}
+.qf_manager_frntend .qf_rel_programs .q-n-stripes .strips-item > div:last-child .md-button {
+    min-width: auto;
+}
+.qf_manager_frntend .qf_rel_programs .dsble_bg {
+    background-color: rgba(0, 0, 0, 0.30);
+}
+.qf_manager_frntend .comp_stats {
+    font-size: 12px;
+    height: 12px;
+}
+.mg_tp_24 {
+    margin-top: 24px;
+}
+.bg_tab {
+    background-color: rgb(236, 239, 241);
+}
+.qf_manager_frntend .qf_rel_overview .multi-menu-bar-item md-menu-bar md-menu>button {
+    padding: 0 19.8px;
+}
+
+/*changes in common.css*/
+.multi-menu-bar-item md-menu-bar button {
+    height: 60px;
+}
+.multi-menu-bar-item md-menu-bar md-menu {
+    float: left;
+}
+.add-stock-pop .prov_wrap_txt {
+    overflow: auto;
+}
+.add-stock-pop .slct_prov_wrap > div {
+    min-width: 140px;
+    max-width: 140px;
+    float: left;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.qs_prov_wrap.prov_vw_tb .qf_dev_assign > div > div{border-right: 0 !important;}
+.add-stock-pop .slct_prov_wrap {
+    display: inline-flex;
+    width: 100%;
+}
+.add-stock-pop .prov_wrap_txt .slct_prov_wrap:first-child() > div {
+    border: 0;
+}
+
+/*view details popup css*/
+.add-stock-pop .prov_wrap_txt{overflow: auto;
+    width: 100%;}
+.add-stock-pop .slct_prov_wrap > div{min-width: 140px;max-width: 140px;
+    float: left;padding: 8px;border:1px solid rgba(0,0,0,0.12);}
+.add-stock-pop .slct_lnd_wrap > div{min-width: 200px;max-width: 500px;
+    float: left;padding: 10px;border:1px solid rgba(0,0,0,0.12);}
+.add-stock-pop .slct_prov_wrap{display: inline-flex;width: 100%;}
+.add-stock-pop .prov_wrap_txt .slct_prov_wrap:first-child() > div{border:0;}
+.qf_prov_typ {
+    overflow: auto;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    max-height: 300px;
+}
+.qf_prov_typ > div:first-child {
+    background-color: rgba(0, 0, 0, 0.022);
+}
+.qf_prov_typ > div {
+    display: inline-flex;
+    min-width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.qf_prov_typ > div > div {
+    width: 130px;
+    float: left;
+    padding: 10px;word-break: break-word;
+}
+.qf_prov_typ > div:last-child {
+    border-bottom: 0;
+}
+.qf_pro_hstry {
+    padding: 20px 0;
+}
+.qf_manager_frntend .qf_mng_provision .qf_emp_nm > div > div {
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    width: 190px;
+    padding: 10px;
+    height: 85px;
+    min-height: 85px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.qf_manager_frntend .qf_mng_provision .qf_dev_assign > div > div {
+    width: 130px;
+    padding: 10px;
+    min-height: 85px;
+    height:85px;
+    min-width: 130px;
+    border-right: 1px solid rgba(0,0,0,0.12);
+}
+.qf_provsn .qf_emp_dev_stats > div .xs_md_icon {
+    font-size: 15px !important;
+    height: 15px;
+    width: 15px;
+    margin: 0!important;
+}
+.qf_emp_dev_stats .xs_md_icon {
+    font-size: 15px;
+    height: 15px;
+    width: 15px;
+    margin: 0!important;
+}
+.qf_emp_dev_stats .brkdurtn:hover .customPopover {
+    display: block;
+}
+.qf_emp_dev_stats .brkdurtn .customPopover {
+    display: none;
+}
+
+/*for Singnature canvas*/
+.signature canvas {
+    width: 610px;
+}
+.draw_initial canvas {
+    width: 360px;
+}
+.time-off_statutab .md-button.md-icon-button {
+    padding: 0 !important;
+    height: auto !important;
+}
+
+/*for attendance shift details events*/
+.events_dots {
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+    margin-right: 6px !important;
+}
+.org_char_vw_prof {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/*for text overflow*/
+.txt_overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    max-height: 60px;white-space: nowrap;display: block;
+}
+.qf_manager_frntend .qf_mng_provision.pro-view .qs_prov_wrap.prov_vw_tb .qf_dev_assign > div > div{
+    height:80px;
+}
+
+/*for autocomplete*/
+md-autocomplete input:not(.md-input){
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    padding: 0 0px;
+    margin: 0 8px;
+}
+
+/*css for calendar*/
+.cal-month-box, .cal-week-box, .cal-year-box{
+    border-top:none !important;
+}
+.cal-row-head{
+    border-top:none !important;
+}
+.cal-row-head [class*=cal-cell]{
+    border-top:1px solid rgba(0,0,0,0.06);
+}
+.cal-row-head [class*=cal-cell]:last-child{
+    border-top: 1px solid rgba(0,0,0,0.06);
+    border-right: none;
+}
+.add-stock-pop .prov_wrap_txt > div:first-child > div{
+    background-color: rgba(0, 0, 0, 0.022) ;
+}
+
+/*css for birthday widget*/
+.ceo_msg{background-color: #FFE9C0 !important;}
+.birth_widget{margin-left: 24px;margin-bottom: 24px !important;/*min-height: 310px;*/}
+.birth_widget md-datepicker .md-datepicker-input-container{border:0;}
+.birth_widget md-datepicker .md-datepicker-triangle-button{display: none;}
+.birth_wid_Wrap .item img{border: 5px solid #fff;margin: 0 auto;width:60px;height:60px;border-radius: 50%;box-shadow: 1px 1px 5px rgba(0,0,0,0.23);}
+.birth_wid_Wrap .item .md-button{margin-right:0;}
+.birth_widget md-tab-item span sup{background-color: red;color: #fff !important; padding: 1px 5px;border-radius: 50%;position: relative;top: -15px;}
+.birth_wid_Wrap .owl-carousel .owl-item img{border: 5px solid #fff;margin: 0 auto;width:80px;height:80px;border-radius: 50%;box-shadow: 1px 1px 5px rgba(0,0,0,0.23);}
+.birth_wid_Wrap .owl-item.active .birth_men{display: none;min-height: 48px;}
+.birth_wid_Wrap .owl-item.center .birth_men{display: block;min-height: 48px;}
+
+/*action widget dashboard css starts*/
+.action_widget md-list-item img{margin-top: 0;}
+.action_widget md-list{max-height: 500px;overflow: auto;}
+.action_widget md-list-item button{border-radius: 3px;margin-bottom: 20px !important;}
+.action_widget md-list-item .md-avatar{width: 45px;height: 45px;}
+.action_widget md-list-item button:first-child{margin-left:0;}
+.action_widget md-list-item{border-bottom: 1px solid rgba(0,0,0,0.12);}
+.action_widget .panel-box-header2{position: relative;}
+.action_widget .notification_count{
+    background-color: rgb(219, 67, 54);
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: block;
+    text-align: center;
+    font-size: 9px;
+    line-height: 17px;
+    z-index: 999;
+    position: absolute;
+    top: 10px;
+    left: 102px;
+    color: #fff;
+}
+/*action widget dashboard css ends*/
+
+/*css for owl-carousel */
+.owl-prev {position: absolute;top: 30%;left: -5px;}
+.owl-next {position: absolute;top: 30%;right: -5px;}
+.owl-theme .owl-controls{margin-top: 0;}
+.birth_wid_Wrap .owl-prev {position: absolute;top: 30%;left: -6px;}
+.birth_wid_Wrap .owl-next {position: absolute;top: 30%;right: -5px;}
+.owl-nav > div{width: 30px;height: 30px;border-radius: 50% !important;transition:all 0.4s ease;background-color: rgb(255,255,255) !important;color:gray !important;}
+.owl-nav > div:hover{
+   -webkit-box-shadow: 1px 2px 8px 0 rgba(0,0,0,0.33);
+    -moz-box-shadow: 1px 2px 8px 0 rgba(0,0,0,0.33);
+    box-shadow: 1px 2px 8px 0 rgba(0,0,0,0.33);
+}
+.no_birth_tody md-datepicker .md-datepicker-calendar-icon, .no_anniv_tody md-datepicker .md-datepicker-calendar-icon{color: rgb(0, 126, 229) !important;}
+.birth_wid_Wrap .owl-theme .owl-controls .owl-nav [class*='owl-']{padding: 4px 10px;}
+.no_birth_tody{background: url(../images/cake-bg.png) right bottom no-repeat, url(../images/top-snow.png) top center no-repeat;width:100%;}
+.no_anniv_tody{background: url(../images/badge-bg.png) right bottom no-repeat, url(../images/top-snow.png) top center no-repeat;width:100%;}
+.birth_widget  md-tabs md-tab-content > div:first-child{min-height: 289px;display: inline-flex;width: 100%;}
+.dsbrd-request-scroller{max-height: 245px;overflow: auto;}
+
+/*css for scroller*/
+.mCSB_scrollTools a+.mCSB_draggerContainer{margin: 5px 0;}
+.mCSB_container_wrapper>.mCSB_container{padding-right: 0px;}
+.mCSB_container_wrapper{margin-right: 0;}
+.mCSB_scrollTools{width: 10px;}
+.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCS-3d-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-3d-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCS-3d.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-3d.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar
+{background-color: rgba(0,126,229,0.4);}
+.mCS-3d-dark.mCSB_scrollTools .mCSB_draggerRail{
+    background-color: transparent;/* box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/box-shadow: none;}
+
+/*for autocomplete image size*/
+.md-autocomplete-suggestions li .item-title > img{width: 24px;height: 24px;border-radius: 50%;}
+
+/*for md-select-backdrop*/
+md-backdrop._md-select-backdrop {z-index: 9999; }
+#approve-reject{overflow: auto;}
+.tm-lst ng-include{opacity: 1;}
+.main-sidenav user-avatar:focus{outline: none;}
+
+/*performance css*/
+.own_tab_wrap > div:first-child{border-right:1px solid rgb(0 126 230 / 10%);}
+.own_tab_wrap .rec_activity{max-height: 270px;overflow: auto;}
+.own_tab_wrap .rec_activity > .avatarInfo{margin-bottom: 15px;}
+.fa.fa-share-square-o{font-size: 20px;}
+
+.no-wrap{white-space: nowrap;}
+
+/*css for fixed assets column*/
+.qf_assets_fx{
+    border: 1px solid rgba(0,0,0,0.12);
+    border-left: 0;
+    border-right: 0;display: inline-grid;}
+.qf_assets_fx > div:first-child > div, .qf_assets_fx > div > div > div
+{   width: 141px;
+    padding: 10px;
+    min-height: 70px;
+    height: 70px;
+    min-width: 141px;
+    border-right: 1px solid rgba(0,0,0,0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qf_assets_fx > div > div{
+    border-bottom:1px solid rgba(0,0,0,0.12);
+}
+.radio_btn_mrg md-radio-button ._md-label{margin-left: 15px;}
+
+.md-font10 {font-size: 10px !important;}

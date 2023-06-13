@@ -1,0 +1,46 @@
+.view-history v-pane-header{
+    text-align:center;
+    border-bottom:0;
+}
+.view-history v-pane-header .hstry-view{
+    padding: 5px 10px;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+
+}
+.view-history v-pane-header .hstry-view::before{
+    content:'';
+    display: flex;
+    align-items: center;
+    top:22px;
+    height: 1px;
+    width:100%;
+    background:#ccc;
+    position: relative;
+}
+.view-history .vAccordion--default v-pane-header::after, .view-history .vAccordion--default v-pane-header::before{
+    display: none;
+}
+.view-history .vAccordion--default v-pane-content>div{
+    padding:0;
+}
+.view-history .hstry-view .md-button{
+    background-color: #f4f4f4 !important;
+}
+.icnlft{
+    margin:0 0 0 5px;
+}
+.req_leave .form-builder{
+    margin:20px 0;
+}
+.req_leave .form-builder.md-whiteframe-6dp {
+    border-left:0;
+}   
+.req_leave .md-chips ._md-chip-input-container input{
+    font-size: 12px;
+}
+.rqst-leave-chain .qmchips .chp-cont{
+    display: initial;
+}

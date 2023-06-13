@@ -1,0 +1,37 @@
+.helpdesk-sttngs .qmchips .qmchip { margin: 0 4px 4px 0 !important; }
+.hlp-dsk-chp-cont .qmchips .qmchip { padding:0 10px 0 0; }
+.helpdesk-sttngs .qndle-strips.q-n-stripes .strips-item .inline-input-container { margin:0 0 -2px 0 !important; }
+.helpdesk-sttngs .inpt-cntnr-icn { position: absolute; right: 0; bottom: 5px; }
+.helpdesk-sttngs .inpt-cntnr { position: relative; }
+.bck { position: relative; }
+.md-contact-suggestion {
+    display: flex;
+    align-self: initial;
+    width: 100%;
+    padding-left: 40px;
+    position: relative;
+    flex-direction: column;
+    }
+    .md-contact-suggestion .md-contact-name {
+    width: calc(100% - 40px);
+    min-width: 100%;
+    line-height: 14px;
+    margin-top: 10px;
+    font-weight: 500;
+    }
+    .md-contact-suggestion img {
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 8px;
+    position: absolute;
+    left: 0;
+    }
+    
+    .md-contact-suggestion .md-contact-email{
+    line-height: 14px;
+    margin-left: 8px;
+    margin-top: 8px;
+    }
+.helpdesk-sttngs .md-chips ._md-chip-input-container md-autocomplete md-autocomplete-wrap { right: 0; }
+.helpdesk-sttngs .md-chips { margin-bottom:-2px; }
+.helpdesk_emp_frnt .help_comm_sec{margin-right: 10px;}

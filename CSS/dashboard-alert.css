@@ -1,0 +1,18 @@
+.frnt_alerts .emp_avtar img{box-shadow: none;width: 45px;height: 45px; }
+.frnt_alerts .notif-ctnt{max-width: 100%; }
+.frnt_alerts .notify_content{overflow: hidden; text-overflow: ellipsis; line-height: 19px; }
+.frnt_alerts md-list-item ._md-no-style{padding: 0; min-height: 30px !important;}  
+.frnt_alerts md-list-item{padding: 15px; border-bottom: 1px solid rgba(0,0,0,0.05);background-color: rgba(0, 126, 229,0.05);}
+.frnt_alerts .notif_read{background-color: transparent !important; }
+.frnt_alerts .inner-cont{margin-top: 0 !important; }
+.frnt_alerts ul.q_pagination li{border-bottom: 0; }
+.frnt_alerts ul.q_pagination li.active { border-bottom: 1px solid rgba(0, 0, 0, 0.040) !important; }
+.frnt_alerts .pagination-first, .pagination-prev, .pagination-next, .pagination-last {border-bottom: 1px solid rgba(0, 0, 0, 0.040) !important; }
+.frnt_alerts .md-button md-icon{margin-right:5px !important; }
+.frnt_alerts .md-list-item-text{width:100%; }
+.frnt_alerts .notif_read md-radio-button.md-default-theme ._md-off, md-radio-button ._md-off, md-checkbox.md-default-theme:not([disabled]).md-primary ._md-icon, md-checkbox:not([disabled]).md-primary ._md-icon {	border-color: rgba(0,0,0,0.35) !important; }
+.frnt_alerts .actn-actn{max-height: 332px; overflow: auto;}
+/*added for button hover*/
+.frnt_alerts md-list-item ._md-no-style:hover{background-color: transparent;}
+.alert_comm{max-width: 330px !important;}
+

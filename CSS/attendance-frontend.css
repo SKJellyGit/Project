@@ -1,0 +1,263 @@
+.q-f-attendance .shift_details_tab .cal-month-day {
+    height: 18% !important;
+}
+.q-f-attendance .q-table .q-table-row {
+    border-bottom: none;
+}
+.q-f-attendance .q-table .q-table-cell {
+    position: relative;
+    min-height: 100px;
+    padding: 8px;
+    width: 14.285%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.q-f-attendance .q-table .q-table-cell:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.q-f-attendance .q-table .q-table-cell.wknd:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.q-f-attendance .q-table .q-table-cell.wknd {
+    background-color: #fdfdfd;
+}
+.q-f-attendance .q-table .q-table-cell md-menu {
+    padding: 0;
+}
+.q-f-attendance .q-table .q-table-cell md-icon {
+    margin: 0;
+}
+.q-f-attendance .q-table .q-table-cell .shft {
+    display: inline-block;
+}
+.q-f-attendance .q-table .q-table-cell .shft-t {
+    margin: 3px 0;
+}
+.q-f-attendance .q-table .q-table-cell .dt {
+    position: absolute;
+    right: 15px;
+    top: 4px;
+    font-weight: bold;
+}
+.q-f-attendance .q-table .q-table-cell .swap {
+    position: absolute;
+    right: 8px;
+    bottom: 0px;
+}
+.q-f-attendance .q-table .q-table-cell .shft-d {
+    display: none;
+}
+.q-f-attendance .q-table .q-table-cell:hover div,
+.q-f-attendance .q-table .q-table-cell:focus div,
+.q-f-attendance .q-table .q-table-cell:hover .swap,
+.q-f-attendance .q-table .q-table-cell:focus .swap {
+    display: block;
+}
+.q-f-attendance .q-table .q-table-cell:hover .qf_att_shft,
+.q-f-attendance .q-table .q-table-cell .qf_att_shft:focus .qf_att_shft {
+    display: flex;
+}
+.q-f-attendance .q-table .q-table-cell:hover .shft,
+.q-f-attendance .q-table .q-table-cell:focus .shft {
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+.q-f-attendance .q-table .q-table-cell.wknd:hover .shft {
+    padding: 0;
+}
+/*popup css*/
+
+.rqst-leave .md-datepicker-input {
+    max-width: 110px;
+}
+.rqst-chps .multi-drp-dwn-chips .qmchips .qmchip {
+    margin: 0 8px 8px 0;
+}
+.rqst-leave-chain .qmchips .qmchip .rqust-leave-cir {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    /*top: 20%;*/
+    left: -20%;
+    background-color: #d9d9d9;
+}
+.rqst-leave-chain .qmchips .qmchip {
+    background-color: transparent;
+    margin: 0 0px 8px 25px;
+    position: relative;
+}
+.rqst-leave-chain .qmchips {
+    margin: 7px 0 0 0;
+}
+.rqst-leave-chain .qmchips .qmchip .seprtion {
+    border-top: 1px solid #3d464d;
+    min-width: 30px;
+    margin: 0 15px 0 5px;
+}
+.chps-nobckgrnd .qmchips .qmchip {
+    background-color: transparent;
+}
+.view-history v-pane-header {
+    text-align: center;
+    border-bottom: 0;
+}
+.view-history v-pane-header .hstry-view {
+    padding: 5px 10px;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+}
+.view-history v-pane-header .hstry-view::before {
+    content: '';
+    display: flex;
+    align-items: center;
+    top: 22px;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    position: relative;
+}
+.view-history .vAccordion--default v-pane-header::after,
+.view-history .vAccordion--default v-pane-header::before {
+    display: none;
+}
+.view-history .vAccordion--default v-pane-content>div {
+    padding: 0;
+}
+.view-history .hstry-view .md-button {
+    background-color: #f4f4f4 !important;
+}
+.icnlft {
+    margin: 0 0 0 5px;
+}
+.req_leave md-input-container>md-select {
+    top: 0;
+}
+.display_none {
+    display: none;
+}
+.shift_details_tab.q-f-attendance .q-table .q-table-cell .shft-d {
+    display: block;
+}
+.day_cal_vw > div > div {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 0;
+}
+.day_cal_vw > div > div:first-child {
+    background-color: #fff;
+    border-right: 0;
+    padding: 5px;
+}
+.day_cal_vw > div:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.day_cal_vw > div > div > div {
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 5px;
+    height: 30px;
+    max-height: 30px;
+}
+.day_cal_vw > div > div > div:last-child {
+    border-right: 0;
+}
+.day_cal_vw > div:first-child > div > div {
+    border-right: 0;
+}
+.day_cal_vw > div {
+    max-height: 30px;
+    height: 30px;
+}
+.dy_cl_vw > div > div {
+    background-color: #F1F1F1;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 0;
+}
+.dy_cl_vw > div > div:first-child {
+    background-color: #fff;
+    border-right: 0;
+}
+.dy_cl_vw > div:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/*css added for calendar*/
+.cal_leave {
+    position: relative;
+    color: #fff;       
+    width: 152px;
+    left: -8px;
+    border-radius: 0px;
+    margin: 1px 0;
+    cursor: pointer;
+}
+.cal_sgle_lve {
+    margin: 2px;
+    width: 125px;
+    left: 0px;
+    border-radius: 3px;
+}
+.cal_leave span {
+    text-overflow: ellipsis;
+    width: 125px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: -webkit-box;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 0.8s ease;
+    padding: 2px;
+}
+.white {
+    color: #fff;
+}
+.my_lve {
+    background-color: #EC8F91;
+}
+.on_lve {
+    background-color: #977FC9;
+}
+.cal_hldy {
+    background-color: #FC9F5C;
+}
+.cal_evnt {
+    background-color: #70A53D;
+}
+.leve_req {
+    background-color: #70ADE5;
+}
+.mytm_atten_sts {
+    padding: 0;
+    width: 100%;
+    display: inline-flex;
+    word-break: break-word;
+}
+.mytm_atten_sts > div:first-child {
+    position: relative;
+    z-index: 9999;
+}
+.mytm_atten_sts > div:last-child {
+    max-height: 350px;
+    overflow: auto;
+    margin: 5px
+}
+.cal_show_evt_wrp {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+.cal_show_evt_wrp .shft-t {
+    position: absolute;
+    bottom: 6px;
+}
+.q-table-cell.active{background-color: rgba(0, 0, 0, 0.05); }
+.att_sum_wrap{max-height: 400px;overflow: auto; }
+.attend_sumary.vTab .vtab-content{max-height: 350px;overflow: auto; }
+.qf_rel_programs .disable_d{background-color: transparent; }

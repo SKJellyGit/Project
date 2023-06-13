@@ -1,0 +1,789 @@
+    /*Write admin frontend css here */
+/*++++++++++++Admin FrontEnd+++++++++++++++++++++++*/
+
+.f-ad-exit .q-n-stripes .strips-heading, .f-ad-exit .q-n-stripes .strips-item {
+	font-size: 11px;
+}
+
+.f-ad-exit .q-n-stripes .strips-item .aInfo {
+	font-size: 12px;
+}
+
+.f-ad-exit .q-n-stripes .strips-item small {
+	font-size: 10px;
+}
+
+/*Shift Planner Css */
+
+.qa-f-shift-planner .cnflicts-bx-body {
+    position: relative;
+    overflow: auto;
+}
+
+.qa-f-shift-planner .cnflicts {
+    position: absolute;
+    top: -250px;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 9999;
+    box-shadow: none;
+}
+
+.qa-f-shift-planner .cnflicts.show {
+    top:0px;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.23);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.23);
+}
+
+.qa-f-shift-planner .panel-box.cnflicts .panel-box-header {
+    padding: 8px 16px;
+}
+
+.qa-f-shift-planner .panel-box.cnflicts .panel-box-header md-icon {
+    margin-right: 5px;
+}
+
+
+.qa-f-shift-planner .panel-box.cnflicts .panel-box-body .cnflictsList li {
+    padding: 8px;
+    margin: 8px;
+    background-color: rgba(219, 67, 54,0.05);
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.qa-f-shift-planner .panel-box.cnflicts .panel-box-body .cnflictsList li:hover {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.23);
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.23);
+}
+
+.qa-f-shift-planner .panel-box.cnflicts .panel-box-body 
+.cnflictsList .owl-buttons div.owl-prev {
+    left: -4px;
+}
+
+.qa-f-shift-planner .panel-box.cnflicts .panel-box-body 
+.cnflictsList .owl-buttons div.owl-next {
+    right: -4px;
+}
+
+.qa-f-shift-planner .shifts-legends .shfts .md-button {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    min-height: 22px;
+    line-height: 22px;
+}
+
+.qa-f-shift-planner .cnflict-btns .md-button {
+    color: rgb(231, 115, 118);
+    border: 1px solid rgb(231, 115, 118);
+    text-transform: capitalize;
+    margin: 0 8px;
+}
+
+.qa-f-shift-planner .cnflict-btns .md-button:first-child {
+    border: 0;
+    min-width: inherit;
+    padding: 5px 8px;
+}
+
+.qa-f-shift-planner .cnflict-btns .md-button md-icon {
+    color: rgb(231, 115, 118);
+}
+
+.qa-f-shift-planner .cnflict-btns .md-button:last-child {
+    margin-right: 0;
+    color: rgb(250, 160, 93);
+    border: 1px solid rgb(250, 160, 93);
+}
+
+.qa-f-shift-planner .cnflict-btns .md-button:last-child md-icon {
+    color: rgb(250, 160, 93);
+}
+
+.shiftplanner-wrappr .shiftplanner-table  .shftp-left {
+    max-width: 220px;
+    min-width: 220px;
+}
+
+.shiftplanner-wrappr .shiftplanner-table  .shftp-left 
+.shft-tbl-head .shft-tbl-cll,
+.shiftplanner-wrappr .shiftplanner-table  .shftp-left 
+.shft-tbl-rw .shft-tbl-cll {
+    max-width: 100%;
+    width: 100%;
+}
+
+.shiftplanner-wrappr .shiftplanner-table  .shftp-right {
+    overflow-x: auto;
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shft-tbl-head .shft-tbl-cll {
+    background-color: rgba(0, 0, 0,0.022);
+    min-height: 56px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #7b8994;
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shft-tbl-head 
+.shft-tbl-cll span {
+ font-size: 11px;
+}
+
+/*.shiftplanner-wrappr .shiftplanner-table .shft-tbl-rw {
+    border-bottom: 1px solid rgba(0,0,0,0.05);    
+}*/
+
+.shiftplanner-wrappr .shiftplanner-table .shft-tbl-rw .shft-tbl-cll {
+    min-height: 70px;
+    max-height: 70px;
+/*    max-width:200px!important;
+    min-width:200px!important;*/
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shft-tbl-cll {
+    min-width: 150px;
+    max-width: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 5px 8px;
+    border-right: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-left .shft-tbl-cll {
+    text-align: left;
+    display: flex;
+    align-items: center; min-height: 70px;max-height: 70px;
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right .shft-tbl-rw 
+.shft-tbl-cll {
+    cursor: pointer;
+    padding: 0;
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right .shft-tbl-rw 
+.shft-tbl-cll md-menu-bar {
+    padding: 0;
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right .shft-tbl-rw 
+.shft-tbl-cll md-menu-bar button {
+    padding: 0 17px;
+    height: 66px;
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right .shft-tbl-rw 
+.shft-tbl-cll:hover {
+    background-color: rgba(0, 126, 229,0.05);
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right .shfts {
+    position: relative;
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts>div {
+    position: relative;
+    margin: 2px;
+    /*top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;*/
+}
+
+/*.sftP-employee-view .shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts>div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    marg
+}*/
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts .shft {
+    display: block;
+    border-radius: 2px;
+    color: #fff;
+    padding: 2px;
+    position: relative;
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts .shft.weekoff {
+    background-color: rgba(219, 67, 54,0.12);
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts .shft i {
+    font-size: 11px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: none;
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts .shft i:hover {
+    color: rgb(219, 67, 54);
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts .shft + .shft-viewr {
+    display: none;    
+    background-color: #fff;
+    -webkit-box-shadow: 0px 3px 8px 0 rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 3px 8px 0 rgba(0,0,0,0.12);
+    box-shadow: 0px 3px 8px 0 rgba(0,0,0,0.12);
+    width: 100%;
+    padding: 8px;
+    position: absolute;
+    z-index: 9999;
+    cursor: default;
+
+
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts .shft:hover i {
+    display: block;
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts .shft.selctd {
+    border:1px solid rgba(0,0,0,0.20);
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts .shft.selctd i {
+    display: block;
+}
+/*
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts>div:hover .shft i,
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts>div:foucs .shft i {
+    display: block;
+}*/
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts .shft + .shft-viewr.top {
+    bottom: 100%;
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts .shft + .shft-viewr.right {
+    right: 0;
+}
+
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts>div:hover .shft + .shft-viewr {
+    display: block;
+}
+
+ /*--------WeekView*/
+
+.shiftplanner-wrappr .weekView .shiftplanner-table .shftp-right 
+.shfts .shft.dbl {
+    padding: 0;
+    overflow: hidden;
+    text-indent: inherit;
+}
+
+.shiftplanner-wrappr .weekView .shiftplanner-table .shftp-right 
+.shfts .shft span {
+    width: 50%;
+    float: left;
+    padding: 2px;
+    /*display: inline-block;*/
+}
+
+.shiftplanner-wrappr .weekView .shiftplanner-table .shftp-right 
+.shfts .shft span.weekoff {
+    background-color: rgba(219, 67, 54,0.12);
+}
+
+.shiftplanner-wrappr .weekView .shiftplanner-table .shftp-right 
+.shfts .shft {
+    text-indent: -12px;
+}
+
+/*WeekView--------------*/
+
+/*--------monthView*/
+.shiftplanner-wrappr .monthView .shiftplanner-table .shft-tbl-head .shft-tbl-cll {
+    font-size: 11px;
+    line-height: normal;
+}
+
+.shiftplanner-wrappr .monthView .shiftplanner-table .shft-tbl-cll:nth-child(7n+0) {
+    border-right: 2px solid rgba(0,0,0,0.12);
+}
+
+/*.shiftplanner-wrappr .monthView .shiftplanner-table .shftp-right 
+.shfts>div {
+    height: 96%;
+}*/
+.shiftplanner-wrappr .monthView .shiftplanner-table .shftp-right 
+.shfts .shft {
+    /*height: 100%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+}
+
+.shiftplanner-wrappr .monthView .shiftplanner-table .shftp-right 
+.shfts .shft + .shft-viewr {
+    left: 100%;
+    top: 0;
+}
+
+.shiftplanner-wrappr .monthView .shiftplanner-table .shftp-right 
+.shfts .shft + .shft-viewr.right {
+    right: 100%;
+    left: initial;
+}
+
+.shiftplanner-wrappr .monthView .shiftplanner-table .shftp-right 
+.shfts .shft + .shft-viewr.bottom {
+    bottom: 0;
+    top: initial;
+}
+/*monthView--------------*/
+
+/*--------customView*/
+.shiftplanner-wrappr .customView .shiftplanner-table .shft-tbl-head .shft-tbl-cll {
+    font-size: 12.5px;
+}
+.shiftplanner-wrappr .customView .shiftplanner-table .shft-tbl-head .shft-tbl-cll span {
+    font-size: inherit;
+    display: block;
+}
+.shiftplanner-wrappr .customView .shiftplanner-table .shft-tbl-cll:nth-child(7) {
+    border-right: 2px solid rgba(0,0,0,0.12);
+}
+/*.shiftplanner-wrappr .customView .shiftplanner-table .shftp-right 
+.shfts>div {
+    height: 96%;
+}*/
+.shiftplanner-wrappr .customView .shiftplanner-table .shftp-right 
+.shfts .shft {
+    /*height: 100%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.shiftplanner-wrappr .customView .shiftplanner-table .shftp-right 
+.shfts .shft + .shft-viewr {
+    left: 100%;
+    top: 0;
+}
+
+.shiftplanner-wrappr .customView .shiftplanner-table .shftp-right 
+.shfts .shft + .shft-viewr.right {
+    right: 100%;
+    left: initial;
+}
+
+.shiftplanner-wrappr .customView .shiftplanner-table .shftp-right 
+.shfts .shft + .shft-viewr.bottom {
+    bottom: 0;
+    top: initial;
+}
+
+.sftP-employee-view .shiftplanner-wrappr .shiftplanner-table .shftp-right .shft-tbl-rw 
+.shft-tbl-cll {
+    display: flex;
+    align-items: center;
+}
+
+/*.sftP-employee-view .shiftplanner-wrappr .monthView .shiftplanner-table .shftp-right 
+.shfts .shft, .sftP-employee-view .shiftplanner-wrappr .customView 
+.shiftplanner-table .shftp-right .shfts .shft {
+    position: absolute;
+    height: 100%;
+}*/
+/*customView--------------*/
+
+/*----------------Group View*/
+.sftP-grp-view .shiftplanner-wrappr .shiftplanner-table .shftp-left 
+.avatarInfo .aInfo small span:first-child {
+    margin-right: 10px;
+}
+
+.sftP-grp-view .shiftplanner-wrappr .shiftplanner-table .shftp-left 
+.avatarInfo .aInfo small md-icon {
+    font-size: 16px;
+    height: 16px;
+    width: 16px;
+    margin-right: 2px;
+}
+
+.sftP-grp-view .shiftplanner-wrappr .shiftplanner-table 
+.shft-tbl-rw .shft-tbl-cll {
+    max-height: inherit;
+}
+
+/*.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts>div {
+    position: relative;
+    transform: inherit;
+    top: inherit;
+    left: inherit;
+    right: inherit;
+    margin: 2px;
+}*/
+
+.sftP-grp-view .shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts .shft small {
+    margin-left: 10px;
+}
+
+.sftP-grp-view .shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts .shft small md-icon {
+    font-size: 12px;
+    height: 12px;
+    width: 12px;
+    color: #fff;
+}
+
+.sftP-grp-view .shiftplanner-wrappr .weekView .shiftplanner-table .shftp-right 
+.shfts .shft {
+    font-size: 11px;
+}
+
+.sftP-grp-view .shiftplanner-wrappr .weekView .shiftplanner-table .shftp-right 
+.shfts .shft small {
+    text-indent: initial;
+    margin-left: 4px;
+}
+
+.assigned-tbs ul {
+    background-color: rgba(0,0,0,0.05);
+    padding-left: 20px;
+    position: relative;
+}
+
+
+/*Group View-----------------*/
+
+.assigned-tbs ul li {
+    display: inline-block;    
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.assigned-tbs ul li span {
+    padding: 8px 24px;
+    border-radius: 2px 2px 0 0;
+    display: block;
+}
+
+.assigned-tbs ul .rfrsh {
+    float: right;
+    padding: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.assigned-tbs ul li.active {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.23);
+    background-color: #fff;
+}
+
+.assigned-tbs ul li.active:after {
+    content: '';
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    bottom:-4px;
+    left: 0;
+    width: 100%;
+
+}
+
+.assigned-tbs .assigned-tbs-detail {
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.23);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.23);
+    padding: 16px;
+}
+
+.assigned-tbs .assigned-tbs-detail .selctActn {
+    margin-bottom: 20px;
+}
+
+.assigned-tbs .assigned-tbs-detail 
+.qndle-strips.qf-strips {
+    border-top:1px solid rgba(0,0,0,0.12);
+    margin-top: 16px;
+    height: 400px;
+    overflow:auto;
+}
+
+.assigned-tbs .assigned-tbs-detail 
+.qndle-strips.qf-strips .strips-item {
+    padding: 6px 0;
+}
+
+.assigned-tbs .assigned-tbs-detail 
+.qndle-strips.qf-strips .strips-item:hover {
+    background-color: transparent;
+}
+
+
+.q-a-frntnd-cont .shft-radio-tble {
+    font-size: 12px;
+    border-left: 1px solid rgba(0,0,0,0.12);
+    border-right: 1px solid rgba(0,0,0,0.12);
+}
+
+.q-a-frntnd-cont .shft-radio-tble .hdng {
+    padding: 16px;
+    border-top: 1px solid rgba(0,0,0,0.12);
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+
+.q-a-frntnd-cont .shft-radio-tble md-radio-button {
+    padding: 6px;
+    border-bottom: 1px solid rgba(0,0,0,0.12);    
+    min-height: 56px;
+}
+
+.q-a-frntnd-cont .shft-radio-tble md-radio-button ._md-container {
+    left: 8px;
+}
+
+.q-a-frntnd-cont .shft-radio-tble md-radio-button ._md-label {
+    margin-left: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.q-a-frntnd-cont .customPopover.employee-d {
+    display: block;
+    margin-top: 10px;
+    padding: 0;
+    margin-left: 0;
+    min-width: 290px;
+    -webkit-box-shadow: 0px 2px 23px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 23px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 23px 0px rgba(0,0,0,0.3);
+}
+
+.q-a-frntnd-cont .customPopover.employee-d::after {
+    border-color: transparent #f3f9fe transparent  transparent;
+}
+
+.q-a-frntnd-cont .customPopover.employee-d md-list.team-mm {
+    background-color: rgba(0,126,229,0.05);
+    border-bottom: 1px solid rgba(0,126,229,0.12);
+}
+
+.q-a-frntnd-cont .customPopover.employee-d md-list.team-mm h4 {
+    color: rgb(0,0,0);
+    font-size: 18px;
+}
+
+.q-a-frntnd-cont .customPopover.employee-d md-list.team-mm p {
+    font-size: 16px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.q-a-frntnd-cont .customPopover.employee-d md-list.team-mm .md-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.q-a-frntnd-cont .customPopover.employee-d i.fa-caret-right {
+    font-size: 12px;
+    margin-left: 2px;   
+}
+
+.q-a-frntnd-cont .customPopover.employee-d .q-lst {
+    padding-bottom: 0;
+}
+
+.q-a-frntnd-cont .customPopover.employee-d .q-lst .q-lst-itm .flex:nth-child(2) {
+    padding-left: 16px;
+}
+
+
+.q-a-frntnd-cont.qa-f-shift-planner .viewinfo-sidenav {
+    width: 700px !important;
+    padding: 0;
+    margin-right: 0;
+    transform: translate(initial);
+}
+
+.q-a-frntnd-cont.qa-f-shift-planner .viewinfo-sidenav .panel-box {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.q-a-frntnd-cont.qa-f-shift-planner .viewinfo-sidenav .panel-box 
+.panel-box-header {
+    padding: 8px 16px;
+}
+
+.q-a-frntnd-cont.qa-f-shift-planner .viewinfo-sidenav .panel-box 
+.panel-box-header .md-button {
+    margin: 0 8px;
+}
+
+.q-a-frntnd-cont.qa-f-shift-planner .viewinfo-sidenav .panel-box 
+.panel-box-header .md-button.md-icon-button md-icon {
+    margin: 0;
+}
+
+.q-a-frntnd-cont.qa-f-shift-planner .viewinfo-sidenav .panel-box  
+md-toolbar .md-toolbar-tools md-input-container {
+    font-size: 13px;
+    width: 100%;
+    margin: 8px 0 0;
+}
+
+.q-a-frntnd-cont.qa-f-shift-planner .viewinfo-sidenav .panel-box  
+md-toolbar .md-toolbar-tools md-input-container label {
+    margin: 0 0 -3px;
+}
+
+/*.q-a-frntnd-cont.qa-f-shift-planner .viewinfo-sidenav 
+.panel-box .panel-box-body .ecShift {
+    background-color: backgrou
+}*/
+
+/*--------------//End Shift Planner-------*/
+
+/*--------------Popups-----------*/
+
+#open-slot-popup .opsSmry {
+	padding: 5px 10px;
+	background-color: rgba(0,0,0,0.05);
+	font-weight: bold;
+}
+
+#confilicts-popup .qndle-strips.qf-strips .heading {
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    padding-bottom: 12px;
+}
+
+#confilicts-popup .qndle-strips.qf-strips .heading,
+#confilicts-popup .qndle-strips.qf-strips .strips-item {
+    padding: 6px 12px;
+}
+
+
+
+/*.shiftplanner-wrappr .shiftplanner-table  .shftp-right > div > div:last-child{border:1px solid rgba(0,0,0,0.05);border-left:0;border-right: 0;}*/
+.shiftplanner-wrappr .shiftplanner-table .shftp-right 
+.shfts>div:hover .shft + .shft-viewr{width:300px;}
+.slide_arrow{position: absolute;
+    right: -12px;
+    box-shadow: 1px 0px 0px 1px rgba(0,0,0,0.12);
+    border-radius: 50%;
+    background-color: #CED1D6;
+    width: 25px;
+    height: 25px;
+    display: flex !important;
+    justify-content: center;
+    font-size: 18px !important;
+    color: #fff;
+    align-items: center;cursor: pointer;}
+.slide_arrow.slide_arrow_rgt{left: -14px !important;top:15px;}
+
+.shiftplanner-wrappr .shiftplanner-table .shft-tbl-head > div > div{min-width: 150px;max-width: 150px;max-height: 70px;min-height: 70px !important;}
+.sftP-employee-view .shiftplanner-wrappr .shiftplanner-table .shftp-right .shft-tbl-rw > div > div{min-width: 150px;max-width: 150px;}
+.shiftplanner-wrappr .shiftplanner-table .shft-tbl-head > div > div:last-child{position: relative;min-width: 80px;border:1px solid rgba(0,0,0,0.05);border-left:0;border-right: 0;min-height: 56px;}
+.sftP-employee-view .shiftplanner-wrappr .shiftplanner-table .shftp-right .shft-tbl-rw > div > div:last-child{border-bottom: 1px solid rgba(0,0,0,0.05);min-height: 70px;min-width: 80px;max-width:80px;}
+#assign-pattern-popup .shiftplanner-wrappr .shiftplanner-table .shft-tbl-head > div > div:last-child{min-width: 150px;}
+#assign-pattern-popup  .shiftplanner-table{border: 1px solid rgba(0,0,0,0.05);}
+/*+++++++++++//End Admin FrontEnd+++++++++++++++++++++++++*/
+/****For Angularjs large Modal Class*****/
+@media (min-width: 992px){
+    .app-modal-lg .modal-dialog { width: 900px;}
+}
+@media (min-width: 768px){
+    .app-modal-sm .modal-dialog { width: 400px;}
+}
+
+/*.rqst-leave-chain .qmchips .qmchip .seprtion:last-child{border:0;}*/
+/*+++++++++++//End Admin FrontEnd+++++++++++++++++++++++++*/
+
+/*reset filter button css*/
+.reset_filter{    
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding:0 10px;
+    min-height: 54px;
+}
+/*******css for angular js modal transition*********/
+.fadeEffect.modal.fade .modal-dialog{
+    -webkit-transition-property: transform; 
+    -webkit-transition-duration:0 ; 
+    transition-property: transform; 
+    transition-duration:0 ; 
+}
+.fadeEffect.modal.fade {
+   transition: none; 
+}
+.customModalWidth>div {
+    width: 90%;
+}
+/******css for date-picker width************/
+.md-calendar-scroll-container{
+    width: 308px;
+}
+/*css for filter md-menu-height*/
+/* md-menu-content { max-height: 50vh !important;} */
+/*for white-space*/
+.no-wrap{white-space: nowrap;}
+.exit-approver-chain .qmchips .chp-cont .seprtion {
+    border-top: 1px solid #3d464d;
+    min-width: 30px;
+    margin: 0 15px 0 5px;
+}

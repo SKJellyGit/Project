@@ -1,0 +1,33 @@
+/*.qc2{background-color: #fff;}*/
+.relevance{color:#3d464d;}
+.relevance p{margin-bottom: 20px;}
+.single-strip, .bgg-strip, .double-strip{background-color:#f7f9f9; max-width:80%; border-radius:2px; padding:0 0 0 10px; margin:30px 0 0;}
+.frstchld{}
+.bbttnn{background-color:#ced1d6; padding:5px 10px; border-radius:2px;}
+.brdr{border-right:1px solid #ced1d6;}
+.double-strip, .bgg-strip{min-height:140px; max-width:80%;}
+.double-substrip{height: 70px;}
+.and, .and-full, .and-gray{background:#fff !important; color:#007ee5 !important; border-radius:2px; margin-right:10px;}
+.and{box-shadow: 0 0 0 1px #007ee5 inset !important;border-radius: 3px;}
+.and-gray{background-color: #ced1d6 !important; border:0; padding:5px 10px; color:#3d464d!important;}
+.fltr-btn{background-color: #fff !important; color:#007ee5!important; text-transform: capitalize;}
+.bgg-strip{min-height:250px;}
+.dark-gray{color:#3d464d !important;}
+.double-arrow md-icon{height:10px;}
+.double-arrow {margin:0 5px;}
+.bluespan{margin:0 0 0 15px;}
+md-select.md-default-theme ._md-select-value._md-select-placeholder, md-select ._md-select-value._md-select-placeholder{color:#3d464d;}
+.icon-btn .md-button{text-align: left;}
+.gry-btn{text-transform: capitalize;}
+.view span{display: none; font-size:12px; color:#007ee5; padding:0 0 0 10px;}
+.view:hover span{display: inline-block;}
+.gray-bg {background-color: rgb(166, 158, 146) !important; }
+
+/* Added later to fix filter ui issue */
+.loctn > div > div{margin: 5px 0;padding:5px; word-wrap: break-word;}
+.brdr ,.brdr-mrg{border-left: 1px solid #ced1d6;border-right: 1px solid #ced1d6;}
+.icon-btn .md-button{text-align: initial;}
+.relevance_wrap .brdr{border-right: 1px solid #ced1d6;border-top: 0;}
+.single-strip, .bgg-strip, .double-strip{padding: 10px; max-width: 100%; }
+.rel_applicablty{margin-bottom:3px;padding:0px 15px;}
+.fltr-size{font-size:14px; width:14px; height:14px;}

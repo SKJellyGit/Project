@@ -1,0 +1,62 @@
+/*Travel expense css*/
+.qf_travel_exp .panel-box-body{position: relative;}
+.q-frntnd-cont.qf_travel_exp > p{font-size: 28px;color:#7b8994;margin-bottom: 30px;}
+.qf_travel_exp .tb_bg md-tabs-wrapper{background-color: #fcfcfd;}
+.custom_slct md-menu{    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0,0,0,0.12); 
+    min-height: 36px;
+    display: flex;padding:0;
+    align-items: center;}
+.custom_slct md-menu > span:first-child{top: 4px;position: relative; padding: 0px 4px 4px 12px;}
+.qf_travel_exp .panel-box-body > h1{font-size: 18px;font-weight: bold;margin: 2px 0 24px;}
+.qf_travel_exp .qf-pro-list{overflow: visible;margin:15px 0;}
+.qf_travel_exp .qf-pro-list md-list-item .md-button.active{color:rgb(0, 126, 229);background-color: rgba(158,158,158,0.2);font-weight: 600;}
+.qf_travel_exp .qf-pro-list md-list-item .md-button.active:after{
+	content: '\f0da';position: relative;font-family: FontAwesome;right: -5px;color:rgb(0, 126, 229);}
+.qf_travel_exp .qf-pro-list md-list-item .md-button.active > span{width: 100%;display: inline-block;}
+.qf_travel_exp .slice_dc_wrap md-sidenav .travel_exp_sdnav{min-height: 61px;background-color: #fcfcfd;padding:17.5px 24px;border-bottom: 1px solid rgba(0,0,0,0.12);}
+.qf_travel_exp .slice_dc_wrap md-sidenav{max-width: 180px;}
+.all_spends_icn {width: 12px;display: inline-flex;height: 12px;border-radius: 2px; margin-right:8px;}
+.pending_acts_wrap > div > div:last-child{border-left:1px solid rgba(0,0,0,0.12);}
+.slice_dc_wrap .db-sidenav{z-index:60;}
+.qtr_slct , .mnth_slct > div > div{cursor: pointer;margin:8px;}
+.qtr_slct .active{background-color: rgb(0,126,229);}
+.qtr_slct .active> div{color:#fff;}
+.mnth_slct > div > .active{padding: 5px 0;border-radius: 3px;background-color: rgb(0,126,229);color:#fff;}
+.some-random > div{padding: 8px; }
+.nw-expense-heading{padding:10px 0;}
+.trvl-detail md-radio-button ._md-off {
+    border-color: rgb(255, 255, 255)!important;
+}
+
+.trvl-detail md-radio-group.md-default-theme:not([disabled]) .md-primary .md-checked ._md-off, .trvl-detail md-radio-group:not([disabled]) .md-primary .md-checked ._md-off, .trvl-detail md-radio-group.md-default-theme:not([disabled]) .md-primary.md-checked ._md-off, .trvl-detail md-radio-group:not([disabled]) .md-primary.md-checked ._md-off, .trvl-detail md-radio-group.md-default-theme:not([disabled]).md-primary .md-checked ._md-off, .trvl-detail md-radio-group:not([disabled]).md-primary .md-checked ._md-off, .trvl-detail md-radio-group.md-default-theme:not([disabled]).md-primary.md-checked ._md-off, .trvl-detail md-radio-group:not([disabled]).md-primary.md-checked ._md-off, .trvl-detail md-radio-button.md-default-theme:not([disabled]) .md-primary .md-checked ._md-off, .trvl-detail md-radio-button:not([disabled]) .md-primary .md-checked ._md-off, .trvl-detail md-radio-button.md-default-theme:not([disabled]) .md-primary.md-checked ._md-off, .trvl-detail md-radio-button:not([disabled]) .md-primary.md-checked ._md-off, .trvl-detail md-radio-button.md-default-theme:not([disabled]).md-primary .md-checked ._md-off, .trvl-detail md-radio-button:not([disabled]).md-primary .md-checked ._md-off, .trvl-detail md-radio-button.md-default-theme:not([disabled]).md-primary.md-checked ._md-off, .trvl-detail md-radio-button:not([disabled]).md-primary.md-checked ._md-off{border-color:#fff!important;}
+.trvl-detail md-select.md-default-theme ._md-select-value._md-select-placeholder, .trvl-detail md-select ._md-select-value._md-select-placeholder {
+    color: rgb(255, 255, 255);
+}
+.trvl-detail md-select.md-default-theme ._md-select-value, .trvl-detail md-select ._md-select-value {
+    border-bottom-color: rgb(255, 255, 255);
+}
+.trvl-detail md-select.md-default-theme ._md-select-value, .trvl-detail md-select ._md-select-value {
+    border-bottom-color: rgb(255, 255, 255);
+}
+.trvl-detail ._md-select-value > span:not(._md-select-icon) ._md-text {
+    color: rgb(255, 255, 255);
+}
+.trvl-detail md-select.md-default-theme ._md-select-value, .trvl-detail md-select ._md-select-value {
+    border-bottom-color: rgb(255, 255, 255);
+}
+.trvl-detail ._md-select-value ._md-select-icon {
+    color: rgb(255, 255, 255);
+}
+.trvl-detail md-select:not([disabled]):focus ._md-select-value {
+    border-bottom-color: rgb(255, 255, 255);
+}
+.trvl-detail md-input-container.md-default-theme:not(.md-input-invalid).md-input-has-value label, .trvl-detail md-input-container:not(.md-input-invalid).md-input-has-value label {
+    color: rgb(255, 255, 255);
+}
+.exp-file .file{
+    margin-bottom:10px;
+    display:block;
+}

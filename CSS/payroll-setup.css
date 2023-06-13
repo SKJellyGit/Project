@@ -1,0 +1,161 @@
+.payroll-setup .payroll-setup-checks .inner-content > div {
+    min-height:30px;
+}
+.payroll-setup .comp-plans-tbs{
+	position: relative;
+}
+.payroll-setup .edit_sttings{
+    position: absolute;top: 0;right: 0;
+}
+.payroll-setup .comp-plans .pyroll-cycle-tbs .md-button{
+    text-transform: capitalize;
+}
+.payroll-setup .grtuty ul li {
+	list-style:disc !important;
+}
+.payroll-setup .comp-head .credit .qndle-strips.q-n-stripes .strips-item.sm-hd-item:hover, .comp-head .debit .qndle-strips.q-n-stripes .strips-item.sm-hd-item {
+    background: rgb(236,239,241)
+}
+
+#payout-frquncy .rows {
+	margin: 0 0 20px 15px;
+} 
+.payroll-setup .comp-head .credit .cutmpopovr-cntn{
+	position: relative;
+}
+.payroll-setup .comp-head .credit .cutmpopovr-cntn .customPopover{
+	top:0px; 
+	left:15px; 
+	z-index:10; 
+	position: absolute; 
+	min-width:300px;
+}
+.wrkflw span{
+	display: none; 
+	margin-left:50px;
+}
+.wrkflw:hover span{
+	display:inline-block;
+}
+.flexi-comp > div{
+	padding: 15px 15px 0 15px;
+}
+.flexi-comp .flexi-comp-header{
+	padding: 10px;
+}
+.prevw > div{
+	padding: 15px 15px 0 15px;
+}
+.prevw .prevw-header{
+	padding:10px;
+}
+.prevw .sm-md-icon{
+	margin:0 0 0 5px;
+	width:14px;
+	height:14px;
+	font-size:14px;
+}
+.payroll-frms{
+	border:1px solid rgba(0, 0, 0, 0.05);
+	border-radius:2px;
+}
+.payroll-frms md-content.md-default-theme, .payroll-frms md-content{
+	background: rgba(0, 0, 0,0.022);
+}
+.payroll-frms .s-tbs md-tabs-wrapper md-tabs-canvas .md-tab.md-active:before{
+	width:100%;
+	border-width:0;
+	border-color:none;
+	border-bottom:2px solid;
+}
+.credit-prf md-menu-item > div{
+	line-height: 38px;
+}
+.credit-prf span md-icon{
+	float: right;
+	margin: 10px 0 0 0;
+}
+.payroll-filtr{
+	padding: 10px;
+	border-radius:2px;
+}
+.blue_bdr {
+    border-radius: 2px !important;
+    box-shadow: inset 0px 0px 0px 1px rgb(0, 126, 229) !important;
+    border: 0;
+}
+.ctc-scroll{
+	max-height: 350px;
+	overflow-y: scroll;
+}
+.incom-contnt{
+	border:1px solid rgba(0, 0, 0, 0.05);
+	border-radius:2px;
+}
+.incom-contnt > div{
+	padding:10px 20px;
+}
+.incom-contnt > div:first-child{
+	padding:10px 0;
+	border-bottom:1px solid rgba(0, 0, 0, 0.05);
+}
+.payroll-cir{
+	width:25px;
+	height: 25px;
+	border-radius:50%;
+	background-color: #7b8994;
+	color:#fff;
+	margin:0 10px 0 0;
+	text-align: center;
+	line-height: 23px;
+}
+.pyroll-txt{
+	margin: 0 10px 0 0;
+}
+.salary-slip{
+	border:1px solid rgba(0,0,0,0.12);
+	border-radius:2px;
+	margin: 0 20px 20px 0;
+}
+.pymnt-mode .qndle-strips .strips-item:hover md-icon, .struct-debit .qndle-strips .strips-item:hover md-icon{
+	color: rgb(0, 126, 229)  !important;
+}
+.cre-prevew{
+	border:1px solid rgba(0,0,0,0.12);
+	border-radius: 2px;
+	margin-right:20px;
+}
+.cal-screen{
+	border:1px solid rgba(0,0,0,0.12);
+	border-radius:2px;
+	min-height: 80px;
+}
+.cal-comp{
+	border:1px solid rgba(0,0,0,0.12);
+	border-radius:2px;
+	height: 283px;
+	overflow-y: auto;
+	margin:0 20px 0 0;
+}
+.cal-comp > div{
+	padding:10px 20px;
+}
+.digit .md-button{
+	min-width: 50px;
+}
+.payroll-cir{
+	width:25px;
+	height: 25px;
+	border-radius:50%;
+	background-color: #7b8994;
+	color:#fff;
+	margin:0 10px 0 0;
+	text-align: center;
+	line-height: 23px;
+}
+.payroll-dsbld md-input-container.md-default-theme .md-input[disabled], .payroll-dsbld md-input-container .md-input[disabled], .payroll-dsbld md-input-container.md-default-theme .md-input [disabled], .payroll-dsbld md-input-container .md-input [disabled]{
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    background-image:none;
+} 
+.val_formula .val_form_more{display: none;}
+.val_formula:hover .val_form_more{display: block;}

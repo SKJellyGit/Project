@@ -1,0 +1,95 @@
+.recruitment-job-pages .overlay2 { top:0;left:0;width:100%; }
+.recruitment-job-pages .fixed-nav { position:fixed;z-index:10; width:100%;}
+.recruitment-job-pages .banner,.recruitment-job-pages .banner .container { position:relative; }
+.recruitment-job-pages .black-bg { background:#2a333d;display:inline-block; }
+.recruitment-job-pages .navigation a { color:#ccd1d9; }
+.recruitment-job-pages .navigation a:hover { color:#fff; }
+.recruitment-job-pages .social-media a .fa { color:#fff;font-size:20px;height:auto; }
+.recruitment-job-pages .nav-list a {color:#ccd1d9;padding:6px 0 6px 25px}
+.recruitment-job-pages .banner {
+    background:linear-gradient(to top left,#83ebf2 0,#6cb4fe 71%);
+    background:-webkit-linear-gradient(to top left,#83ebf2 0,#6cb4fe 71%);
+    background:-moz-linear-gradient(to top left,#83ebf2 0,#6cb4fe 71%);
+    /**background-image:url(../images/recruitmentImg.jpg);
+    
+    background-attachment:fixed;**/background-size:cover;padding-top:60px
+}
+/**...recruitment-job-pages .overlay {
+    height:100%;position:absolute;background-image:url(../images/pattren.png)
+}**/
+.recruitment-job-pages .banner-detail {
+    height:400px; color:#fff; padding-bottom:50px;
+}
+.recruitment-job-pages .banner-detail h1 {
+    font-weight:400;font-size:42px;margin:0 auto; text-transform: uppercase;
+}
+.recruitment-job-pages .banner-detail h1 strong { font-weight: 400;}
+.recruitment-job-pages section {
+    background:#fff
+}
+.recruitment-job-pages .md-section {
+    padding:60px 0;
+}
+.recruitment-job-pages .md-section:nth-child(even) {
+    background:#f9f9f9; border-top:1px solid #eee; border-bottom:1px solid #eee;
+}
+.recruitment-job-pages .heading-st h2 {
+    margin:0; font-weight:600; font-size:35px;
+}
+.recruitment-job-pages .heading-st p {
+    font-size:15px; margin:2px 0 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.recruitment-job-pages .heading-st {
+    text-align:center;
+    margin-bottom:30px;
+}
+.recruitment-job-pages .company-img img {
+    border-radius:7px;
+}
+.recruitment-job-pages .detail p {
+    font-size:15px;
+    line-height:30px;
+    color:#666
+}
+.recruitment-job-pages .video-st iframe {
+    width:100%; height:auto;
+}
+.recruitment-job-pages .md-border-full {
+    border:1px solid rgba(0,0,0,.09);
+}
+.recruitment-job-pages .md-inner-margin span {
+    margin-right:15px
+}
+.recruitment-job-pages .rec-founder span { 
+    width:160px; overflow:hidden; display:inherit; height:160px; border-radius:50%;
+}
+.recruitment-job-pages .owl-slider .owl-dots {
+    display:none!important;
+}
+.recruitment-job-pages .list li { 
+    display: inline-block;
+    width: 33.3%;
+    padding: 10px;
+}
+
+.rec-founder-list li {
+   display: inline-block;
+   width: 33%;
+   text-align: center;
+}
+.rec-founder span {
+   margin: 0 auto;
+}
+.rec-founder-list ul {
+   text-align: center;
+}
+
+.rec-founder-list li {display: inline-block;width: 33%; text-align: center;}
+.rec-founder span {margin: 0 auto;}
+.rec-founder-list ul {text-align: center;}
+.rec-md-50 { width: 50%; padding :0 15px; float: left;}
+.rec-md-50 p { font-size:15px;line-height: 23px;}
+.rec-flix {display: flex;align-items: center; width: 100%;}
+.rec-right{ float:right;}

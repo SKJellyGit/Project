@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.star-rating.readonly > label:hover,
+.star-rating.readonly > label:hover ~ label {
+  color: #ddd;
+}
+.star-rating.readonly > input:checked ~ label,
+.star-rating.readonly > input:checked ~ label:hover {
+  color: #FFD700 !important;
+}
+.star-rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+.star-rating > input {
+  display: none;
+}
+.star-rating > input:checked ~ label {
+  color: #FFD700;
+}
+.star-rating > input:checked + label:hover,
+.star-rating > input:checked ~ label:hover,
+.star-rating > input:checked ~ label:hover ~ label {
+  color: #FFED85;
+}
+.star-rating > label {
+  color: #ddd;
+  float: right;
+}
+.star-rating > label:before {
+  margin: 5px;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 1.25em;
+  content: "\f005"; 
+}
+.star-rating > label:hover, .star-rating > label:hover ~ label {
+  color: #FFD700;
+}
+.star-rating > label:hover ~ input:checked ~ label {
+  color: #FFED85;
+}

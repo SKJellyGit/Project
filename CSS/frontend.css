@@ -1,0 +1,711 @@
+/*++++++++++++Global Frontend Css----------------*/
+.q-a-frntnd-cont > h1, .q-frntnd-cont > h1 {
+    font-size: 26px;
+    margin: 2px 0 30px;
+}
+.q-frntnd-cont .avatarInfo .avtar, .q-a-frntnd-cont .avatarInfo .avtar {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.q-frntnd-cont .avatarInfo .aInfo, .q-a-frntnd-cont .avatarInfo .aInfo {
+    display: inline-block;align-items: center;align-self: center;
+}
+.q-frntnd-cont .avatarInfo .aInfo small,
+.q-a-frntnd-cont .avatarInfo .aInfo small {
+    display: block;
+    color: rgb(123, 137, 148);
+    font-size: 11px;
+    line-height: 15px
+}
+.q-frntnd-cont .panel-box {
+    margin-bottom: 24px;
+}
+.q-frntnd-cont .panel-box:last-child {
+    margin-bottom: 0;
+}
+.allstatus .sItem {
+    border-right: 1px solid rgba(0,0,0,0.12);
+    padding: 16px;
+}
+.allstatus .sItem:first-child small span {
+    border-right: 1px solid rgba(0,0,0,0.12);
+    padding: 0 10px;
+    font-size: 14px;
+}
+.allstatus .sItem:first-child small span:last-child {
+    border: none;
+}
+.allstatus .sItem:last-child {
+    border: none;
+}
+.allstatus .sItem md-input-container {
+    margin: 5px 0;
+}
+.allstatus .sItem md-select {
+    font-size: 13px;
+    border-color: transparent !important;
+}
+.allstatus .sItem md-select-value {
+    border-color: transparent;
+}
+.allstatus .sItem md-select:not([disabled]):focus ._md-select-value {
+    border-bottom-color: transparent;
+}
+.allstatus .sItem .num {
+    font-size: 35px;
+    font-weight: bold;
+}
+.allstatus .sItem small {
+    font-size: 13px;
+}
+
+/*++++++++++++++Start Front-End Organization Directory Section++++++++++++++++++++++*/
+/*------Front Organization Chart-----*/
+.frnt-org-chart-directory .s-chrtrw ul.v-style {
+    margin-left: 40px !important;
+}
+/*------End Front Organization Chart-----*/
+.frnt-org-chart-directory .frnt-org-chart .lv-arrow {
+    font-size: 40px;
+    height: 40px;
+    width:40px;
+}
+/*-------Front Organization Directory------*/
+.frnt-org-chart-directory .frnt-org-directry .srch-slct-rw md-input-container {
+    width: 270px;
+}
+.frnt-org-chart-directory .frnt-org-directry .srch-slct-rw md-input-container.slct-cntr {
+    width: 200px;
+}
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item {
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    padding: 15px;
+    color: #7b8994;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    position: relative;
+}
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item:hover {
+    background-color: rgba(0, 126, 229,0.05);
+}
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item:first-child {
+    border-top: 1px solid rgba(0,0,0,0.12);
+}
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item .sb {
+    color: #3d464d;
+}
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item md-list {
+    padding: 0;
+}
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item md-list, 
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item md-list md-list-item {
+    padding: 0;
+}
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item md-list md-list-item .md-avatar {
+    /*height: 70px;
+    width: 70px;*/
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 16px 0 0;
+}
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item md-list md-list-item .md-avatar img {
+    max-width: 100%;border-radius: 50%;
+}
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item md-list md-list-item 
+.md-list-item-text p span,
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item md-list md-list-item 
+.md-list-item-text .p div {
+    line-height: 16px;
+}
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item p span:first-child,
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item .p div:first-child{
+   padding-right: 8px;
+}
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list .employee-search-list-item 
+md-list md-list-item .md-list-item-text p span span,
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list .employee-search-list-item 
+md-list md-list-item .md-list-item-text .p span span {
+    border: none !important;
+    padding: 0 !important;
+}
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item md-list md-list-item 
+.md-list-item-text p span, .frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item md-list md-list-item 
+.md-list-item-text .p div:nth-child(odd){
+    margin: 5px 10px 0 0px !important;
+}
+/*.frnt-org-chart-directory .frnt-org-directry .employee-search-list .employee-search-list-item 
+md-icon.material-icons {
+    height: 16px;
+    width: 14px;
+    font-size: 14px;
+    color: #7b8994;
+}
+*/
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list 
+.employee-search-list-item md-icon.search-list-str {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 18px;
+    height: 18px;
+    width: 18px;
+}
+.org-directory .srch-result-sec 
+.result-preview-list .result-preview-list-item a:hover
+md-icon.material-icons {
+    color: rgb(0, 126, 229)  !important;
+}
+.frnt-org-chart-directory .frnt-org-directry .employee-search-list .employee-search-list-item
+md-icon.material-icons.ico {
+    height: 18px;
+    width: 22px;
+    font-size: 18px;
+}
+.frnt-org-directry .multi-menu-bar-item 
+md-menu-bar md-menu>button {
+    border-right: 1px solid rgba(0,0,0,0.12);
+}
+/*-------Front Organization Directory------*/
+/*+++++++++++++//End Front-End Organization Chart View+++++++++++++++++++*/
+
+/*+++++++++++Reources+++++++++++++++++++++*/
+.frnt-resouces-container .qndle-strips .strips-item {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-bottom:1px solid rgba(0,0,0,0.12);
+    margin: 0;
+    cursor: pointer;    
+}
+.frnt-resouces-container .qndle-strips .strips-item:hover,
+.frnt-resouces-container .qndle-strips .strips-item:focus,
+.frnt-resouces-container .qndle-strips .strips-item.active {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: rgba(0,126,229,0.09);
+}
+.frnt-resouces-container .md-button.add-now {
+    height: 34px;
+    line-height: 34px;
+}
+.frnt-resouces-container .md-button.add-now md-icon {
+    position: relative;
+    top: -1px;
+    margin-right: 2px;
+}
+.frnt-resouces-container .md-button.add-now md-icon:last-of-type {
+    font-size: 18px;
+    height: 18px;
+    width: 18px;
+    margin: 0;
+    margin-left: 2px;
+}
+.add-now-btn-content md-menu-item {
+    border-left: 2px solid;
+    border-color: transparent;
+}
+.add-now-btn-content md-menu-item:hover, .add-now-btn-content md-menu-item:focus {
+    border-color: rgb(0,126,229);
+
+}
+
+/*------Add Resources Popup-------*/
+.add-resources-popup .file-bx {
+    border: 1px dashed rgb(0,126,229);
+    border-radius: 8px;
+    padding: 20px 15px;
+}
+.add-resources-popup .file-bx .choose-file {
+    text-align: center;
+}
+.add-resources-popup .file-bx .attached-file p {
+    line-height: 1.6;
+    margin: 0;
+}
+.add-resources-popup .file-bx .attached-file .close {
+    height: 21px;
+    width: 21px;
+}
+.add-resources-popup .slct-owner {
+    margin: 40px 0;
+}
+/*------//End Add Resources Popup-------*/
+
+.frnt-resouces-container .viewinfo-sidenav .md-tab {
+    padding: 6px 24px;
+    text-transform: capitalize;
+}
+.frnt-resouces-container .viewinfo-sidenav md-pagination-wrapper,
+.frnt-resouces-container .viewinfo-sidenav md-tabs-canvas {
+    height: 36px;
+}
+.frnt-resouces-container .viewinfo-sidenav md-content {
+    padding: 15px 0;
+    width: 100%;
+    overflow: initial;
+}
+.frnt-resouces-container .viewinfo-sidenav
+md-content.v-dtls div {
+    margin-bottom: 20px;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+md-content h5 {
+    color: rgba(0,0,0,0.23);
+    margin: 0 0 10px;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+md-content h5 .f-edit {
+    float: right;
+    height: 26px;
+    min-height: 26px;
+    width: 26px;
+    padding: 0
+}
+.frnt-resouces-container .viewinfo-sidenav 
+md-content h5 .f-edit md-icon {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+md-content.v-allocation .s-chips li {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: rgba(0,0,0,0.05);
+    margin-right: 2px;
+    border-radius: 2px;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+md-content.v-allocation .s-chips li:last-of-type {
+    margin-right: 0;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+md-content.v-allocation .v-groups li {
+    margin-bottom: 5px;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+md-content.v-allocation li span:first-of-type {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid rgba(0,0,0,0.23);
+}
+.frnt-resouces-container .viewinfo-sidenav 
+md-content.v-allocation li i {
+    margin: 0 5px;
+}
+.frnt-resouces-container .viewinfo-sidenav .bx {
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 3px;
+    min-height: 100px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.frnt-resouces-container .viewinfo-sidenav .bx:last-of-type {
+    margin-bottom: 0px;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+.bx md-list {
+    padding: 0;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+.bx md-list-item {
+    padding: 0;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+.bx md-list-item .md-avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 16px 0 0;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+.bx md-list-item .md-avatar img {
+    width: 100%;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+.bx md-list-item .md-list-item-text {
+    width: 100%;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+.bx md-list-item .md-list-item-text p {
+    margin-bottom: 2px;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+.bx md-list-item .md-list-item-text .flist {
+    margin-top: 15px;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+.bx md-list-item .md-list-item-text .flist li {
+    margin-bottom: 10px;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+.bx md-list-item .md-list-item-text .flist li .size {
+    font-size: 12px;
+    color: rgba(0,0,0,0.26);
+    float: right;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+.bx md-list-item .md-list-item-text .flist li ol {
+    margin-top: 5px;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+.bx md-list-item .md-list-item-text .flist li ol li {
+    margin-bottom: 5px;
+}
+.frnt-resouces-container .viewinfo-sidenav 
+.bx md-list-item .md-list-item-text .flist li md-icon {
+    height: 22px;
+    width: 22px;
+    font-size: 20px;
+}
+#allocating-file-popup .fa-fltr-fields .md-button {
+    height: 32px;
+    min-height: 32px;
+    width: 32px;    
+    color: #fff;
+    margin: 0 0 0 24px;
+}
+#allocating-file-popup .fa-fltr-fields .md-button md-icon {
+    height: 18px;
+    width: 18px;
+    font-size: 18px;
+}
+/*+++++++++++//End Reources+++++++++++++++++++++*/
+
+/*+++++++++++++++Exit+++++++++++++++++++++++++++++++++*/
+/*--------Exit Summury Tab---------------*/
+.multi-menu-bar-item md-menu-bar {
+    overflow: hidden;
+}
+.multi-menu-bar-item md-menu-bar md-menu {
+    float: left;
+}
+.multi-menu-bar-item 
+md-menu-bar md-menu>button {
+    border-right: 1px solid rgba(0,0,0,0.12);
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+/*.multi-menu-bar-item 
+md-menu-bar md-menu:last-child>button {
+    border-right: none;
+}*/
+md-menu-item .md-button md-checkbox {
+    margin: 0;
+}
+/*--------//End Exit Summury Tab---------------/
+
+/*--------Exit Initiate Tab---------------*/
+.frnt-exit-container .f-initiate-exit-mdl .employee-info .md-chips {
+    display: inline-block;
+}
+.frnt-exit-container .f-initiate-exit-mdl .employee-info .eifst {
+    position: relative;
+}
+.frnt-exit-container .f-initiate-exit-mdl .employee-info .eifst
+md-datepicker .md-datepicker-input-container {
+    width: 206px !important;
+}
+.frnt-exit-container .f-initiate-exit-mdl .employee-info .eifst .aBtn{
+    position: absolute;
+    right: 0; 
+    top: 0;
+}
+/*--------//Exit Initiate Tab---------------*/
+/*+++++++++++++++//End Exit+++++++++++++++++++++++++++++++++*/
+
+/*+++++++++++++++Calendar++++++++++++++++*/
+.f-end-calendar .fltrbar .cal-fltr {
+    overflow: hidden;   
+    background: #fff;
+    padding: 6px 7px;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 26%);
+}
+.f-end-calendar .fltrbar .cal-fltr li {
+    padding: 8px 22px;
+    font-size: 14px;
+    /* border-left: 1px solid rgba(0,0,0,0.12);
+    border-top: 1px solid rgba(0,0,0,0.12);
+    border-bottom: 1px solid rgba(0,0,0,0.12); */
+    cursor: pointer;
+    position: relative;  
+    float: left;
+    border-radius: 22px;
+    font-weight: 600;
+}
+/* .f-end-calendar .fltrbar .cal-fltr li:last-child {
+    border-right: 1px solid rgba(0,0,0,0.12);
+} */
+.f-end-calendar .fltrbar .cal-fltr li.active {
+    background-color: rgb(0,126,229);
+    color: rgb(255,255,255);
+    border-color: rgb(0,126,229);
+}
+.f-end-calendar .fltrbar .cal-fltr .md-button {
+    min-width: 60px;
+    min-height: 30px;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin: 0;
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 0;
+}
+.f-end-calendar .fltrbar .cal-fltr .md-button .md-ripple-container {
+    border-radius: 0;
+}
+.time0ff_pop_wrap .f-end-calendar .cal-month-day{height: 65px;}
+.time0ff_pop_wrap .db-all-events{min-height: 378px !important;}
+.f-end-calendar.q_overview_cal .db-all-events{min-height: 378px;}
+.f-end-calendar .cal-month-day {
+    height: 65px;
+}
+.f-end-calendar .cal-month-box [class*=cal-cell],
+.f-end-calendar .cal-year-box [class*=span] {
+    min-height: 12%;
+}
+.f-end-calendar span[data-cal-date] {
+    pointer-events: initial;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+.f-end-calendar.q_overview_cal span[data-cal-date]{pointer-events: none;}
+.f-end-calendar .events-list {
+    bottom: 8px;
+    right: 11px;
+}
+.f-end-calendar .cal-slide-content {
+    display: block !important;
+    max-height: 200px;
+    overflow: auto;
+}
+.f-end-calendar div[name="calendarDayView"] {
+    max-height: 366px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+/*+++++++++++++++//End Calendar++++++++++++++++*/
+
+.qndle-strips.qf-strips .strips-heading {
+    /* border-top: 1px solid rgba(0,0,0,0.09);
+    border-bottom: 1px solid rgba(0,0,0,0.09); */
+    border-radius: 8px 8px 0px 0px;
+}
+.qndle-strips.qf-strips .strips-item span md-icon {
+    margin: 0 5px;
+}
+.qndle-strips.qf-strips .strips-item {
+    border: none !important;
+    border-bottom: 1px solid rgba(0,0,0,0.09) !important;
+}
+.qndle-strips.qf-strips .strips-item:hover {
+    border: none !important;
+    border-bottom: 1px solid rgba(0,0,0,0.09) !important;
+}
+.qndle-strips.qf-strips .strips-heading > div,
+.qndle-strips.qf-strips .strips-item > div {
+    padding: 0 4px;
+}
+.panel-box-header.p-header-bttn {
+    padding: 11px 16px !important;
+}
+.panel-box-header.p-header-bttn .md-button {
+    margin: 0 16px;
+}
+
+/*-----------View Item Content Box----------------*/
+.qf-view-item-bx md-menu-item md-icon {
+    display: none;
+}
+.qf-view-item-bx md-menu-item:hover md-icon {
+    display: block;
+}
+/*-----------//End View Item Content Box----------------*/
+
+#import-employee-shift-popup .md-icon-button.flip {
+    transform: rotate(180deg);
+}
+
+/*----------All Qandle Table Forms---------------*/
+.q-alt-frms .panel-box .panel-box-header {
+    padding: 10px;
+}
+.q-alt-frms .panel-box .panel-box-header .md-button.md-icon-button {
+    margin-right: 8px;
+}
+td[contenteditable="true"]:focus {
+    border: 1px solid rgb(0, 126, 229);
+}
+.q-alt-frms md-input-container {
+    margin-top: -5px !important;
+}
+/*---------//End All Qandle Table Forms--------------*/
+
+/*------- For Account Settings ----------------*/
+.q-accunt-stt .panel-box .acc-tp-head {
+    padding: 36px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.022);
+}
+.q-accunt-stt .panel-box h2 {
+    font-size: 26px;
+    color: #7b8994;
+    font-weight: 300;
+    margin: 0;
+}
+.q-accunt-stt .panel-box md-tabs-wrapper {
+    background-color: rgba(0, 0, 0,0.022);
+}
+.q-accunt-stt .panel-box md-tabs md-tab-content md-content {
+    padding: 70px 100px;
+}
+.q-accunt-stt .panel-box md-tabs md-tab-content 
+md-content md-divider {
+    margin: 60px 0 !important;
+}
+.q-accunt-stt .panel-box md-tabs .set-sign {
+    border: 1px solid rgba(0,0,0,0.12);
+}
+.q-accunt-stt .panel-box md-tabs .cmm-tab-cntnt .cmm-list {
+    margin-bottom: 30px;
+}
+.q-accunt-stt .panel-box md-tabs .cmm-tab-cntnt .cmm-list .rows {
+    margin-bottom: 30px;
+}
+.q-accunt-stt .panel-box md-tabs .cmm-tab-cntnt .cmm-list .rows:last-child {
+    margin-bottom: 0;
+}
+.q-accunt-stt .panel-box .acc-s-tabs md-tabs-wrapper {
+    background-color: transparent;
+}
+.q-accunt-stt .panel-box .acc-s-tabs-cont {
+    position: relative;
+}
+.q-accunt-stt .panel-box .acc-s-tabs-cont .s-actn {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: 9999;
+}
+.q-accunt-stt .panel-box .acc-s-tabs md-content {
+    padding: 0;
+}
+.q-accunt-stt .panel-box .acc-s-tabs .qndle-strips.qf-strips 
+.strips-heading {
+    border-top: 0;
+    font-size: 13px;
+}
+.q-accunt-stt .panel-box .acc-s-tabs .qndle-strips.qf-strips 
+.strips-item {
+    font-size: 13px;
+}
+#create-your-signature-popup md-tabs {
+    margin: 0 -25px;
+}
+#create-your-signature-popup .sketchtb md-radio-group {
+    margin-bottom: 25px;
+}
+#create-your-signature-popup .sketchtb,
+#create-your-signature-popup .importtb {
+    border-bottom: 1px solid rgba(0,0,0,0.22);
+    margin-bottom: 10px;
+}
+#create-your-signature-popup .signature-bxs {
+    margin-bottom: 10px;
+}
+#create-your-signature-popup .signature-bxs .signature-bx {
+    border: 1px dashed rgba(0,0,0,0.22);
+    padding: 8px;
+    min-height: 260px;
+    position: relative;
+}
+#create-your-signature-popup .signature-bxs .signature-bx .sing {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+#create-your-signature-popup .signature-bxs .signature-bx 
+.sing .md-button {
+    margin: 0 auto !important;
+    padding: 16px;
+    text-transform: capitalize;
+}
+#create-your-signature-popup .signature-bxs span.pull-right {
+    color: rgb(219, 67, 54)
+}
+#create-your-signature-popup .signature-bxs span.pull-right:hover {
+    color: #7b8994;
+}
+#create-your-signature-popup .signature-bxs .signature-bx 
+.sing .md-button md-icon {
+    font-size: 28px;
+    height: 28px;
+    width: 28px;
+}
+#create-your-signature-popup 
+.qndle-strips.qf-strips .strips-item {
+    padding: 10px 0 10px 20px;
+}
+/*------- //End Account Settings ----------------*/
+
+.ppl-org-chrt md-menu-item .md-button:hover{
+    background-color: #F0F8FF;
+    border-left:2px solid #007ee5;
+}
+.ppl-org-chrt md-menu-item .md-button{
+    border-left:2px;
+    border-style:solid;
+    border-left-color: transparent;
+}
+
+/* css added for top filter */
+.frnt_menu_exceed.frnt-org-directry .multi-menu-bar-item  md-menu-bar button{padding: 0 8px;}
+.lms-frnd-wrapp .panel-box{margin-bottom:24px;}
+.time0ff_pop_wrap .db-all-events{min-width: 210px;}
+.time0ff_pop_wrap .db-all-events .db-evnts-detail .shiftsD md-list-item {margin: 10px 0 10px 10px;}
+.q_overview_cal .db-all-events .db-evnts-detail .shiftsD md-list-item{margin: 5px;padding: 0;}
+
+/*********************************12112920 *************************************/
+
+.md-fab-icon { width: 50px; height: 50px; border-radius: 50%;display: flex;padding: 12px;}
+.md-border-left-all > div { border-right: 1px solid #eee;}
+.md-border-left-all > div:last-child { border-right: 0px solid #eee;}
+.md-fab-icon-bg { width: 60px; height: 60px; border-radius: 50%;display: flex;padding: 15px; margin-right: 10px;}
+/******************** add coustom menu bar 12112920 *******************************/
+.md-list-hover li:hover ul {
+    display: block;
+}
+.md-list-hover li { position: relative;}
+.md-list-hover li button { text-align: start;}
+.md-list-hover li button {width: 100%;}
+.md-list-hover ul {
+    display: none;
+    position: absolute;
+    right: 320px;
+    width: 100%;
+    bottom: -7px;
+    background: #fff; overflow: hidden;
+    box-shadow: 0 0px 8px #ccc;
+}
+.nt-overflow-view { overflow: visible;}
+.md-list-hover .txt-size-fix span {overflow: hidden; text-overflow: ellipsis;}

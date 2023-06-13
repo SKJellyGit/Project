@@ -1,0 +1,21 @@
+.comm .panel-box { margin:20px 0 0 0; }
+.comm .panel-box .panel-box-header{ border-bottom:0; }
+.comm .bck{ position: relative; }
+.comm .pro-act { border-top: 1px solid rgba(0,0,0,0.12); overflow: hidden; }
+.comm .pro-act li { float: left; }
+.comm .pro-act li .md-button {
+    margin: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color:rgb(123, 137, 148);
+    line-height: 30px;
+    min-height: 30px;
+}
+.comm .pro-act li .md-button .md-ripple-container { border-radius: 0; }
+.comm .pro-act li.active .md-button {
+    color: rgb(0, 126, 229);
+    -webkit-box-shadow: inset 0px -3px 0px 0px rgba(0,126,229,1);
+    -moz-box-shadow: inset 0px -3px 0px 0px rgba(0,126,229,1);
+    box-shadow: inset 0px -3px 0px 0px rgba(0,126,229,1);
+}

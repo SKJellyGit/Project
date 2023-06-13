@@ -1,0 +1,117 @@
+/*Time plans tab css starts */
+.time_plan_tab .strips-item > div > div small{display: block;}
+.time_plan_tab .shifts_tab > div:first-child{    padding: 6px 0px 6px 20px;}
+.time_plan_tab .shifts_tab md-tabs-wrapper{    border-top: 1px solid rgba(0,0,0,0.12);}
+.shift_add{    min-height: 100px;}
+.shift_add p{color: #7b8994;}
+
+/*Add New Shift css starts*/
+.new_shift .breadcumb{background: #fff;border-bottom: 1px solid rgba(0,0,0,0.12)}
+.new_shift .breadcumb md-icon{position: relative;}
+.new_shift .shift_duration p{font-size:18px; margin-top:12px;}
+.new_shift .shift_duration small{margin-top:-3px;}
+/*Add New Shift css ends*/
+
+/*Time plans tab css ends */
+
+/*Break name css starts*/
+.tna a {color: #3d464d !important;    cursor: pointer;}
+.tna .add-shift{padding-left: 25px;}
+.tna .shiftheader{background-color: #f9f9f9; border: 1px solid #ddd;}
+.tna .shift{border-bottom:1px solid #ddd; border-left: 1px solid #ddd; border-right: 1px solid #ddd;}
+.tna .shift md-input-container .md-errors-spacer { display: none !important;}
+.tna .create-shift-plan{padding-left: 20px;}
+.tna .create-shift-plan div {margin-bottom: 10px;}
+.tna .shiftnewplan{margin-bottom:20px;}
+.tna .shifthead div:first-child div{border-right: 1px solid #ddd;padding:16px;}
+.tna .shifthead div:first-child div:last-child{border:0;}
+.tna .shifthead ._md-text{padding: 0 !important;}
+/*Break name css ends*/
+
+/*Weekly work plan name css starts*/
+.full_day_lev{background-color: #dc4c40;height: 7px;width: 7px;float: left;margin: 6px 5px 0 0;}
+.half_day_lev{background-color: #007ce4;height: 7px;width: 7px;float: left;margin:6px 5px 0 0;}
+.day_of_week ul {padding:0;}
+.day_of_week ul li{width: 18px;float: left;list-style-type: none;font-size: 10px;text-align: center;border: 1px solid #ccc;border-radius: 2px;margin: 0 2px;height: 18px;padding-top: 1px;}  
+.day_of_week .half_day_off{background-color:#007ee5;color:#fff; border-color: #007ee5;}
+.day_of_week .full_day_off{background-color:#dc4c40; color:#fff; border-color: #dc4c40;}
+.disable_days{opacity: 0.6;}
+.pd_tpbtm30{padding:20px 0;}
+.bdr_btm{border-bottom:2px solid #f8f8f8;}
+.stdr_tm_wrap{padding: 15px 0px 10px 20px;}
+.top_head_wrap{padding: 5px 0px 5px 20px;}
+.stdr_tm_tab_wrap{padding:0px 10px 10px 15px;}
+.pd_lf30{padding:0 30px;}
+.mg_btm5{margin-bottom: 5px !important;}
+.pd_tp15{padding-top:15px !important;}
+.weekly_plan_wrap div span{padding:20px 0;}
+.create_n_plan div:first-child{border-left:1px solid #ccc;color: #7b8994;text-align:left;padding: 10px 15px;}  
+.create_n_plan ul{padding:0;width: 100px;} 
+.create_n_plan ul li{cursor: pointer;width: 18px;float: left;list-style-type: none;font-size: 10px;text-align: center;border: 1px solid #ccc;border-radius: 2px;margin: 3px;height: 18px;padding-top: 1px;}
+.create_n_plan div{border: 1px solid #ccc; border-right: 0;border-bottom: 0;padding: 10px; min-height: 80px;text-align: center; }  
+.weekly_plan_bdr .create_n_plan:last-child{border-right:1px solid #ccc;}
+.weekly_plan_bdr .create_n_plan div:first-child{min-height: 45px;    background-color: #f9f9f9;}
+.weekly_plan_bdr .create_n_plan div:last-child{border-bottom: 1px solid #ccc;}
+.create_n_plan{width:16.66%;}
+/*Weekly work plan name css ends*/
+
+/*shifts subtab  css starts*/
+.shifts_subtab .shifts_btm_btn { background-color: #fbfbfb;padding: 10px; border-top: 1px solid #ced1d6;position: fixed;bottom: 0px; width: 100%;}
+
+/*Add new Applicabilities css starts */
+.applic_starndard .applica_filters > div div:last-child .md-button{
+    height: 25px;margin: 0;min-height: 25px;
+    min-width: 50px;padding: 0;width: 50px; line-height: 24px;}
+.applic_starndard .applica_filters > div div:last-child .md-button:first-child{border-radius: 3px 0px 0px 3px}
+.applic_starndard .applica_filters > div div:last-child .md-button:last-child{border-radius: 0px 3px 3px 0px}
+.applic_starndard .applica_filters > div div:last-child .md-button:last-child .md-ripple-container{border-radius: 0;}
+.applic_starndard .applica_filters > div div:last-child .md-button.save_filter {
+    min-width: 100px !important;height: auto !important;margin: 0 20px !important;
+    border-radius: 3px !important;}
+.applic_starndard .applica_filters > div div md-icon {font-size: 2.0rem;line-height: 24px;}
+.applic_starndard .applica_filters > div div:last-child .md-button.blue_bdr{border: 1px solid rgb(0, 126, 229);
+    border-radius: 2px !important;}
+.view_select ._md-text{width: 100%;}
+.view_select span{float: right;display: none;font-size: 1.2rem;padding-top: 5px;}
+.view_select:hover span{display: block;}
+  
+/*Add new Applicabilities css ends */
+.shift_plnrs{padding-left: 15px;}
+/*add new plan late attendance csss starts*/
+.new_setup_info {color: #82888c;}
+/*add new plan late attendance csss ends*/
+/*leaves table css starts*/
+.leave-holiday{border:1px solid #e5e5e5; margin:30px 30px 40px 0;}
+.leave-holiday .layout-column {height:70px;}
+.leave-holiday .layout-column .layout-row .layout-row div{text-align:center;}
+.holiday-leave div{height:50px;}
+.leave-holiday-rw{border-bottom:1px solid #e5e5e5;}
+.leave-holiday-ryt{border-right:1px solid #e5e5e5;}
+
+/*leaves table css ends*/
+.strp_over{max-height: 200px;}
+.md_lf30{margin-left: 30px;}
+.applic_starndard .md-accent{margin:0 -24px;}
+.time_plan_tab .strip-dfooter , .policies_tab .strip-dfooter{background-color: #fff !important;}
+.mg-lf{margin-left: 3px !important;}
+.dis_none{display:none;}
+.tna-abbr{font-size: 12px; text-transform: uppercase; font-weight: bold; margin-top:1px;}
+
+.time_atten_late_atten .leave-holiday > div > div{padding:10px;}
+.tna .shifthead div:first-child div { border-left: 1px solid #ddd;border-right: 0;}
+.tna .shifthead div:first-child div:first-child{border:0;}
+.new_shift.tna .inr_cnte{padding-left: 30px;}
+.new_shift.tna .inr_cnte md-input-container>md-select{top:0;margin-right: 10px;}
+.ovrtme_policy .freq_wrap md-radio-group.inline-radio-btn-txt .r-txt {
+    margin-bottom: 25px !important;
+    margin-top: 20px !important;
+}
+#create-new-timeplan md-radio-group.inline-radio-btn-txt .r-txt{height: 30px;}
+.meas_min_wrap > div{border:1px solid rgba(0,0,0,0.12);border-top: 0;}
+.meas_min_wrap > div:first-child{border-top:1px solid rgba(0,0,0,0.12);}
+.meas_min_wrap > div > div{padding:8px;}
+.meas_min_wrap > div > div{border-right: 1px solid rgba(0,0,0,0.12);}
+.meas_min_wrap > div > div:last-child{border-right: 0;}
+
+/*for clock*/
+.md-dialog-container{z-index: 99999;}

@@ -1,0 +1,104 @@
+
+.candidt-documents .attachment md-icon {
+    float: left; 
+    margin: 0px 5px 0 0!important; 
+    transform: rotate(-40deg); 
+    color: rgba(123,137,148,0.6);
+}
+.candidt-documents .attachment small {
+    display: block;
+}
+.candidt-documents .file {
+    background-color: rgb(240,240,240); 
+    display: inline-block; 
+    font-size: 13px !important; 
+    padding: 2px 6px; 
+    border: 1px solid rgb(230,232,234); 
+    color: rgb(0,126,229) !important; 
+    font-weight:600; 
+    border-radius: 0px; 
+    margin-right: 5px;
+}
+.candidt-documents .file md-icon {
+    font-size: 16px; 
+    height: 17px; 
+    width: 16px; 
+    margin:0 0 0 10px!important; 
+}
+.candidt-documents md-progress-circular {
+    display: inline-block; 
+    vertical-align: middle;  
+    margin-left: 20px;
+}
+.candidt-documents md-progress-circular svg{
+    width:16px !important;
+}
+.candidate-accept{
+    box-shadow: 0 0 1px 1px #007ee5 !important; 
+}
+.candidate-reject{
+    box-shadow: 0 0 1px 1px #d9d9d9 !important;
+}
+.candidate-prfle-img{
+	height: 70px;
+    width: 70px;
+    border: 2px solid rgb(255,255,255);
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.14);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.14);
+    margin: 0 16px 0 0;
+    border-radius:50%;
+}
+.candidate-linkden{
+	border:1px dashed rgba(0,0,0,0.12);
+    text-transform: capitalize;
+}
+
+.candidate-offr{
+    min-height:700px; 
+    min-width:600px; 
+    border:40px solid #f0f0f0;
+    padding:10px;
+    word-wrap:break-word;
+}
+.candi-offer{max-width: 600px;}
+.candi-offer .md-button{
+    min-width:240px;
+}
+.candidt-documents .tm-lst md-list-item .md-avatar {
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(255,255,255);
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.14);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.14);
+    margin: 0 16px 0 0;
+
+}
+.candidt-documents .tm-lst md-list-item .md-avatar img{
+    border-radius: 50%;
+}
+
+.candidt-documents .tm-lst md-list-item i {
+    font-size: 18px;
+}
+.frmb{
+    max-width: 95px;
+}
+/*.wizard-indicator:active .wizard-number .wizard-title{
+    background-color: #000;
+    color:#007ee5;
+}*/
+.wizard-indicator.active .wizard-number{
+    background-color: #007ee5 !important;
+}
+.wizard-indicator.active .wizard-title{
+    color: #007ee5!important;
+}
+
+
+.multi_chk ._md-container ._md-icon{
+    background-color: rgba(0,0,0,0.38);
+    pointer-events: none;
+    opacity: 0.4 !important; 
+}

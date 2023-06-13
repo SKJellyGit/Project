@@ -1,0 +1,98 @@
+.resource_planning_rule > div:last-child{margin-left:20px;}
+.resource_planning_rule .md-datepicker-triangle-button{display: none;}
+.resource_planning_rule .md-datepicker-input-container{border-bottom: 0;}
+.resource_planning_rule .resource_postalgo .qndle-strips .strips-heading{padding: 5px;font-size: 10px;}
+.resource_planning_rule .resource_postalgo .qndle-strips .strips-item{border-bottom:0;min-height: 30px;padding: 5px;font-size: 10px;}
+.resource_planning_rule .resource_postalgo .qndle-strips .qndle-strips-wraps{
+	max-height: 90px !important;
+    overflow: auto !important;
+    height: 90px;
+    display: inline-block;
+}
+.resource_planning_rule .panel-box:first-child .panel-box-body > div:first-child{
+	min-height: 120px;
+}
+.resource_planning_rule .panel-box{margin-bottom: 24px !important;}
+.resource_plan_wrap .ln-crv-selct::after{height: 0;}
+.resource_plan_wrap .ln-crv-selct>span{border: 0;border-radius: 3px;padding: 0 10px;}
+.resource_listing .resource_listing_head{box-shadow: 5px 0px 5px -5px rgba(0,0,0,0.25);
+    margin-right: 15px;}
+.resource_listing.qndle-strips .strips-item span{margin-left: 5px;}
+.resource_listing.qndle-strips .strips-item small span {
+    display: inline-flex;
+}
+.resour_allocationRule_tab v-pane-header{padding:10px;border:1px solid rgba(0,0,0,0.12);border-radius:3px;}
+.resour_allocationRule_tab .vAccordion--default v-pane-content>div{padding:0;}
+.resour_allocationRule_tab .qndle-strips.qf-strips.q-n-stripes{    
+	border-width: 0 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.12);}
+.resour_allocationRule_tab .qndle-strips .strips-heading, .resour_allocationRule_tab .qndle-strips .strips-item{padding:0;} 
+.resour_allocationRule_tab .qndle-strips .strips-heading > div, .resour_allocationRule_tab .qndle-strips .strips-item > div{min-height: 60px;padding:10px !important;border-right:1px solid rgba(0,0,0,0.12);} 
+.resour_allocationRule_tab .qndle-strips .strips-heading > div:last-child, .resour_allocationRule_tab .qndle-strips .strips-item > div:last-child{border-right:0;}
+.resour_allocationRule_tab .resp_bg_strips .reso_team_info{
+	border-width: 1px 0 1px 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.12);padding:10px;
+}
+.repeated_background{background:repeating-linear-gradient(-45deg, transparent,transparent 4px,rgba(0,0,0,0.12) 5px, rgba(0,0,0,0.12) 6px);}
+.resour_allocationRule_tab .pro-setup{
+    min-height: inherit;
+    height: inherit;
+    overflow: inherit;
+}
+.resour_allocationRule_tab .best_worst_wrap > div:last-child > span {
+    position: absolute;
+    top: 3px;
+    right: -42px;
+    z-index: 99999;
+}
+.resour_allocationRule_tab .best_worst_wrap > div:first-child > span {
+    position: absolute;
+    top: -4px;
+    right: -39px;
+    z-index: 999;
+}
+.resour_allocationRule_tab .best_to_worst:before {
+    height: 100%;
+    left: -31px;
+    }
+.resour_allocationRule_tab .best_worst_wrap > div:first-child {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+}
+.light_bdr{border: 1px solid rgba(0,0,0,0.05);}
+.resource_packer ul li{float: left;margin-left: -10px;position: relative;}
+.resource_packer ul li img{
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(255,255,255);
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.14);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.14);
+    margin: 0;
+    border-radius: 50%;
+}
+.resource_packer ul li img.active{
+    border: 3px solid rgb(0, 126, 229);
+    width: 42px;
+    height: 42px;
+}
+.resource_packer .packer_status{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: gray;
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 5px;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.14);
+    border: 2px solid rgb(255,255,255);
+}
+.basic_sttng.pro-setup .best_to_worst:before{height: 100%;}
+.basic_sttng.pro-setup .best_worst_wrap > div:last-child > span{right: -45px;}
+.basic_sttng.pro-setup .best_worst_wrap > div:first-child > span{right: -40px;top: 3px;}
+.basic_sttng.pro-setup .best_worst_wrap > div:first-child{top: 10px;left: -10px;}
+.multi_select md-select ._md-select-value > span{display: flex;}

@@ -1,0 +1,95 @@
+.provision-main .qndle-strips .strips-item div{
+	color:#3d464d;
+}
+.provision-main .edit{
+	position: absolute;
+	top:5px;
+	right:5px;
+}
+.provision-main .pro-more{
+	display: inline !important;
+}
+.pro-more-cntn{
+	min-height:140px; 
+	max-width:300px;
+}
+.comm-refrnce > div{
+	padding:10px;
+}
+.comm-refrnce > div:first-child{
+	padding: 0 10px 10px;
+	border-bottom:1px solid #d9d9d9;
+}
+.select-icon {
+	display:inline-flex;
+}
+.select-icon {
+	margin: 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+}
+.select-icon md-icon {
+	margin: 0 !important;
+}
+._md-select-menu-container{
+	max-width:250px !important;
+}
+.refr-temp {
+	height:200px !important;
+	overflow: hidden;
+}
+.refr-temp-cntnt{
+	height: 170px;
+	overflow: auto;
+}
+.provision-main .pro-more .md-button{
+ 	font-size: 12px;
+}
+.comm-notifction md-content.md-default-theme, .comm-notifction md-content{
+	background: #f9f9f9;	
+}
+.site-notifction{
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.23);
+	background: #fff;
+	margin:20px 2px 0 2px;
+}
+.site-notifction-actv{
+	box-shadow: 0px 1px 13px 2px rgba(0, 0, 0, 0.12);
+	background: #fff;
+	margin:15px 2px 0 2px;	
+}
+.comm-notification .panel-box{
+	box-shadow: none;
+}
+.comm-notification .panel-box .panel-box-header{
+    margin: 2px 2px 0px 2px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.23);
+    border: 0;
+}
+.comm-notifction md-tabs.md-default-theme.md-accent > md-tabs-wrapper, .comm-notifction md-tabs.md-accent > md-tabs-wrapper{
+	margin: 1px 2px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.23);
+}
+
+/*added for provision relevance*/
+.provi_chips_wrap{border-bottom: 1px solid #ebebeb;}
+.provision-cstmpopvr .user_mgmt_profile .customPopover{
+	position: absolute;
+	top:20px;
+	left:60px;
+}
+.provision-cstmpopvr{
+	position: relative;
+}
+.select-icon md-option ._md-text md-icon{
+	height: 25px;
+	width:25px;
+	font-size:25px;
+}
+.qndle-strips .provsn-stripes .strips-item{
+	line-height: 17px!important;
+}

@@ -1,0 +1,319 @@
+
+.expense-setting .q-table .q-table-row{
+    border-bottom:0;
+    border-left:0;
+}
+.expense-setting .q-table .q-table-cell:last-child{
+    border-right:0;
+}
+.trvl-policies .qs_active:before, .trvl-policies .qs_disable:before, .trvl-policies .qs_draft:before{
+	border-top-left-radius:2px;
+	border-bottom-left-radius:2px;
+	left:-2px;
+	}
+.expense-setting .intrntionl .q-table .q-table-head div{
+	border-right: 0px;
+}
+.expense-setting .intrntionl .q-table .q-table-head{
+	border:1px solid rgba(0,0,0,0.05)
+}
+.expense-setting .intrntionl .q-table .q-table-row{
+	border-left:1px solid rgba(0,0,0,0.05);
+	border-bottom:1px solid rgba(0,0,0,0.05)
+}
+.expense-setting .intrntionl .q-table .q-table-cell:first-child, .expense-setting .intrntionl .q-table .q-table-cell:nth-child(2){
+	border-right:0 !important;
+}
+.expense-setting .intrntionl .q-table .q-table-cell{
+	border-right: 1px solid rgba(0,0,0,0.05)!important;
+}
+.expense-setting .intrntionl .q-table .q-table-head div:first-child{
+	padding-left: 20px;
+}
+.expense-setting .intrntionl .q-table .q-table-row div:first-child{
+	padding-left: 20px;
+}
+.expense-setting .intrntionl .q-table .q-table-cell .fa{
+margin-left:10px;
+}
+#payment-type-travel .qmchips .qmchip{
+	padding:6px 12px;
+}
+#payment-type-travel .trvl-type >div>div{
+	margin-right:10px;
+}
+#payment-type-travel .trvl-type div>div:last-child{
+	margin-right:0;
+}
+.preferred-vendors .fle-name{
+	padding:5px 10px;
+}
+.preferred-vendors .fle-name md-icon{
+	margin-left:10px;
+	width: 16px;
+	height:16px;
+	font-size:16px;
+}
+.preferred-vendors .fle-or span{
+	width:30px; 
+	height: 30px;
+	border-radius:50%;
+	background-color: #f4f4f4;
+	text-align: center;
+	font-size:12px;
+	line-height:30px;
+}
+.expense-setting-divider md-divider{
+	margin-bottom: 0!important;
+	margin-top:0!important;
+}
+.business-trvl-exp .qmchips .qmchip{padding:5px 10px;}
+.business-trvl-exp .qmchips .qmchip md-icon{margin-right:0;}
+.business-trvl-exp .qmchips .qmchip.clr{background-color: rgba(0, 126, 229, 0.05);}
+.business-trvl-exp .bdge{padding:5px 10px; border-radius:3px;}
+.viewinfo-sidenav.trvel-sidenav{min-width:600px;}
+.viewinfo-sidenav.trvel-sidenav .qmchips .qmchip{padding:5px;}
+.drg-cls{padding:5px; border:1px solid rgba(0,0,0,0.12); border-radius:2px;}
+.drg-cls img {margin-right:5px;}
+.mrchnt-cat .inline-chips md-chips.md-default-theme .md-chips, .mrchnt-cat .inline-chips md-chips .md-chips{
+	box-shadow: none;
+	font-size: 14px;
+}
+.invoice .invc-preview .md-button.md-raised[disabled]{
+	background-color:rgba(0, 126, 229, 0.05);
+	border:1px dashed rgba(0,126,229,0.2);
+	text-transform: inherit;
+} 
+.invc-col{
+	padding:5px;
+	border:1px dashed rgba(0,0,0,0.12);
+}
+.invc-img{
+	border:3px solid rgba(0,0,0,0.08);
+	border-radius:2px;
+	padding: 5px;
+}
+.select-icon {
+	display:inline-flex;
+}
+.select-icon {
+	margin: 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+}
+
+.select-icon md-icon {
+	margin: 0 !important;
+}
+
+._md-select-menu-container{
+	max-width:250px !important;
+}
+.trvl-tbl .table>thead>tr>th{border-bottom:0;}
+/**Conflict Added*/
+/*Travel expense css*/
+
+.qf_travel_exp .panel-box-body{position: relative;}
+.q-frntnd-cont.qf_travel_exp > p{font-size: 28px;color:#7b8994;margin-bottom: 30px;}
+/*.custom_slct{position: absolute;right: 12px;top: 7px;}*/
+.qf_travel_exp .tb_bg md-tabs-wrapper{background-color: #fcfcfd;}
+.custom_slct md-menu{border-bottom: 1px solid rgba(0,0,0,0.12);position: relative;top:3px;}
+/*.custom_slct md-input-container, .custom_slct md-menu{border:1px solid rgba(0,0,0,0.12);border-radius: 3px;width: inherit;background-color: #fff;height:35px;
+    display: flex;align-items: center;}
+.custom_slct md-input-container ._md-select-value{border-bottom:0;display: flex;align-items: flex-start;}
+.custom_slct md-input-container md-select:focus ._md-select-value{border-bottom-color: transparent;}
+.custom_slct md-input-container md-select{left:3px;}*/
+/*.qf_travel_exp .allstatus .sItem  ._md-select-value, .qf_travel_exp .allstatus .sItem ._md-select-icon{color: #5da4e4;}
+.qf_travel_exp .allstatus .sItem{border-right: 0;}
+.qf_travel_exp .allstatus .sItem ._md-select-value ._md-select-icon{transform: rotate(180deg);top: 2px;position: inherit;}*/
+.qf_travel_exp .panel-box-body > h1{font-size: 18px;font-weight: bold;margin: 2px 0 24px;}
+.qf_travel_exp .qf-pro-list{overflow: visible;margin:15px 0;}
+.qf_travel_exp .qf-pro-list md-list-item .md-button.active{color:rgb(0, 126, 229);background-color: rgba(158,158,158,0.2);font-weight: 600;}
+.qf_travel_exp .qf-pro-list md-list-item .md-button.active:after{
+	content: '\f0da';position: relative;font-family: FontAwesome;right: -5px;color:rgb(0, 126, 229);}
+.qf_travel_exp .qf-pro-list md-list-item .md-button.active > span{width: 100%;display: inline-block;}
+.qf_travel_exp .slice_dc_wrap md-sidenav .travel_exp_sdnav{background-color: #fcfcfd;padding:12px 15px;border-bottom: 1px solid rgba(0,0,0,0.12);}
+/*.qf_travel_exp .db-sidenav  md-list md-list-item .md-button{width: auto;}*/
+.qf_travel_exp .slice_dc_wrap md-sidenav{max-width: 180px;}
+.all_spends_icn {width: 12px;display: inline-flex;height: 12px;border-radius: 2px; margin-right:8px;}
+.pending_acts_wrap > div > div:last-child{border-left:1px solid rgba(0,0,0,0.12);}
+.slice_dc_wrap .db-sidenav{z-index:60;}
+/*.qf_travel_exp  .md-tab{text-transform: capitalize;}*/
+.qtr_slct , .mnth_slct > div{cursor: pointer;}
+.qtr_slct .active{background-color: rgb(0,126,229);}
+.qtr_slct .active> div{color:#fff;}
+.mnth_slct > div > .active{padding: 5px 0;border-radius: 3px;background-color: rgb(0,126,229);color:#fff;}
+.brder-btn{ border:1px solid rgb(0, 126, 229); }
+.travel-exp-frntend .wizard-header{background:#f4f4f4; border-bottom:1px solid rgba(0,0,0,0.12);}
+.travel-exp-frntend .wizard-indicator-wrapper{background: #f4f4f4;}
+/*.qf_travel_exp h1{font-size:16px!important;}*/
+.qf_header_img{width:15%; height:auto;}
+.travel-radio-btn{border-right:1px solid rgba(0,0,0,0.12);}
+.travel-radio-btnn{margin-left:20px!important;}
+.optn{float:right;}
+.rqst-chps .qmchips .qmchip{
+    margin: 0 8px 8px 0;
+}
+.rqst-leave-chain .qmchips .qmchip .rqust-leave-cir{
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    /*top:20%;*/
+    left:-15%;
+    background-color:#d9d9d9;
+}
+.rqst-leave-chain .qmchips .qmchip{
+    background-color: transparent;
+    margin: 0 0px 8px 25px;
+    position: relative;
+}
+.rqst-leave-chain .qmchips{
+    margin:7px 0 0 0;
+}
+.rqst-leave-chain .qmchips .qmchip .seprtion{
+    border-top:1px solid #3d464d;
+    min-width:30px;
+    margin:0 0 0 5px;
+}
+.travel-exp-frntend.tbtwo .wizard-indicator-wrapper{
+	background-color: #fff;
+}
+.travel-exp-frntend.tbtwo .wizard-header{
+	background-color: #fff;
+}
+.travel-exp-frntend.tbtwo .wizard-horizontal .wizard-indicator:after{
+	border-style:dashed;
+	border-color:#e8e8e8;
+	border-width:1px;
+	background-color: transparent;
+}
+.exp-cntnt{
+	border:1px solid rgba(0,0,0,0.12);
+	border-radius:2px;
+}
+.exp-cntnt .exp-cntnt-header{padding:10px 20px;border-bottom:1px solid rgba(0,0,0,0.12);}
+.exp-cntnt .exp-cntnt-item{padding:10px 20px; border-bottom:1px solid rgba(0,0,0,0.12);}
+.exp-cntnt .exp-cntnt-item:last-child{border-bottom:0;}
+.trvl-detail md-input-container.md-default-theme .md-input, .trvl-detail md-input-container .md-input{border-color:#fff;}
+.trvl-detail md-input-container:not(.md-input-invalid).md-input-focused .md-input {border-color: #fff;}
+.asssign-delegte{padding:0 20px;}
+/* do not group these rules */ .trvl-detail > md-input-container > input::-webkit-input-placeholder { color: #FFF; } .trvl-detail > md-input-container > input:-moz-placeholder { /* FF 4-18 */ color: #FFF; } .trvl-detail > md-input-container > input::-moz-placeholder { /* FF 19+ */ color: #FFF; } .trvl-detail > md-input-container > input:-ms-input-placeholder { /* IE 10+ */ color: #FFF; }
+.expense-card md-card{
+	width:400px;
+	height:500px;
+}
+/*.delegt-name md-list-item.md-2-line, .delegt-name md-list-item.md-2-line>._md-no-style{height:50px; min-height:50px;}*/
+.asssign-delegte{padding:0 20px;}
+.delegt-name md-list-item .md-button{line-height: 20px;padding-top: 8px !important;}
+.delegt-name .trvel-drpdown-text-size h3{font-size: 14px!important;}
+.delegt-name .trvel-drpdown-text-size p{font-size: 12px!important;}
+.trvl-detail > md-input-container > input::-webkit-input-placeholder { color: #FFF; } .trvl-detail > md-input-container > input:-moz-placeholder { /* FF 4-18 */ color: #FFF; } .trvl-detail > md-input-container > input::-moz-placeholder { /* FF 19+ */ color: #FFF; } .trvl-detail > md-input-container > input:-ms-input-placeholder { /* IE 10+ */ color: #FFF; }
+.trvl-detail md-radio-group.md-default-theme:not([disabled]) .md-primary ._md-on, .trvl-detail md-radio-group:not([disabled]) .md-primary ._md-on, .trvl-detail md-radio-group.md-default-theme:not([disabled]).md-primary ._md-on, .trvl-detail md-radio-group:not([disabled]).md-primary ._md-on, .trvl-detail md-radio-button.md-default-theme:not([disabled]) .md-primary ._md-on, .trvl-detail md-radio-button:not([disabled]) .md-primary ._md-on, .trvl-detail md-radio-button.md-default-theme:not([disabled]).md-primary ._md-on, .trvl-detail md-radio-button:not([disabled]).md-primary ._md-on {
+    background-color: rgb(255, 255, 255);}
+.trvl-detail md-radio-button ._md-off {
+    border-color: rgb(255, 255, 255);
+}
+
+.trvl-detail md-radio-group.md-default-theme:not([disabled]) .md-primary .md-checked ._md-off, .trvl-detail md-radio-group:not([disabled]) .md-primary .md-checked ._md-off, .trvl-detail md-radio-group.md-default-theme:not([disabled]) .md-primary.md-checked ._md-off, .trvl-detail md-radio-group:not([disabled]) .md-primary.md-checked ._md-off, .trvl-detail md-radio-group.md-default-theme:not([disabled]).md-primary .md-checked ._md-off, .trvl-detail md-radio-group:not([disabled]).md-primary .md-checked ._md-off, .trvl-detail md-radio-group.md-default-theme:not([disabled]).md-primary.md-checked ._md-off, .trvl-detail md-radio-group:not([disabled]).md-primary.md-checked ._md-off, .trvl-detail md-radio-button.md-default-theme:not([disabled]) .md-primary .md-checked ._md-off, .trvl-detail md-radio-button:not([disabled]) .md-primary .md-checked ._md-off, .trvl-detail md-radio-button.md-default-theme:not([disabled]) .md-primary.md-checked ._md-off, .trvl-detail md-radio-button:not([disabled]) .md-primary.md-checked ._md-off, .trvl-detail md-radio-button.md-default-theme:not([disabled]).md-primary .md-checked ._md-off, .trvl-detail md-radio-button:not([disabled]).md-primary .md-checked ._md-off, .trvl-detail md-radio-button.md-default-theme:not([disabled]).md-primary.md-checked ._md-off, .trvl-detail md-radio-button:not([disabled]).md-primary.md-checked ._md-off{border-color:#fff;}
+.trvl-detail md-select.md-default-theme ._md-select-value._md-select-placeholder, .trvl-detail md-select ._md-select-value._md-select-placeholder {
+    color: rgb(255, 255, 255);
+}
+.trvl-detail md-select.md-default-theme ._md-select-value, .trvl-detail md-select ._md-select-value {
+    border-bottom-color: rgb(255, 255, 255);
+}
+.trvl-detail md-select.md-default-theme ._md-select-value, .trvl-detail md-select ._md-select-value {
+    border-bottom-color: rgb(255, 255, 255);
+}
+.trvl-detail ._md-select-value > span:not(._md-select-icon) ._md-text {
+    color: rgb(255, 255, 255);
+}
+.trvl-detail md-select.md-default-theme ._md-select-value, .trvl-detail md-select ._md-select-value {
+    border-bottom-color: rgb(255, 255, 255);
+}
+.trvl-detail ._md-select-value ._md-select-icon {
+    color: rgb(255, 255, 255);
+}
+.trvl-detail md-select:not([disabled]):focus ._md-select-value {
+    border-bottom-color: rgb(255, 255, 255);
+}
+.trvl-detail md-input-container.md-default-theme:not(.md-input-invalid).md-input-has-value label, .trvl-detail md-input-container:not(.md-input-invalid).md-input-has-value label {
+    color: rgb(255, 255, 255);
+}
+.trvl-detail .v-style li.active a, .trvl-detail .v-style li.active a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 126, 229);
+    border-color: rgb(255, 255, 255);
+}
+.trvl-detail .v-style li a:hover {
+    background-color: rgb(209, 209, 209);
+    color: rgba(0, 0, 0, 0.48);
+    font-weight: bold;
+}
+.trvl-detail .v-style li a {
+    background-color: rgb(209, 209, 209);
+    color: rgba(0, 0, 0, 0.48);
+    font-weight: bold;
+    padding: 13px;
+}
+.trvl-detail {
+    background-image: url(../images/travel.png);
+}
+.trvltwo {
+    background-image: url(../images/travel2.png);
+    height: 22%;
+}
+.trvl-card {
+    margin-top: -85px;
+}
+.trvl-card md-card {
+    border-radius: 10px;position: relative;
+}
+.trvl-card md-card md-card-content > div > div:last-child.flex-5{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+.expense-card md-card{
+    width:400px;
+    height:500px;
+}.trvl-planner md-card{
+	height:400px!important;
+}
+.expns md-list-item.md-2-line, .expns md-list-item.md-2-line>._md-no-style{min-height: inherit;}
+.expns-emp .qf_header_img{width:10%;}
+.expns-admin .panel-box{box-shadow: none; border:1px solid rgba(0,0,0,0.12);}
+.qf_travel_exp .expns-admin .slice_dc_wrap md-sidenav .travel_exp_sdnav{padding:18px 15px;}
+.qf_travel_exp .expns-admin .slice_dc_wrap md-sidenav{border-right:1px solid rgba(0,0,0,0.12); box-shadow: none;}
+.slectbx .md-menu{
+
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 4px;
+    padding: 7px 4px;
+}
+.expnse-request .qf_emp_nm > div > div span{
+    margin-left:5px;
+}
+.expnse-request .qf_dev_assign > div > div span{margin-left:5px;}
+.qf_manager_frntend.expnse-request .qf_mng_provision .qf_emp_nm > div > div:first-child{width:100%; height: 85px !important;}
+.qf_manager_frntend.expnse-request .qf_mng_provision .qf_emp_nm .left_sec_wrap > div{width:150px;}
+.qf_manager_frntend.expnse-request .qf_mng_provision .qf_emp_nm > div > div{width:100%!important; height:85px;}
+.qf_manager_frntend.expnse-request.spnd .qf_mng_provision .qf_emp_nm > div > div{height:66px;}
+.qf_manager_frntend.expnse-request .qf_mng_provision .qf_dev_assign > div > div:last-child{border-right:0;}
+.qf_manager_frntend.expnse-request .qf_mng_provision .qf_dev_assign > div > div{width:175px;min-width: 175px;}
+
+
+.qf_manager_frntend.trvel-planner .qf_mng_provision .qf_dev_assign > div > div{border-right:0;}
+.trvel-planner.qndle-strips.qf-strips .strips-heading > div, .trvel-planner.qndle-strips.qf-strips .strips-item > div{padding:0;}
+.panel-box .panel-box-header2.trvl-expnse-header{height:90px; max-height:90px; line-height:20px;}
+.expnse_disable{display: none;}
+@media (min-width: 992px){
+    .app-modal-window .modal-dialog {width: 900px;}
+}
+/*css for header-2 height in travel expense*/
+.travel_exp_wraps.panel-box .panel-box-header2{height: auto;max-height: inherit;padding: 3px 20px;}

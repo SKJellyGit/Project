@@ -1,0 +1,226 @@
+/*Organization details css*/
+.small_clr{color: #7b8994;}
+/*Groups tab css start*/
+.pd_15{padding:0 15px;}
+.custom_btn{height: 20px !important;margin: 0 !important;min-height: 15px !important;padding: 0 !important;}
+.groups_tab > p{line-height: 20px;}
+/*Groups tab css end*/
+
+/*System info tab css start*/
+.head_lft_border h3{position: relative; overflow: hidden; font-size:15px; margin:0;}
+.head_lft_border h3 span {
+	background-color: white;
+    padding-right: 10px;
+}
+.head_lft_border h3:after {
+    content:"";
+    position: absolute;
+    top:50%;
+    width:100%;
+    height: 0.5em;
+    border-top: 1px solid #e6e8ea;
+    z-index: 1;
+}
+.system_directory_tab md-card .md-headline{font-size: 1.4rem;font-weight: bold;}
+.system_directory_tab .sys_info_rup span{padding: 15px 10px 0 10px;}
+.system_directory_tab .sys_info_rup div:first-child{align-items: center;display: flex;}
+.system_directory_tab .sys_info_rup span md-icon{height: 18px;width: 18px;}     
+.system_directory_tab .sys_info_rup div span+ span{ background: #f0f0f1 none repeat scroll 0 0;border-radius: 3px;margin-top: 10px;min-width: 180px;padding: 10px;text-align: left;width: auto;}
+.system_directory_tab .sys_info_rup p span{display: initial;padding: 0;}
+.system_directory_tab .sys_info_rup p span md-icon{width: 12px;height: 12px;}
+/*System info tab css end*/
+
+/*Search result tab css end*/
+md-input-container .rightSet {position: absolute;right: 0;top: 0px;color: rgba(123,137,148,0.3);}
+.connection_message{display: block;margin: 6px 0;}
+/*Search result tab css end*/
+
+/*Organization details tab css starts*/
+md-input-container .rightSet i {font-size: 16px;position: relative;top: 3px;margin: 0 2px;}
+/*Organization details tab css ends*/
+
+.location_can_btn{padding: 10px;}
+.error-message{color:rgb(221,44,0);}
+.modal-footer {border-top: 0px solid #e5e5e5; }
+
+/* Image Crop related css added by Developer */
+img-crop{width: 120px;height: 120px;}
+img-crop canvas{margin:auto !important;}
+.cropArea {/*background: #E4E4E4;*/ overflow: hidden;display: flex;justify-content: center; }
+form .progress {line-height: 15px; }
+.progress {display: inline-block; width: 100px; border: 3px groove #CCC; }
+.progress div {font-size: smaller; background: orange; width: 0; }
+.cropped_img{width:120px; }
+.cropped_img > div:first-child{text-align: center; padding:0 0 10px; }
+.cropped_img > div:nth-child(2){border:1px dashed rgba(123,137,148,0.6); width: 120px; }
+.cropped_img img{max-width: 100%;max-height: 100%; }
+/* End Image Crop css */
+
+.company-logo{padding:0; border:0; }
+.company-logo img{max-width: 100%;max-height: 100%; }
+.delete_location {margin: 0 auto; padding: 5px;text-align: center; }
+.pd_10 {padding: 10px; }
+.md-body{position: static;padding: 0;}
+.md-body .md-bg{background-color: #f9f9f9; border: 1px solid rgba(0,0,0,0.12);padding: 20px; }
+
+/*Role and permissions details tab css starts*/
+.role_permission .role_per_admin .strips-item div div small:first-child{display: block;}
+/*manager permissions details tab css starts*/
+.breadcumb span:last-child{/*color: #7b8994;font-size: 1.2rem;*/}
+
+/*Top Management css starts here*/
+.manage_permisn_btn .md-button{background-color: #fff !important;color: rgb(0, 126, 229);font-size: 1.3rem;text-transform: capitalize;}
+.manage_permisn_btn .md-button md-icon{vertical-align: top;padding: 7px 0 0 0;color: rgb(0, 126, 229) !important;}
+.searched_emp_name div md-card{max-height: 280px;min-height:280px;overflow-x: hidden;}  
+.searched_emp_name div md-card ul li p{margin:0; }
+.searched_emp_name div md-card ul li span{color:#7b8994;font-size: 1.2rem;}
+.searched_emp_name div md-card ul li{transition:all 0.4s ease;background:transparent;padding:10px 15px;border-bottom: 1px solid #ebebeb; cursor: pointer;}
+.selected_name md-card ul .active{background: #f2f8fe;}
+.selected_name_swipe .md-button{box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.26); height: 30px;margin: 5px 0 !important;min-height: auto;padding: 0;width: 30px;}
+.selected_name_swipe .md-button md-icon i{font-size: 2.0rem;}
+.setting_updat_btn .md-button{transition:all 0.4s ease;background-color: #3d464d;color: #fff;padding: 10px 20px;border-radius: 0;}
+.setting_updat_btn .md-button:hover{background-color:#3d464d !important;opacity: 0.8;}
+/*Top Management css ends here*/
+
+/*Role and permissions details tab css ends*/
+.manager_permissions .permission_wrap .md-active{box-shadow: 0 1px 0 1px #ebebeb inset; }
+.manager_permissions .permission_wrap md-tabs md-tabs-canvas{margin: 10px 10px 0;height: 38px;}
+.manager_permissions .permission_wrap md-tabs md-ink-bar{height: 0;} 
+.manager_permissions .permission_wrap md-tabs .md-tab{padding: 8px 24px;}
+.breadcumb md-icon:first-child{position: relative;cursor: pointer;}
+.permission_filter md-icon{font-size: 20px;}
+.manager_permissions .scope_wrap .permission_filter li div .md-button {height: 25px;margin: 0;min-height: 25px;min-width: 25px;padding: 0;width: 25px;}
+
+/*manager permissions css starts*/
+.manager_permissions .permission_wrap {background-color: #f9f9f9;}
+.manager_permissions .permission_wrap > div{border-right: 0;padding: 10px 10px 10px 20px;}
+.manager_permissions .permission_wrap{border-right:0;}  
+.manager_permissions .permission_wrap > div:first-child{border-right: 1px solid #ebebeb;}
+.manager_permissions .scope_disabled {border-right: 0;}    
+.manager_permissions .permission_wrap .tabs div{padding: 10px; margin: 10px 10px 0 10px;text-align: center;cursor: pointer;border-bottom:1px solid #e9e9e9;}
+.manager_permissions .permission_wrap .tabs .active{color: rgb(0, 126, 229);border:1px solid #e9e9e9;border-bottom:0;}
+.manager_permissions .permission_wrap .tabs div:first-child{ margin-left: 0;margin-right: 0;}
+.manager_permissions .permission_wrap .tabs div:last-child{margin-left: 0;margin-right: 20px;padding-right: 10px !important;}
+.manager_permissions .permission_wrap .tabs div:last-child::after{content:'';border-bottom: 1px solid #ebebeb;width: 20px;position: absolute;bottom: 0;right: 0;}
+.manager_permissions .permission_wrap .tabs:first-child:before{content:'';border-bottom:1px solid #e9e9e9;width:20px;}
+.manager_permissions{border: 1px solid #ebebeb;border-bottom: 0;}
+.manager_permissions .scope_wrap .permission_filter > div >  span{margin: -8px 8px; padding: 4px 10px;}
+.manager_permissions .permission_wrap .filtered_content{padding: 15px 25px;/*border-top: 0 !important;*/}
+.manager_permissions .permission_wrap:last-child{  /* border-right: 1px solid #ebebeb;*/}
+.scope_wrap .filtered_content{background-color: #fff;}
+.manager_permissions .scope_wrap .permission_filter{background-color: #f9f9f9 ; border: 1px solid #ebebeb;margin: 10px 0;}
+.manager_permissions .scope_wrap .permission_filter div:last-child > span {padding: 0; border: 1px solid #ebebeb;height: 24px;}
+.manager_permissions .scope_wrap .permission_filter div .md-button:first-child{line-height: 24px; border-radius: 2px 0 0 2px;}
+.manager_permissions .scope_wrap .permission_filter div .md-button:last-child{line-height: 25px;border-radius: 0 2px 2px 0;}
+.manager_permissions .scope_wrap .permission_filter div .md-button md-icon{line-height: 25px;}
+.optional_btn > div .md-button:last-child{height: 40px;width: 40px;min-height: 40px;min-width: 40px;}
+.optional_btn  > div:last-child .md-button{ height: 25px; margin: 0;min-height: 25px;min-width: 50px; padding: 0;width: 50px;line-height: 24px;}
+.bdr_btm{border-bottom: 1px solid #ebebeb !important;}
+.bdr_btm0{border-bottom: 0 !important;}
+.manager_permissions .permission_wrap .md-errors-spacer{display: none;}
+.permission_search > div:first-child{padding: 5px 10px 5px 0 !important;}
+.permission_wrap .permission_active{/*padding:0 !important;*/position: relative;}
+.manager_permissions .arrow{position: relative;}
+.manager_permissions .arrow:before{border-color: transparent #ddd;border-style: solid;border-width:11px 15px 10px 0px; content: "";position: absolute;right:0px;top:15px;}
+.manager_permissions .arrow:after{border-color: transparent #fff;border-style: solid;border-width:11px 13px 10px 0px;content: ""; position: absolute;right:0px;top:15px;}
+.permission_wrap .permission_active{background: #fff none repeat scroll 0 0;border-left: 2px solid #007ee5;}
+.permission_wrap .scope_active{background-color: #fff;}
+.permission_wrap .scope_disabled{background-color: #fcfcfc;}
+.pemission_checks span{cursor: pointer;}
+.pemission_checks md-icon{font-size: 15px;padding: 3px;}
+.filtered_content.pemission_checks .permission_chk_active md-icon{transform: rotate(90deg);color:rgb(0, 126, 229);}   
+.filtered_content.pemission_checks .permission_chk_active span{color: rgb(0, 126, 229);}
+.filtered_content.pemission_checks > div{margin: initial; padding: 15px 0; text-align: center;border-bottom: 1px solid #ebebeb;} 
+.filtered_content  .permission_chk_active{border-left: 1px solid #ebebeb;border-right: 1px solid #ebebeb;}
+.filtered_content.pemission_checks{border-bottom: 0 !important;}
+.filtered_content.pemission_checks:before{content:'';border-bottom: 1px solid #ebebeb;}
+.filtered_content.pemission_checks:after{content:'';border-bottom: 1px solid #ebebeb;}
+.permission_search > div.sb:last-child{font-size: 13px;/*color: #9b9fa3;*/}
+.permission_wrap .scope_active{background-color: #fff;}
+ /*manager permissions css ends*/      
+
+.scope_btn{min-height: 30px !important;min-width: 40px !important;height: 30px;} 
+.scope_btn md-icon{margin:0 !important;padding:0;}
+.assing_scope_btn{ background-color: #faa05d !important; color: #fff !important;}
+.assing_scope_btn md-icon{color: #fff !important;}
+.apply_filter_list span.fltr_ac{background-color: rgba(0,0,0,0.20);padding: 4px 8px 6px;}
+.save_filter{min-width: 100px !important;height: auto !important;  margin: 18px 20px !important;border-radius: 3px !important;}
+.allocate_list_pop{padding: 10px 6px 12px;}
+.assign_scope_wrap{background: #f2f8fe;padding: 10px; border-radius: 3px;margin-bottom: 10px;}
+.org_chart{background-color: #f9f9f9;padding: 10px 15px;}
+.assign_perm_chk > div{padding-bottom: 20px;}/*border-bottom: 1px solid #ebebeb;*/
+.assign_perm_chk > div > span{cursor: pointer;}
+.assign_perm_chk > div > span md-icon{font-size: 18px;padding: 3px;}
+.assign_perm_chk .assign_scope_active {border: 1px solid #ebebeb;border-bottom: 0 !important; padding: 5px 0;}
+.assign_perm_chk .assign_scope_active md-icon{transform: rotate(90deg);}
+.allocating-list{width: 100%;}
+.permiss_wrap{padding-bottom: 10px;border-bottom: 1px solid #ebebeb;}
+.filtered_content.pemission_checks > div:last-child{padding-right: 15px;}
+.filtered_content.pemission_checks > div:first-child{padding-left: 25px;}
+.allocating-list li:nth-child(2) > span{border-left: 0 none; border-right: 1px solid rgba(0, 0, 0, 0.12);height: 18px;margin: 0 auto;padding: 0;}
+.non_admin_arrow .arrow:after{border-color: transparent #fcfcfc;}
+.non_admin_arrow .disable_scp{opacity: 0.3;}
+.atv_scope_btn{background-color: #fff !important;}
+.atv_scope_btn md-icon{ color: rgb(219, 67, 54) !important;}
+.blue_bdr{border:1px solid rgb(0, 126, 229);border-radius: 2px !important;}
+
+/*search box css*/
+#search {background: url(../images/search.png) center right no-repeat #fff; width: 30px; padding: 0 20px 0 10px; height: 30px; font-size: 14px; color: #666;line-height: 24px; border: 0; border-radius: 50px; cursor: pointer; position: relative; z-index: 5; -webkit-transition: .8s ease-in-out; -moz-transition: .8s ease-in-out ;margin-right: 10px;}
+#search:focus {outline: none;width: 150px;}
+.unck_component{opacity:0.5;}
+.searched_emp_name div md-card ul li.active{background: #f2f8fe;}
+.leav_mgt .permission_search:first-child{padding: 15px;  border-bottom: 1px solid #ebebeb;  border-right: 1px solid #ebebeb;}
+.organis_chart div:first-child{padding: 15px;border:0;}
+.permission_chk{background: #fff none repeat scroll 0 0;border-left: 2px solid #007ee5 !important;}
+.permission_cont_wrap{padding: 15px 15px 15px 25px;border-bottom: 1px solid #ebebeb;}
+.scope_dis_cont{border-bottom: 1px solid #ebebeb;}
+.permis_heading{padding-left: 10px;}
+.and_fltr .md-button{border-radius: 2px !important;}
+.manager_permissions .scope_wrap.filtered_content{/*border-left: 1px solid #ebebeb; */border-bottom: 1px solid #ebebeb;}
+.brd_bottom0{border-bottom:0 !important;}
+.disabled-checkbox{opacity: 0.2;}
+.pd_lft15{padding-left: 15px;}
+.permission_filter {background-color: #f9f9f9; border: 1px solid #ebebeb; margin: 10px 0; }
+
+/* Added by Develper to overwrite autocomplete */
+.poc md-autocomplete{ border-bottom: 1px solid #e1e1e1; margin-top: 10px;}
+.poc md-autocomplete button{display: none;}
+.poc .md-whiteframe-1dp{box-shadow: none !important;}
+.poc md-autocomplete input:not(.md-input) {padding:0;}
+md-backdrop.md-menu-backdrop{z-index: 99}
+.certificate-setting md-autocomplete {border-bottom: 1px solid #ebebeb; }
+
+/*css added for role and permission change*/
+.manager_permissions .permission_wrap .tabs:last-child:before{content: ''; border-bottom: 1px solid #e9e9e9; width: 20px;}
+.manager_permissions .permission_wrap .tabs div:last-child{margin-right:0;border-right:0;}
+.manager_permissions .permission_wrap .tabs div{margin:20px 0px 0 10px;}
+.permission_txt_lmt span{text-overflow: ellipsis;width: 190px;overflow: hidden;display: inline-block;white-space: nowrap;vertical-align: middle;}
+.permission_wrap_nonadmin{border-bottom: 1px solid #ebebeb;}
+
+.disable_plybn{pointer-events: none;}
+.disable_plybn md-icon{opacity: 0.3;}
+.disable_plybn md-icon.blue{color: #7b8994;}
+.cicle-logo{border-radius: 50% !important;}
+.role_permission .md-tab.md-disabled{
+	opacity: 1
+}
+.chng{
+	position: relative;
+	cursor: pointer;
+}
+.chng:hover .shw{
+	display: block;
+}
+.chng:hover .upload-logo{
+	opacity: 0.3;
+}
+.shw{
+	display: none;
+	position: absolute;
+	top:40%;
+}
+.optional_btn .disable_ftext{
+	opacity: 1;
+	background-color: #fff !important;
+}
+.galance{height: 100% !important;}

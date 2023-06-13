@@ -1,0 +1,86 @@
+.hlpdsk-icns{
+    font-size: 14px;
+    width: 10px;
+    height: 16px;
+}
+.hlpdsk-row{
+    padding:5px 0;
+    border-bottom:1px solid rgba(0,0,0,0.09);
+    width:100%;
+}
+.mnu-notification{
+    position: relative;
+}
+.mnu-notification-crcl{
+    position: absolute;
+    top:5px;
+    left:5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 8px;
+    line-height: 13px;
+    padding: 0 1px 0 0;
+}
+.mlti-mnu-bar md-radio-button{
+    width:100%;
+    display: block;
+}
+.fade .icn-lft{
+    margin:0 0 0 5px;
+    font-size: 16px !important;
+    width: 16px !important;
+    height: 18px !important;
+}
+
+.emp-view-sml{
+    display: block;
+}
+.blk-tb{
+    position: relative;
+}
+.blk-tb-btn{
+    position: absolute;
+    right: 0;
+    top:35px;
+}
+.msg-imge{
+    margin:5px 0 0 0;
+}
+.hlp-popovr .employee-d md-list.team-mm {    
+    background-color:rgba(0,126,229,0.05);
+    border-bottom:1px solid rgba(0,126,229,0.12);
+}
+.hlp-popovr .employee-d md-list.team-mm .md-button{
+    position: absolute;
+    top:0;
+    right:0;
+}
+.hlp-popovr .employee-d .q-lst{
+    padding-bottom: 0;
+    max-height: 120px;
+    overflow: auto;
+}
+.hlp-popovr .employee-d{
+    min-width:300px!important;
+    margin-left:0;
+}
+.hlp-popovr .q-lst{
+    padding:8px 0;
+}
+.file .text-ellipsis{
+    text-overflow: ellipsis;
+    max-width: 90px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    min-width: 90px;
+}
+.hlp_pop_cntnt{
+    position: absolute;
+    top:0;
+    right:0;
+}
+.poc_rate{padding: 0px 6px 0 4px; border-radius: 2px;margin-left: 5px;}
+.poc_rate md-icon{font-size: 17px;display: grid;align-content: center;}

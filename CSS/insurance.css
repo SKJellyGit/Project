@@ -1,0 +1,24 @@
+.insurance .insurance-header.slectbx md-input-container { border:none; background-color: transparent; }
+.insurance .slectbx{ font-size: 14px; }
+.txt-size-fix { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.insurance.qf_manager_frntend .qf_mng_provision .qf_emp_nm > div > div { height:67px!important; }
+.insur ._md-text{width:150%!important; }
+.insur ._md-text > div{float:right; }
+.insur ._md-text > div > span{padding: 0 5px; }
+.insur_type{display: inline-flex; }
+.insur_type span{padding: 0 5px; }
+
+
+
+
+
+
+
+/******Required Fields OnLogin CSS*******/
+.save-btn-rqured-fixed{
+    position:fixed;
+    width:100%;
+    left:98px;
+    bottom:0;
+    z-index:99;
+}

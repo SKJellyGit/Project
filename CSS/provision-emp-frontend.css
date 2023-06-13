@@ -1,0 +1,70 @@
+.provisn-type{position: relative;}
+.provisn-type .customPopover {display: none; left:0;  top:40px; min-width:700px; min-height: 200px; }
+.provisn-type:hover .customPopover{ display: inline-block;}
+.provisn-type .customPopover::before, .provisn-type .customPopover::after{border-style: none; }
+.pro-tbl{overflow:auto;	width: 100%;}
+.pro-tbl .pro-tbl-hdr{
+	background-color:#f9f9f9;
+	padding: 15px 0px 15px 20px;
+	font-size: 14px;
+    font-weight: 600;
+    display: inline-flex;
+}
+.pro-tbl .pro-tbl-hdr >div{
+	min-width: 150px;margin-right: 10px;
+}
+.pro-tbl .pro-tbl-hdr.req >div:first-child{
+	min-width: 50px !important;
+}
+.pro-tbl .pro-tbl-cntn{
+	max-height: 200px;
+    display: inline-block;
+}
+.pro-tbl .pro-tbl-itm{
+	box-shadow: none;
+	border-color: #fff;
+	border-bottom:1px solid rgba(0,0,0,0.09) !important;
+	border:none;
+	padding:16px 0px 16px 20px;
+	border-radius:2px;
+	cursor:pointer;
+	line-height:19px;
+	display: -webkit-inline-box;
+	width: 100%;
+}
+.pro-tbl .pro-tbl-itm >div{
+	min-width: 150px;max-width: 150px;word-break: break-all;margin-right: 10px;
+}
+.pro-tbl .pro-tbl-itm.req >div:first-child{
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+}
+.pro-tbl .pro-tbl-itm:hover{
+	background-color: rgba(0,126,229,0.05);
+}
+.qf_provsn .customPopover::before, .qf_provsn .customPopover::after{
+    border-style: none; 
+}
+.qf_provsn .prov_pend_rqst .customPopover::before, .qf_provsn .customPopover::after{
+	border-style: none;
+}
+.icn-desc{
+	display: none;
+}
+.icon-desc:hover .icn-desc{
+	border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+    padding: 7px;
+    background-color: #fff;
+    min-width: 100px;
+    position: absolute;
+    margin-bottom: 20px;
+    margin-top:7px;
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+}
+.prov_raise_res .qmchip{padding: 5px;position: relative;bottom: 4px;}

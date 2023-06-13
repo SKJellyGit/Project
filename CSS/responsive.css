@@ -1,0 +1,196 @@
+@media only screen and (max-width : 1024px) {
+	.expandcollapse-item:hover, .expandcollapse-item:focus {margin: 0;}
+}
+@media only screen and (max-width: 1199px) {
+	/*Top Header Bar*/
+	md-toolbar .md-toolbar-tools > .md-button:first-child {
+		margin-left: 0 !important;
+	}
+}
+@media only screen and (max-width : 959px) {
+	/*------------ Dashboard Calendar ------------*/
+	.cal-slide-content {
+		display: block !important;
+	}
+	.db-sidenav {
+		z-index: 9999;
+	}
+	.expandcollapse-item:hover, .expandcollapse-item:focus {
+		margin: 0px;
+	}
+	.expandin, .expandin:hover{
+		margin: 0;
+	}
+	.birth_widget {
+		margin-left: 0;
+	}
+
+	/*My Team*/
+	.q-frntnd-cont .profile-hd .tm-lst md-list-item .md-avatar {
+		margin: 0;
+	}
+	.q-frntnd-cont .profile-hd .tm-lst .md-list-item-text ul li:first-child {
+		margin-left: 0 !important;
+	}
+
+}
+
+@media only screen and (max-width: 599px) {
+	.allstatus .sItem {
+		border-right: 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.12); 
+	}
+	.qf-end-profile .f-ow-profile md-list.prf-head md-list-item .md-button{top:-70px;}
+
+}
+@media (min-width: 768px) {
+	#allocating-file-popup .modal-dialog {
+		width: 800px;
+	}
+	#view-edit-full-and-final-popup .modal-dialog {
+		width: 900px;
+	}
+}
+
+/*css added for employee frontend mobile responsive*/
+@media (max-width: 1024px){
+	.q-frntnd-cont.q-f-timeoff .qndle-strips.q-n-stripes .strips-item > div:last-child a{display: block;}
+}
+
+@media (max-width: 960px){
+	.md-padding{padding: 16px;}
+	 md-toolbar .md-toolbar-tools .md-button{margin:0;}
+	.q-a-frntnd-cont > h1, .q-frntnd-cont > h1{margin: 8px 0 16px;}
+	.resp_stripes .qndle-strips.qf-strips.q-n-stripes,.resp_bg_strips .qndle-strips.qf-strips.q-n-stripes{overflow-x: auto;display: grid;}
+	.resp_stripes .qndle-strips.qf-strips.q-n-stripes > div > div{min-width: 120px;max-width: 120px;}
+	.resp_stripes .qndle-strips.qf-strips.q-n-stripes > span > div > div{min-width: 120px;}
+	.resp_bg_strips .qndle-strips.qf-strips.q-n-stripes > div > div{min-width: 160px;max-width: 160px;}
+	.resp_bg_strips .qndle-strips.qf-strips.q-n-stripes > span > div > div{min-width: 160px;max-width: 160px;}
+	.q-frntnd-cont.qf-rel-view .inline-qbtns li span {padding: 4px 8px;}
+	.lms-all-btn{display: inline-block;}
+	.q-frntnd-cont.qf-rel-view ul.inline-qbtns{padding-bottom: 15px;overflow: auto !important;
+    display:flex;}
+    .inline-qbtns li{display: flex;align-items: center;}
+	.resp_stripes .qndle-strips.qf-strips.q-n-stripes > div{display: inline-flex;width: 100%;clear: both;}
+	.resp_bg_strips .qndle-strips.qf-strips.q-n-stripes > div {display: inline-flex;width: 100%;}
+	.resp_stripes .qndle-strips.qf-strips.q-n-stripes .strips-heading{width:100% !important;}
+	.no_pad_mob{padding:0 !important;}
+    .no_margin_mob{margin:0 !important;}
+	.q-frntnd-cont .profile-hd .tm-lst md-list-item i{transform: rotate(90deg);}
+	.q-a-compensation .frnt_user_management .vAccordion--default v-pane-content .tax-investment{max-height: auto;}
+	.q-a-compensation .new_claim_wrap.tax_computation_wrap > div div{min-width: 100px;}
+	.new_claim_wrap{overflow: auto;display: -webkit-box;}
+	.modal-body{padding:15px;}
+	.new_claim_wrap > div{display: inline-flex;}
+	.qf_provi_manager ul.inline-qbtns{margin:10px 0;overflow: inherit;padding-left: 0;display: flex;}
+	.qf_provi_manager .inline-qbtns li span{padding:8px 10px;}
+	.mrg_lft0{margin-left: 0;}
+	.multi-menu-bar-item md-menu-bar{display: inline-flex;}
+	.multi-menu-bar-item{overflow:auto;overflow-y:hidden;}
+	.tm-lst .md-long-text._md-no-proxy{display: block;text-align: center;}
+	.mg_tp20{margin-top: 20px;}
+	/*for my team hierarchy*/
+	.q-frntnd-cont .profile-hd .tm-lst md-list-item .md-avatar{margin-bottom: 15px;margin-left: 0;}
+    .multi-menu-bar-item md-menu-bar md-menu>button{display: flex;align-items: center;height:60px;}
+    .leave_mb_grph{overflow: auto;}
+    .text-ellipse{width:90px;}
+    .a-zbtns{right: 5px;}
+    .clock-meter-bx, .q-dashboard .tim-off-d{border-right: 0;}
+    .q-accunt-stt .panel-box md-tabs md-tab-content md-content{padding:24px;}
+    .frnt_user_management .frnt_user_addition_tab .bul_import_list ul{
+    	overflow: scroll;
+        overflow-y: hidden;display: -webkit-box;
+    }
+    .frnt_user_management .frnt_user_addition_tab .bul_import_list ul li{float: initial;}
+    .day_cal_vw > div > div:first-child{font-size: 10px;min-height: 31px;background-color:transparent;}
+    .day_cal_vw > div:first-child > div > div,.dy_cl_vw > div > div{font-size: 10px;}
+    .dy_cl_vw > div > div:first-child{font-size: 10px;}
+    .per_profile_nav{position: absolute;}    
+    .expandin, .expandin:hover {margin: 0;}
+   	/*for calender*/
+    .q-table .q-table-head div,.q-f-attendance .q-table .q-table-cell{min-width:120px;}
+    .q-table{overflow: auto;display: -webkit-box;}
+    .q-f-attendance .q-table .q-table-row{display: inline-flex;}
+    .q-table .q-table-head{display: -webkit-inline-box;}
+    /*for notification*/
+    .top_notif {width: 350px;min-width: 350px;}
+    .qf_manager_frntend .qf_mng_provision .qf_emp_nm{width: 250px;}
+    .mytm_atten_sts{width: 370px;}
+    .resp_bg_strips .qndle-strips.qf-strips.q-n-stripes > span.qndle-strips-wraps > div > div{min-width: 160px;}
+    .qf_emp_nm > div:first-child{width: 200px;overflow: scroll;}
+    /*my team custom tab css*/
+    .q-frntnd-cont .profile-hd .pro-act{display: flex;overflow: scroll;width: 100%;}
+    .atted_stats > div{min-height: 117px;}
+    .atted_stats{flex-wrap: wrap; display: flex;}
+    .f-end-calendar .fltrbar .cal-fltr li{padding: 6px 15px;}
+    .recrt-opn > div{
+		border-right:0 !important;
+		border-bottom:1px solid rgba(0,0,0,0.12);
+		padding:10px 0;
+	} 
+	.recrt-opn > div:last-child{
+		border-bottom:0;
+	}
+	.panel-box .panel-box-header2{height: initial; max-height: initial;padding: 20px;}
+	/*.panel-box .panel-box-header2 .slectbx.inner-content{padding-left:0!important;}*/
+	.panel-box .panel-box-header2 .slectbx md-input-container{margin:18px 0!important;}
+	.qf-my-tm .slectbx{padding-left: 16px;}
+	.resp-btn .md-button{margin-left:0;}
+	.qf_manager_frntend .comp_stats{width:14px;}
+	#request-leave .modal-dialog.model-lg,.modal-sm{width: auto;}
+	#reg-req .modal-dialog{width:auto;}
+	.atten_status{-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;}
+	.atten_status > div{min-height: 120px;}
+	#new-claim md-input-container{display: block;}
+	.badges_post .badg_img > img{width:50px;height: 50px;}
+	.commun_sec_wrap{margin-right:0px;width: 100%;}
+	.commun_sec_wrap .panel-box .panel-box-header2{padding: 20px 20px;}
+	.starrating {font-size: 22px;}
+	.mainMmbr .team_mmbr_bx .team_prev{left: -60px;}
+	.mainMmbr .team_mmbr_bx .team_next {right:-60px;}
+}
+@media only screen and (max-width: 767px) {
+	.modl-width{width:auto;}
+	.leave_req{width: 100%;}
+	.qc2.change_logiPage {
+        width: 100%;
+	}
+	.qc2.loginActiveD2 {
+		width: 100%;
+	}
+	.bgimg::before {
+		display: none;
+	}
+	.lm-xs-padding-left{
+		padding-left: 0px !important;
+	}
+	.lm-xs-w100 {
+		width: 100%;
+		max-width: 100% !important;
+	}
+	.lm_mobile_table .strips-heading > div, .lm_mobile_table .strips-item > div {
+		max-width: 120px;
+		width: 120px;
+	} 
+	.lmscrollst{
+		overflow: auto;
+	}
+	.lmscrollstbody{
+		display: table;
+	}
+	.lmscrollst-innerlst > div {
+		width: 140px;
+		max-width: 140px !important;
+		display: table-cell;
+		box-sizing: inherit !important;
+	}
+	.timesheet_emp_tracker > div > div {
+		width: 86px;
+		overflow: hidden;
+	} 
+	.timesheet_emp_tracker {
+		display: inline-table;
+	}
+
+	
+}

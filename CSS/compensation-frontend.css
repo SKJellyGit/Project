@@ -1,0 +1,38 @@
+.q-a-compensation .frnt_comp_slipstab .salary_slip_wrap{background-color: rgba(0,0,0,0.020);border: 1px dashed rgba(0,0,0,0.15);min-height:70%;}
+.q-a-compensation .frnt_user_management .vAccordion--default v-pane-header h5{padding: 12px;}
+.q-a-compensation .frnt_user_management .vAccordion--default v-pane-header{transition: all 0.6s ease;}
+.q-a-compensation .frnt_user_management .vAccordion--default v-pane-header:hover{
+	background-color: rgba(0, 0, 0,0.05); }
+.q-a-compensation .frnt_user_management .vAccordion--default v-pane.is-expanded v-pane-header{
+	background-color: rgba(0, 0, 0,0.05);}
+.q-a-compensation .frnt_user_management .vAccordion--default v-pane-header{
+border-top: 1px solid rgba(0,0,0,0.12);}
+.q-a-compensation .frnt_user_management .vAccordion--default v-pane:first-child v-pane-header{border-top: 0 !important;}
+.q-a-compensation .frnt_user_management .vAccordion--default v-pane{margin-bottom: 0;}
+.q-a-compensation .salary_detail_wrap .top_head_wrap md-input-container{margin:0px 10px 0;}
+.q-a-compensation .salary_detail_wrap .qndle-strips.qf-strips .strips-heading{padding: 10px 0px 10px 20px;}
+.q-a-compensation .frnt_user_management .vAccordion--default v-pane-content>div{max-height: inherit;}
+.q-a-compensation .frnt_user_management .vAccordion--default v-pane-content .tax-investment
+{max-height: 300px;overflow: auto;}
+.q-a-compensation .vAccordion--default v-pane.is-expanded>v-pane-content>div{padding:0;}
+.q-a-compensation .invest_prof{border:1px dashed rgba(0,0,0,0.15);min-width: 200px;}
+.new_claim_wrap > div:first-child div{font-size: 10px;}
+.new_claim_wrap > div{border-bottom: 1px solid rgba(0,0,0,0.12);}
+.new_claim_wrap > div div{padding: 8px;font-size: 12px}
+.new_claim_wrap{border: 1px solid rgba(0,0,0,0.12); word-break: break-word;} 
+.new_claim_wrap > div div:last-child{border-left: 1px solid rgba(0,0,0,0.12);}
+.new_claim_wrap > div:first-child{background-color: rgba(0,0,0,0.050) !important;}
+.new_claim_wrap > div:last-child{border-bottom: 0;}
+.q-a-compensation .new_claim_wrap.tax_computation_wrap > div div{font-size: 12px;}
+.q-a-compensation .new_claim_wrap.tax_computation_wrap > div div .material-icons{margin:0;font-size: 14px;}
+.q-a-compensation .house_rent_lst ul li{list-style-position: inside;list-style-type: disc;}
+.q-a-compensation .fnl_comp_note{padding:10px;border:1px solid rgba(0,0,0,0.12);border-radius: 2px;}
+.q-a-compensation .half_bdr{width:30%;}
+.tax_comp_scenrio .new_claim_wrap.tax_computation_wrap > div div .material-icons{margin:0;font-size: 14px;}
+
+
+
+/*timeoff css*/
+
+.q-frntnd-cont.q-f-timeoff .qndle-strips.q-n-stripes .strips-item > div:last-child a{display: none;}
+.q-frntnd-cont.q-f-timeoff .qndle-strips.q-n-stripes .strips-item:hover div:last-child a{display: block;}

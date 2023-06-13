@@ -1,0 +1,124 @@
+.canditateportal img{margin-left:8px;}
+.canditateportal-btn md-icon{width: 18px; height:18px; margin-right:5px;}
+.canditateportal .sm-btn{background:#fff; box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.26) !important; text-transform: capitalize !important;}
+.communication p span{margin-right:10px;}
+.communication p{line-height:2.1;}
+.communication p:hover{color: #007ee5; cursor: pointer;}
+.input-error-spacer md-input-container .md-errors-spacer { display: none !important;}
+._md-open-menu-container{z-index: 1111;}
+.mnu-slct-item, .mnu-slct-item div {line-height:35px !important;}
+.communication md-icon{width: 18px; height:18px; margin-right:5px;}
+.input-error-spacer span{display:inline-block; cursor: pointer;}
+.input-error-spacer span:last-child {float:right;}
+.prejoinset p{text-align: center;} 
+.sm-width md-input-container{/*width:30%; */ margin:18px 5px 0 !important;}
+.bg-clr{background-color:#fff; color:#3d464d;}
+.inln-stch{display: inline-block; height: 17px;}
+.ln-hgt{line-height:;}
+.sttng-strip-item .inline-switch{line-height: 25px;}
+.pro-clr{color:#7b8994;}
+.mrgn-lft{margin:0 0 0 10px;}
+.conn{display: block; margin-top:5px;}
+.white{color:#fff !important;}
+.offr-lttr md-input-container .rightSet {position: absolute; right: 0; top:0px; color:rgba(123,137,148,0.3);}
+.offr-lttr md-input-container .rightSet i {font-size: 16px; position: relative; top: 3px; margin: 0 2px;}
+.mail-server-popup > div {min-height:60px;}
+.mail-server-popup small{display: block; color:#7b8994; margin-bottom:5px;}
+.mail-server-popup .inline-radio-button md-radio-button {display: inline-block; margin: 0px 8px 5px 0 !important;}
+.collobarate {min-height: 100px; padding:10px 20px;}
+.coll .qndle-strips .strips-item:hover {box-shadow: none; background:#f5fafe;}
+.coll .qndle-strips .strips-item{box-shadow: none; border-top:1px solid #d9d9d9 !important; border:0; margin:0; padding-right:10px;}
+.coll .qndle-strips .strips-item:last-child{border-bottom:1px solid #d9d9d9;}
+.coll .qndle-strips .strips-item div{color:#3d464d;}
+.offr-lttr .template .tmp-status {float: right; font-size: 12px; margin-top: 4px}
+.offr-lttr .template .tmp-actions{left: 10%; position: absolute; bottom:5%; width: 100%;}
+.offr-lttr .template .tmp-actions md-icon{height:16px; width: 16px;}
+.tmp-slct > md-menu-item{padding:5px 10px; border-left:2px solid #fff;}
+.tmp-slct > md-menu-item:hover{background-color: #e3f2ff; border-left:2px solid #007ee5; cursor: pointer;}
+.tmp-slct > md-menu-item span{width:30%;}
+.offr-lttr-popups{width: 20%; position: absolute; right: 7px; top: 70px;}
+.scnd-popup-body{background-color:#fff;padding: 10px 0;}
+.offr-ctc-breakup {background: #fff;padding:5px 10px; min-height:50px; border-radius:2px;}
+.scnd-popup .scnd-popup-header{min-height:45px; color:#fff; padding:5px 10px;background-color: #3d464d;}
+.scnd-popup .scnd-popup-header{position: relative;}
+.scnd-popup .scnd-popup-header span{position: absolute; margin:-2px 0 0 5px;}
+.scnd-popup .scnd-popup-footer > div:first-child {/*padding:10px 20px;*/ min-height:40px;}
+.offr-lttr-popups .prvw .md-button{width:100%;} 
+.offr-lttr-popups md-input-container{width:80%;}
+.scnd-popup-footer md-icon{height: 18px; margin:0 5px 0 0 !important;}
+.offr-lttr .chip-icns{position: relative;}
+.offr-lttr .chip-icn{position: absolute; top:20px; right:0;}
+.offr-lttr .chip-icns md-icon{height:18px;}
+.add-signature .add-signature-header > div{min-height: 60px; padding:10px 20px; border-bottom:1px solid #d9d9d9;}
+.add-signature .add-signature-header >div:first-child small{color:#87aed3; margin:0 0 0 10px; font-size: 14px;}
+.add-signature .add-signature-body >div >div{border: 1px dashed #d9d9d9; min-height:190px; padding: 10px; overflow: hidden;}
+.add-signature .add-signature-footer > div{min-height: 60px;}
+.insrt-popup{padding:10px 0 0 0;}
+.insrt-popup > div{padding:5px 10px;}
+.insrt-popup > div:last-child{border-bottom:none;}
+.insrt-popup-pos, .reference-popup{top:225px !important; right:115px;}
+.reference-popup{left:135px;}
+.reference-popup > div {min-height:30px;  }
+.reference-popup{padding:5px 10px;}
+.rfrnce {padding:10px 0;}
+
+/*added by Jitender*/
+.expnd-strip-item-rw{border: 1px solid rgba(0,0,0,0.12);border-top: 0; }  
+.expnd-strip-item-rw > div:first-child > div{border-left:0;padding: 5px 10px;background-color: rgba(0, 0, 0,0.022);}
+.expnd-strip-item-rw > div > div{padding:10px;border-right: 0; border-bottom: 0;}
+.expnd-strip-item-rw > div{border-top:1px solid rgba(0,0,0,0.12); }
+.expnd-strip-item-rw > div:first-child > div:first-child{border-right: 0;}
+.expnd-strip-item-rw > div > div:first-child{/*border-right: 1px solid rgba(0,0,0,0.12);*/}
+.prejoin-onboard-sttg .md-chips{padding-top:0;}
+
+/*Prejoing and onboaring css added by Jitender*/
+.qndle-strips .strips-item.qs_disable div:last-child{opacity:1 !important;pointer-events: auto !important;}
+.notice_table > div:first-child > div:first-child{border-left:1px solid rgba(0,0,0,0.12);}  
+.notice_table > div:first-child > div{border-left:0;padding:10px;background-color: rgba(0, 0, 0,0.022);}
+.notice_table > div > div{padding:10px;border:1px solid rgba(0,0,0,0.12);border-right: 0; border-bottom: 0;}
+.notice_table > div > div:last-child{border-right: 1px solid rgba(0,0,0,0.12);}
+.notice_table > div:last-child{border-bottom: 1px solid rgba(0,0,0,0.12);}
+.edit_seetings{ position: absolute;right: 10px; top: 0px;}
+.inline-input-select ._md-select-value{padding:4px 2px 1px;}
+.edit_offer_ltr_stng md-menu-item span.blue{font-size: 12px;float: right;line-height: 46px;}
+
+/*associate profile fields tab css */
+.assoc_slt_flds{margin-bottom: 20px; }
+.assoc_slt_fldwrap ul li li{background-color: #fff;padding-left: 35px;}
+.assoc_slt_fldwrap ul li md-checkbox{margin:10px;}
+.assoc_slt_fldwrap ul li li> md-checkbox:first-child:before{content: '';background:none; }
+.assoc_slt_fldwrap ul li > md-checkbox:first-child:before {content: ''; display: block; position: absolute; top: -2px;left: -27px; width: 20px;height: 20px;background: url(../images/svg/add-plus.svg) no-repeat;-webkit-transform-origin: 50% 50%;transform-origin: 50% 50%; will-change: transform;-webkit-transition: all .25s;transition: all .25s;}
+.assoc_slt_fldwrap ul li.expand_list > md-checkbox:first-child:before { content: ''; display: block;position: absolute;top: -2px;left: -27px;width: 20px;height: 20px;background: url(../images/svg/remove-minus.svg) no-repeat !important;-webkit-transform-origin: 50% 50%;transform-origin: 50% 50%;will-change: transform; -webkit-transition: all .25s;transition: all .25s; }
+.assoc_slt_fldwrap ul li span{padding:5px;}
+.assoc_slt_fldwrap ul li {margin-bottom: 10px;}
+.assoc_slt_fldwrap ul li li{margin-bottom: 0;}
+.assoc_slt_fldwrap ul li li li{padding-left: 75px;}
+.emt_flds{margin-left: 28px;}
+
+/*css added by Jitender for offer letter format*/
+.offer_ltr_template_wrap{max-width: 720px !important; margin: 0 auto;}
+.offer_ltr_template_wrap > div:first-child span{font-size: 12px;}
+.offr_edtr_head{min-height: 100px; padding: 8px; color: #fff;}
+.offer_temp_pos{max-width: 720px !important; position: relative; /*top: -50px;*/ top: -60px;}
+.offr-lttr-popups{position: absolute; top: 5.6%; right: 6px; max-width: 230px;}
+.offer_ltr_wrap{width: 900px;margin:0 auto;position: absolute;top:10px;left: 12%;}
+.offer_ltr_wrap > div:first-child{font-size: 12px;}
+.template_wrapping{border: 1px solid #e2e2e2; min-height: 500px; margin-top: 10px;background-color: #fff;}
+.scnd-popup-body md-list-item, md-list-item ._md-list-item-inner{min-height: 30px;}
+.scnd-popup-footer{margin:5px 0;}
+.scnd-popup-footer .white-bg p{padding:10px;position: relative;}
+.signature_box_wrap{/*border:1px solid #ebebeb;*/display: flex;min-height: 150px;max-height: 150px;}
+.sign_close_ftr{border-bottom: 1px solid #ebebeb;}
+.offer_ltr_ref_head > p:first-child{position: relative;padding: 10px;margin-bottom: 10px;cursor: pointer;}
+.offer_ltr_ref_head > p:first-child md-icon{float: right;transform: rotate(-90deg);}
+.offer_ltr_ref_head .offer_ltr_ref_subtxt p{margin:0;padding-left: 20px;color: #7b8994;cursor: pointer;}
+.offer_ltr_ref_head.ref_active > p:first-child md-icon{transform: rotate(0deg);}
+.offer_ltr_ftr_wrap{position: fixed;bottom: 0;width: 100%;}
+.offer_ltr_ctc{padding-bottom:80px;}
+.offr_edtr_head .offer_ltr_template_wrap> div:first-child{position: relative;top:5px;}
+.mce-statusbar{display: none; }
+.error-message {font-size:11px ; padding: 2px 0px;}
+#add-comment, #requester-form{z-index: 99999;background-color: rgba(0,0,0,0.45);}
+md-tooltip.large .md-content {
+  max-width: 500px;
+}

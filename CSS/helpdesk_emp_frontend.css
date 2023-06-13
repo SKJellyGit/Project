@@ -1,0 +1,32 @@
+.helpdesk_emp_frnt .panel-box-body > div:first-child > div:first-child{border-right: 1px solid rgba(0,0,0,0.12);}
+.helpdesk_emp_frnt .attch_file md-icon{transform: rotate(210deg);}
+.helpdesk_emp_frnt .inner-cont{margin-top: 0 !important;}
+.helpdesk_emp_frnt md-list-item{padding:16px;}
+.helpdesk_emp_frnt .lettr_head{padding: 30px 0 10px 0;}
+.helpdesk_emp_frnt md-list-item.md-3-line.message_wrap{transition: all 0.6s ease; border:1px solid rgba(0,0,0,0.05); margin-bottom:10px;}
+.helpdesk_emp_frnt md-list-item.md-3-line.message_wrap{background-color: rgba(0, 0, 0,0.022);	border:1px solid rgba(0,0,0,0.05);}
+.helpdesk_emp_frnt .details_listing .md-3-line.light-gray-bg{border:1px solid rgba(0,0,0,0.05);}
+.helpdesk_emp_frnt .details_listing{    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.23);}
+.helpdesk_emp_frnt .ticket_list_wrap .rows{margin-bottom: 20px;}
+.helpdesk_emp_frnt .qmchips .qmchip p{font-size: 12px;}
+.helpdesk_emp_frnt .md-list-item-text + div.flex{display: none;}
+.helpdesk_emp_frnt .customPopover.top{left: 1%;top: 32%;}
+.helpdesk_emp_frnt .customPopover.bottom{bottom:0;}
+.helpdesk_emp_frnt .btm .customPopover::before, .helpdesk_emp_frnt .btm .customPopover::after{bottom:20px;top:inherit;}
+.helpdesk_emp_frnt .btm .customPopover::after{bottom: 22px}
+.helpdesk_emp_frnt .q-frntnd-cont md-list-item .inner-cont:hover + .customPopover.employee-d{display: block; z-index: 999;}
+.customPopover.top{z-index: 9999;}
+.helpdesk_emp_frnt .customPopover{margin-top: 0 !important;left: 65px;}
+.helpdesk_emp_frnt .q-frntnd-cont .customPopover.employee-d::after{border-color: transparent #fff transparent transparent !important;}
+.attach_length{text-overflow: ellipsis;    width: 200px;    white-space: nowrap;    overflow: hidden;}
+.helpdesk_emp_frnt .details_listing .qmchips .qmchip{	padding:0 10px 0 0;	margin:0 0 5px 0;} 
+.helpdesk_emp_frnt md-list-item.md-3-line.message_wrap.rply-cmmnt {	background-color: rgba(0,126,229,0.05)!important;	border:1px solid rgba(0,126,229,0.12);	margin-bottom:10px;}
+.helpdesk_emp_frnt md-list-item.md-3-line.message_wrap.emp-cmmnt {background-color: rgba(255, 192, 203,0.09)}
+.helpdesk_emp_frnt md-list-item.md-3-line.message_wrap.admin-cmmnt {background-color: rgba(0, 0, 255,0.06)}
+.pagination {margin:0 !important;}
+.starrating{font-size: 30px;}
+.starrating >div:first-child{display:none;}
+.starrating .col-md-6{width:100%;} 
+.mangr-rating .starrating{font-size: 16px;}
+.mangr-rating .starrating >div:first-child{display:none;}
+.emp-rating .starrsating{font-size: 16px;}

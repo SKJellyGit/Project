@@ -1,0 +1,37 @@
+/*Onbaording css starts */
+.base_settings_tab{position: relative;}
+.edit_sttings{    position: absolute;top: 0;right: 0;}
+
+/*added in common css*/
+.rightSet {position: absolute;right: 0;top: 0px;color: rgba(123,137,148,0.3);}
+
+/*added in common css */
+.edit_chips{position: relative;}
+.edit_chips span{ position: absolute;top: 5px;right: -35px;}
+.edit_chips span md-icon{font-size: 18px;}
+
+/*appointment letter css starts*/
+.seperater_style div:last-child{border-top: 1px solid #ebebeb;margin-top:12px;margin-left: 5px;}
+.view_mail{padding:0 20px;cursor: pointer;}
+/*appointment letter css ends*/
+/*To Do List tab css starts*/
+.to_do_list_tab .stripe-accordian-box .strip-detailedbox 
+.qndle-strips .strips-item{border-bottom:1px solid #ebebeb;border-top:0;}
+
+/*To Do List tab css ends*/
+.add-new-subprogram .blue{cursor: pointer;}
+
+/*communication tab css starts here*/
+.communication_tab .blue{cursor: pointer;}
+.communication_tab .q-from-bx md-datepicker .md-datepicker-button{    padding: 0;
+    margin-right: 10px !important;
+    height: auto;margin: 0;
+    width: auto;}
+/*communication tab css ends here*/
+.welcome_popup .blue{cursor: pointer;}
+.communication_tab div:last-child{cursor: pointer;}
+.reference-lst-pop > div:first-child{border-bottom:1px solid #e5e5e5;}
+.reference-lst-pop > div{padding:15px;}
+.reference-lst-pop .menu-footer{border-top:1px solid #e5e5e5;}
+.induction-orientation-tab .qndle-strips .strips-item div{    color: #3d464d;}
+.pre_post_bdr{border: 1px solid #cccccc;    width: 88%;    height: 10px;    display: block;    border-bottom: 0;    margin: 0 10px;}

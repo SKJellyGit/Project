@@ -1,0 +1,18 @@
+md-optgroup label{border-bottom:1px solid rgba(0,0,0,0.09); padding:12px;}
+.pre-rpt > div > div > div{min-width: 170px!important; max-width:170px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.pre-rpt > div > div > div:first-child{min-width:170px!important; text-align:left; max-width: 80px;}
+.pre-rpt > div > div > div:nth-child(2){padding:0 10px;}
+.pre-rpt .pre-rpt-cntnt{overflow:auto; width: 100%; display:grid;}
+.pre-rpt .itm:hover{background-color:rgba(0,126,229,0.05); cursor: pointer;}
+.pre-rpt .pre-rpt-cntnt > div{
+    flex-direction: row; 
+    width: 100%; 
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.09) !important;
+    display: inline-flex;
+    clear: both;
+}
+
+.md-height-scroll{ max-height:378px;}
+
+.assoc_slt_fldwrap.report_prov_typ{max-height: 400px; overflow: auto !important;}

@@ -1,0 +1,144 @@
+
+.recrt-opn > div {border-right: 1px solid rgba(0,0,0,0.12);}
+.recrt-opn > div:last-child {border-right: 0;}
+.green-circle{margin:0 5px; font-size:16px;}
+.gray-circle{margin:0 5px; font-size:14px;}
+.cand_scoreCard .vAccordion--default v-pane-header{padding: 5px 10px;}
+.cand_scoreCard .vAccordion--default v-pane-content>div{padding:0;}
+.application_process .app_pross_wrap{padding:12px;margin:5px;}
+.application_process .app_pross_wrap md-radio-button{margin-bottom: 0;}
+.screening_tab .qndle-strips.qf-strips .strips-item span md-icon{margin: 0 10px;}
+
+.recruit_application .qndle-strips .strips-heading{background-color: transparent;color: #fff;padding: 15px 24px;}
+.recruit_application .lm_mobile_table{position: relative;top: -140px;}
+.recruit_application .strips-item{background-color: #fff;padding: 24px !important;border-radius: 8px !important;}
+.recruit_openJob{position: relative;top: -140px;}
+.recruit_openJob > div:first-child{color: #fff;margin-bottom: 15px;}
+.recruit_openJob md-card{border-radius: 8px;}
+.recruit_desc{margin-left: 25px;}
+.recruit_desc li{list-style-type: square;margin-bottom: 10px;}
+/*scorecard popup css*/
+.scorecard_sec{max-height: 200px;overflow: auto;}
+.scorecard_sec > div{padding: 10px;border:1px solid rgba(0,0,0,0.12);margin-bottom: 10px;}
+.cust_sletbox md-select-menu{min-width: 350px;}
+.recruit_app .qmchips .qmchip{margin: 0 4px 4px 0;font-size: 10px;min-height: 25px;}
+.screening_tab_wrap md-chips.md-default-theme .keywords_sec .md-chips, .screening_tab_wrap .keywords_sec md-chips .md-chips{box-shadow: none;    display: inline-flex;justify-content: center;}
+
+.interviewer_sec .md-chips.md-readonly ._md-chip-input-container{min-height: 0;}
+.interviewer_sec md-chips.md-default-theme .md-chips, md-chips.interviewer_sec .md-chips{
+    box-shadow: none;
+}
+.list_type_wrap ul{padding-left:24px;}
+.list_type_wrap ul li{list-style-type: initial !important;}
+.list_type_wrap ol li{list-style-type: inherit !important;}
+.screening_tab_wrap .md-chips md-chip{max-width: 150px;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;}
+.mdchips_wrap .md-chips md-chip{max-width: 120px;
+    width: 120px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;}     
+.cust_datepkr{border-right:1px solid rgba(0,0,0,0.12);border-left: 1px solid rgba(0,0,0,0.12);}      
+.cust_datepkr .md-datepicker-input{width: 75px;max-width: 75px;}
+.cust_datepkr .md-datepicker-triangle-button{display: none;}
+
+.feedback_scorecard .skills > div{display: inline-flex;padding: 10px;border-bottom: 1px solid rgba(0,0,0,0.12);max-height: 51px;
+    min-height: 51px;justify-content: center;align-items: center;}
+.feedback_scorecard .skills{border-right: 1px solid rgba(0,0,0,0.12);}
+.feedback_scorecard .skill_byperson > div > div{
+	max-height: 51px;
+    min-height: 51px;
+    display: inline-flex;
+    padding: 10px;
+    min-width: 120px;
+    max-width: 120px;
+    border-width: 0 1px 1px 0px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.12);
+    justify-content: center;
+    align-items: center;
+}
+.feedback_scorecard .skill_byperson > div > div:last-child{
+	border-right:0;
+}
+.key_skills md-chips.md-default-theme .md-chips, .key_skills md-chips .md-chips{
+    box-shadow: none;
+}
+
+div.white-space-pre-line {
+    white-space: pre-line;
+}
+.recruit_post v-pane-content>div{padding:0;}
+
+/*css for hidding tab*/
+.custom_hide_tab md-tab-item:first-child,.custom_hide_tab md-tab-item:nth-child(2){
+    width: 0;
+    opacity: 0;
+    padding: 0;
+}
+/*timesheet css*/
+.timesheet_dash{border-top: 1px solid rgba(0,0,0,0.12);}
+.timesheet_dash > div{border-right: 1px solid rgba(0,0,0,0.12);padding:10px;}
+.timesheet_dash > div:last-child{border:0;}
+.timesheet_dash > div > span:first-child{margin-bottom: 5px;font-weight: 600;}
+.timesheet_dash > div > span{text-align: center;}
+.assign-timesheet .bg-disable{opacity: 0.8 !important;}
+.assign_role_emp ul li:first-child{margin-left: 0;}
+.assign_role_emp ul li{float: left;margin-left: -12px;}
+.assign_role_emp ul li img{width:30px;height:30px;border-radius: 50%;}
+/*.assign_role_emp ul li:last-child:after{
+    font-family: 'Material Icons';
+    content: "\25b6";
+    color: rgb(0, 126, 229);
+}*/
+.timesheet_emp_tracker > div > div{
+    min-height: 60px;
+    max-height: 60px !important;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.12);
+    border-bottom: 0;
+    border-left: 0;
+}
+.timesheet_emp_tracker > div > div:first-child{
+    border-left:1px solid rgba(0,0,0,0.12);
+}
+.timesheet_emp_tracker > div:last-child > div{
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+.timesheet_emp_tracker > div:first-child > div{line-height: 20px;}
+.time-sheet-bgstrip{position: relative;height: 60px;width: 100%;background: repeating-linear-gradient(45deg, transparent,transparent 5px,#CCB 5px,#ccc 8px),linear-gradient(to bottom,#eee,#f7f1f1);}
+.time-sheet-bgstrip > div{position:absolute;display: none;transition: all 0.4s ease;}
+.time-sheet-bgstrip:hover div{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 155px;
+    position: absolute;
+    left: -18px;
+    top: 13px;
+    font-size: 12px;
+    border-radius: 4px;z-index: 1;
+}
+.disable-checkbox {
+    opacity: 0.2;
+}
+.no-pointer {
+    pointer-events: none;
+}
+.overwrite-bg-disable {
+    pointer-events: all !important; opacity: 1 !important;
+}
+.md-over-hide{overflow: hidden;} /************* use for overflow hide*****/
+.seprtion2  { height: 1px; background: #eee; margin: 8px 0 0 }
+
+
+/*css for hidding tab*/
+.custom_hide_tab md-tab-item:first-child,.custom_hide_tab md-tab-item:nth-child(2){
+    width: 0;
+    opacity: 0;
+    padding: 0;
+}
